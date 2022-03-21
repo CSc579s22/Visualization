@@ -1,5 +1,10 @@
 # Visualization
 
+This repository contains the scripts to analyze the results obtained by DASH player [AStream](https://github.com/CSc579s22/AStream).
+
+***Original results analysis scripts provided by SABR can be obtained [here](https://github.com/CSc579s22/SABR/tree/master/results_parse), but the logic in their scripts are not 100% related
+to the actual logs we obtained. So we need to rewrite analysis scripts on our own.***
+
 ## Example results
 
 ### DASH_BUFFER_LOG_[date].csv
@@ -71,8 +76,8 @@ EpochTime,CurrentPlaybackTime,CurrentBufferSize,CurrentPlaybackState,Action,Bitr
 
 `up_shifts` and `down_shifts` are corresponding to quality/bitrate switching, related code: https://github.com/CSc579s22/AStream/blob/master/dist/client/dash_client.py#L388-L392
 ```python
-            if previous_bitrate < current_bitrate:
-                config_dash.JSON_HANDLE['playback_info']['up_shifts'] += 1
-            elif previous_bitrate > current_bitrate:
-                config_dash.JSON_HANDLE['playback_info']['down_shifts'] += 1
+if previous_bitrate < current_bitrate:
+    config_dash.JSON_HANDLE['playback_info']['up_shifts'] += 1
+elif previous_bitrate > current_bitrate:
+    config_dash.JSON_HANDLE['playback_info']['down_shifts'] += 1
 ```
