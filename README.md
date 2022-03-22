@@ -7,6 +7,8 @@ to the actual logs we obtained. So we need to rewrite analysis scripts on our ow
 
 ## Example results
 
+Results obtained by different adaption algorithms are stored in subdirectories named by the algorithm in `example_results`.
+
 ### DASH_BUFFER_LOG_[date].csv
 
 ```
