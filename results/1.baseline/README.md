@@ -38,3 +38,5 @@ Connecting to host 10.10.10.18, port 5201
 
 iperf Done.
 ```
+
+They are playing the same video, so the cache hit rate might not be very useful.
