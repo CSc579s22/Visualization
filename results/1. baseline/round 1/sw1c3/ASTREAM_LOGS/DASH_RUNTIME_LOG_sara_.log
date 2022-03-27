@@ -1,0 +1,1369 @@
+2022-03-27 02:43:37,736 - dash_client.py:114 - INFO - Downloaded the MPD file BigBuckBunny_2s_mod1.mpd
+2022-03-27 02:43:37,737 - read_mpd.py:122 - INFO - Reading the MPD file
+2022-03-27 02:43:37,745 - read_mpd.py:156 - INFO - Found Video
+2022-03-27 02:43:37,781 - read_mpd.py:158 - INFO - Retrieving Media
+2022-03-27 02:43:37,787 - dash_client.py:556 - INFO - The DASH media has 5 video representations
+2022-03-27 02:43:37,787 - dash_client.py:569 - CRITICAL - Started SARA-DASH Playback
+2022-03-27 02:43:37,788 - dash_buffer.py:20 - INFO - Initializing the Buffer
+2022-03-27 02:43:37,788 - dash_buffer.py:55 - INFO - VideoLength=298.46,segmentDuration=2,MaxBufferSize=298.46,InitialBuffer(secs)=1,BufferAlph(secs)=5,BufferBeta(secs)=10
+2022-03-27 02:43:37,789 - dash_buffer.py:63 - INFO - Changing state from INITIALIZED to INITIAL_BUFFERING at 0 Playback time 
+2022-03-27 02:43:37,789 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2022-03-27 02:43:37,790 - dash_buffer.py:222 - INFO - Starting the Player
+2022-03-27 02:43:37,791 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2022-03-27 02:43:37,792 - dash_client.py:231 - INFO - The segments are stored in TEMP_vVHeFh
+2022-03-27 02:43:37,794 - dash_client.py:270 - INFO -  SMART: Processing the segment 1
+2022-03-27 02:43:37,795 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s_init.mp4
+2022-03-27 02:43:37,795 - dash_buffer.py:76 - INFO - Initialized player with video length 298.46
+2022-03-27 02:43:37,802 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s_init.mp4
+2022-03-27 02:43:37,802 - dash_client.py:380 - INFO - SMART : The total downloaded = 879, segment_size = 879, segment_number = 1
+2022-03-27 02:43:37,803 - dash_buffer.py:207 - INFO - Writing segment 1 at time 1.00135803223e-05
+2022-03-27 02:43:37,803 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.000539064407349,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=INITIAL_BUFFERING,Action=Writing,Bitrate=89283
+2022-03-27 02:43:37,804 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s_init.mp4. Size = 879 in 0.00644207000732 seconds
+2022-03-27 02:43:37,804 - dash_client.py:270 - INFO -  SMART: Processing the segment 2
+2022-03-27 02:43:37,805 - dash_buffer.py:139 - INFO - Initial Waiting Time = 0.00936412811279
+2022-03-27 02:43:37,806 - dash_buffer.py:63 - INFO - Changing state from INITIAL_BUFFERING to PLAY at 0 Playback time 
+2022-03-27 02:43:37,807 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.00427913665771,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=InitialBuffering-Play,Bitrate=0
+2022-03-27 02:43:37,808 - dash_buffer.py:163 - INFO - Reading the segment number 1 from the buffer at playtime 0
+2022-03-27 02:43:37,808 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.00558495521545,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:43:37,806 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s1.m4s
+2022-03-27 02:43:37,809 - dash_buffer.py:176 - INFO - Started playing with representation 89283 at 0
+2022-03-27 02:43:38,145 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s1.m4s
+2022-03-27 02:43:38,145 - dash_client.py:380 - INFO - SMART : The total downloaded = 26253, segment_size = 25374, segment_number = 2
+2022-03-27 02:43:38,146 - dash_buffer.py:207 - INFO - Writing segment 2 at time 0.342862129211
+2022-03-27 02:43:38,146 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.343173980713,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:43:38,146 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s1.m4s. Size = 25374 in 0.335424184799 seconds
+2022-03-27 02:43:38,147 - dash_client.py:270 - INFO -  SMART: Processing the segment 3
+2022-03-27 02:43:38,148 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s2.m4s
+2022-03-27 02:43:38,421 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s2.m4s
+2022-03-27 02:43:38,421 - dash_client.py:380 - INFO - SMART : The total downloaded = 44681, segment_size = 18428, segment_number = 3
+2022-03-27 02:43:38,421 - dash_buffer.py:207 - INFO - Writing segment 3 at time 0.618502140045
+2022-03-27 02:43:38,422 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.618818998337,CurrentPlaybackTime=0,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:43:38,422 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s2.m4s. Size = 18428 in 0.269953966141 seconds
+2022-03-27 02:43:38,422 - dash_client.py:270 - INFO -  SMART: Processing the segment 4
+2022-03-27 02:43:38,423 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s3.m4s
+2022-03-27 02:43:38,744 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s3.m4s
+2022-03-27 02:43:38,745 - dash_client.py:380 - INFO - SMART : The total downloaded = 67463, segment_size = 22782, segment_number = 4
+2022-03-27 02:43:38,745 - dash_buffer.py:207 - INFO - Writing segment 4 at time 0.942248106003
+2022-03-27 02:43:38,745 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.942562103271,CurrentPlaybackTime=0,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:43:38,746 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s3.m4s. Size = 22782 in 0.317709922791 seconds
+2022-03-27 02:43:38,746 - dash_client.py:270 - INFO -  SMART: Processing the segment 5
+2022-03-27 02:43:38,747 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 581632.0, weighted_dwn_rate = 72131.7953236 , available_video=4 seconds, ratio = 8.06346213054
+2022-03-27 02:43:38,751 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s4.m4s
+2022-03-27 02:43:39,069 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s4.m4s
+2022-03-27 02:43:39,070 - dash_client.py:380 - INFO - SMART : The total downloaded = 90080, segment_size = 22617, segment_number = 5
+2022-03-27 02:43:39,070 - dash_buffer.py:207 - INFO - Writing segment 5 at time 1.26711010933
+2022-03-27 02:43:39,070 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=1.26742506027,CurrentPlaybackTime=1,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:43:39,071 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s4.m4s. Size = 22617 in 0.318228006363 seconds
+2022-03-27 02:43:39,071 - dash_client.py:270 - INFO -  SMART: Processing the segment 6
+2022-03-27 02:43:39,073 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 598016.0, weighted_dwn_rate = 71860.0213358 , available_video=6 seconds, ratio = 8.32195689458
+2022-03-27 02:43:39,075 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s5.m4s
+2022-03-27 02:43:39,432 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s5.m4s
+2022-03-27 02:43:39,432 - dash_client.py:380 - INFO - SMART : The total downloaded = 114272, segment_size = 24192, segment_number = 6
+2022-03-27 02:43:39,433 - dash_buffer.py:207 - INFO - Writing segment 6 at time 1.629789114
+2022-03-27 02:43:39,433 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=1.63012695312,CurrentPlaybackTime=1,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:43:39,433 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s5.m4s. Size = 24192 in 0.356650114059 seconds
+2022-03-27 02:43:39,434 - dash_client.py:270 - INFO -  SMART: Processing the segment 7
+2022-03-27 02:43:39,434 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 565248.0, weighted_dwn_rate = 70960.8253384 , available_video=8 seconds, ratio = 7.96563452164
+2022-03-27 02:43:39,435 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s6.m4s
+2022-03-27 02:43:39,809 - dash_buffer.py:163 - INFO - Reading the segment number 2 from the buffer at playtime 2
+2022-03-27 02:43:39,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=2.00652503967,CurrentPlaybackTime=2,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:43:40,483 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s6.m4s
+2022-03-27 02:43:40,483 - dash_client.py:380 - INFO - SMART : The total downloaded = 188597, segment_size = 74325, segment_number = 7
+2022-03-27 02:43:40,483 - dash_buffer.py:207 - INFO - Writing segment 7 at time 2.68028616905
+2022-03-27 02:43:40,483 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=2.6804189682,CurrentPlaybackTime=2,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:40,483 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s6.m4s. Size = 74325 in 1.04391002655 seconds
+2022-03-27 02:43:40,483 - dash_client.py:270 - INFO -  SMART: Processing the segment 8
+2022-03-27 02:43:40,484 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s7.m4s
+2022-03-27 02:43:40,779 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s7.m4s
+2022-03-27 02:43:40,779 - dash_client.py:380 - INFO - SMART : The total downloaded = 209043, segment_size = 20446, segment_number = 8
+2022-03-27 02:43:40,780 - dash_buffer.py:207 - INFO - Writing segment 8 at time 2.97686696053
+2022-03-27 02:43:40,780 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=2.9769949913,CurrentPlaybackTime=2,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:43:40,780 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s7.m4s. Size = 20446 in 0.295433998108 seconds
+2022-03-27 02:43:40,780 - dash_client.py:270 - INFO -  SMART: Processing the segment 9
+2022-03-27 02:43:40,780 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 425984.0, weighted_dwn_rate = 70252.884873 , available_video=10 seconds, ratio = 6.06358017568
+2022-03-27 02:43:40,780 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s8.m4s
+2022-03-27 02:43:41,786 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s8.m4s
+2022-03-27 02:43:41,786 - dash_client.py:380 - INFO - SMART : The total downloaded = 280959, segment_size = 71916, segment_number = 9
+2022-03-27 02:43:41,786 - dash_buffer.py:207 - INFO - Writing segment 9 at time 3.98374009132
+2022-03-27 02:43:41,787 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=3.98387002945,CurrentPlaybackTime=3,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:41,787 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s8.m4s. Size = 71916 in 1.0056989193 seconds
+2022-03-27 02:43:41,787 - dash_client.py:270 - INFO -  SMART: Processing the segment 10
+2022-03-27 02:43:41,788 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s9.m4s
+2022-03-27 02:43:41,809 - dash_buffer.py:163 - INFO - Reading the segment number 3 from the buffer at playtime 4
+2022-03-27 02:43:41,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=4.00652694702,CurrentPlaybackTime=4,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:43:42,636 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s9.m4s
+2022-03-27 02:43:42,636 - dash_client.py:380 - INFO - SMART : The total downloaded = 342257, segment_size = 61298, segment_number = 10
+2022-03-27 02:43:42,636 - dash_buffer.py:207 - INFO - Writing segment 10 at time 4.83367609978
+2022-03-27 02:43:42,637 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=4.83381009102,CurrentPlaybackTime=4,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:42,637 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s9.m4s. Size = 61298 in 0.848597049713 seconds
+2022-03-27 02:43:42,637 - dash_client.py:270 - INFO -  SMART: Processing the segment 11
+2022-03-27 02:43:42,637 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s10.m4s
+2022-03-27 02:43:43,357 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s10.m4s
+2022-03-27 02:43:43,357 - dash_client.py:380 - INFO - SMART : The total downloaded = 395420, segment_size = 53163, segment_number = 11
+2022-03-27 02:43:43,357 - dash_buffer.py:207 - INFO - Writing segment 11 at time 5.55465698242
+2022-03-27 02:43:43,358 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=5.55481910706,CurrentPlaybackTime=5,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:43,358 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s10.m4s. Size = 53163 in 0.719801902771 seconds
+2022-03-27 02:43:43,358 - dash_client.py:270 - INFO -  SMART: Processing the segment 12
+2022-03-27 02:43:43,358 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s11.m4s
+2022-03-27 02:43:43,809 - dash_buffer.py:163 - INFO - Reading the segment number 4 from the buffer at playtime 6
+2022-03-27 02:43:43,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=6.00655198097,CurrentPlaybackTime=6,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:43:44,226 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s11.m4s
+2022-03-27 02:43:44,226 - dash_client.py:380 - INFO - SMART : The total downloaded = 454720, segment_size = 59300, segment_number = 12
+2022-03-27 02:43:44,227 - dash_buffer.py:207 - INFO - Writing segment 12 at time 6.4238910675
+2022-03-27 02:43:44,227 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=6.42419505119,CurrentPlaybackTime=6,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:44,227 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s11.m4s. Size = 59300 in 0.867877006531 seconds
+2022-03-27 02:43:44,227 - dash_client.py:270 - INFO -  SMART: Processing the segment 13
+2022-03-27 02:43:44,228 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s12.m4s
+2022-03-27 02:43:44,980 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s12.m4s
+2022-03-27 02:43:44,980 - dash_client.py:380 - INFO - SMART : The total downloaded = 507721, segment_size = 53001, segment_number = 13
+2022-03-27 02:43:44,980 - dash_buffer.py:207 - INFO - Writing segment 13 at time 7.17776203156
+2022-03-27 02:43:44,981 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=7.17790913582,CurrentPlaybackTime=7,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:44,981 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s12.m4s. Size = 53001 in 0.75256896019 seconds
+2022-03-27 02:43:44,981 - dash_client.py:270 - INFO -  SMART: Processing the segment 14
+2022-03-27 02:43:44,981 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s13.m4s
+2022-03-27 02:43:45,809 - dash_buffer.py:163 - INFO - Reading the segment number 5 from the buffer at playtime 8
+2022-03-27 02:43:45,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=8.00658798218,CurrentPlaybackTime=8,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:43:45,969 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s13.m4s
+2022-03-27 02:43:45,969 - dash_client.py:380 - INFO - SMART : The total downloaded = 577245, segment_size = 69524, segment_number = 14
+2022-03-27 02:43:45,969 - dash_buffer.py:207 - INFO - Writing segment 14 at time 8.1661169529
+2022-03-27 02:43:45,969 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=8.16624712944,CurrentPlaybackTime=8,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:45,969 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s13.m4s. Size = 69524 in 0.987192869186 seconds
+2022-03-27 02:43:45,969 - dash_client.py:270 - INFO -  SMART: Processing the segment 15
+2022-03-27 02:43:45,970 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s14.m4s
+2022-03-27 02:43:46,966 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s14.m4s
+2022-03-27 02:43:46,966 - dash_client.py:380 - INFO - SMART : The total downloaded = 648493, segment_size = 71248, segment_number = 15
+2022-03-27 02:43:46,966 - dash_buffer.py:207 - INFO - Writing segment 15 at time 9.16350793839
+2022-03-27 02:43:46,966 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=9.16364216805,CurrentPlaybackTime=9,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:46,967 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s14.m4s. Size = 71248 in 0.996256113052 seconds
+2022-03-27 02:43:46,967 - dash_client.py:270 - INFO -  SMART: Processing the segment 16
+2022-03-27 02:43:46,967 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s15.m4s
+2022-03-27 02:43:47,809 - dash_buffer.py:163 - INFO - Reading the segment number 6 from the buffer at playtime 10
+2022-03-27 02:43:47,848 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=10.0454881191,CurrentPlaybackTime=10,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:43:47,967 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s15.m4s
+2022-03-27 02:43:47,967 - dash_client.py:380 - INFO - SMART : The total downloaded = 721118, segment_size = 72625, segment_number = 16
+2022-03-27 02:43:47,967 - dash_buffer.py:207 - INFO - Writing segment 16 at time 10.1644940376
+2022-03-27 02:43:47,967 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=10.1646261215,CurrentPlaybackTime=10,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:47,968 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s15.m4s. Size = 72625 in 0.99960398674 seconds
+2022-03-27 02:43:47,968 - dash_client.py:270 - INFO -  SMART: Processing the segment 17
+2022-03-27 02:43:47,968 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s16.m4s
+2022-03-27 02:43:49,008 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s16.m4s
+2022-03-27 02:43:49,008 - dash_client.py:380 - INFO - SMART : The total downloaded = 794962, segment_size = 73844, segment_number = 17
+2022-03-27 02:43:49,009 - dash_buffer.py:207 - INFO - Writing segment 17 at time 11.2057909966
+2022-03-27 02:43:49,009 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=11.2061100006,CurrentPlaybackTime=11,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:49,009 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s16.m4s. Size = 73844 in 1.03988695145 seconds
+2022-03-27 02:43:49,010 - dash_client.py:270 - INFO -  SMART: Processing the segment 18
+2022-03-27 02:43:49,011 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s17.m4s
+2022-03-27 02:43:49,809 - dash_buffer.py:163 - INFO - Reading the segment number 7 from the buffer at playtime 12
+2022-03-27 02:43:49,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=12.0065791607,CurrentPlaybackTime=12,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:43:51,809 - dash_buffer.py:163 - INFO - Reading the segment number 8 from the buffer at playtime 14
+2022-03-27 02:43:51,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=14.0066161156,CurrentPlaybackTime=14,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:43:52,023 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s17.m4s
+2022-03-27 02:43:52,023 - dash_client.py:380 - INFO - SMART : The total downloaded = 1010990, segment_size = 216028, segment_number = 18
+2022-03-27 02:43:52,023 - dash_buffer.py:207 - INFO - Writing segment 18 at time 14.2204749584
+2022-03-27 02:43:52,023 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=14.2206070423,CurrentPlaybackTime=14,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-27 02:43:52,024 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s17.m4s. Size = 216028 in 3.00810980797 seconds
+2022-03-27 02:43:52,024 - dash_client.py:270 - INFO -  SMART: Processing the segment 19
+2022-03-27 02:43:52,024 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s18.m4s
+2022-03-27 02:43:52,983 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s18.m4s
+2022-03-27 02:43:52,984 - dash_client.py:380 - INFO - SMART : The total downloaded = 1079528, segment_size = 68538, segment_number = 19
+2022-03-27 02:43:52,984 - dash_buffer.py:207 - INFO - Writing segment 19 at time 15.1810030937
+2022-03-27 02:43:52,984 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=15.181139946,CurrentPlaybackTime=15,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:52,984 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s18.m4s. Size = 68538 in 0.959259033203 seconds
+2022-03-27 02:43:52,984 - dash_client.py:270 - INFO -  SMART: Processing the segment 20
+2022-03-27 02:43:52,985 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s19.m4s
+2022-03-27 02:43:53,809 - dash_buffer.py:163 - INFO - Reading the segment number 9 from the buffer at playtime 16
+2022-03-27 02:43:53,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=16.0065469742,CurrentPlaybackTime=16,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:43:55,809 - dash_buffer.py:163 - INFO - Reading the segment number 10 from the buffer at playtime 18
+2022-03-27 02:43:55,810 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=18.0066680908,CurrentPlaybackTime=18,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:43:55,925 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s19.m4s
+2022-03-27 02:43:55,925 - dash_client.py:380 - INFO - SMART : The total downloaded = 1291651, segment_size = 212123, segment_number = 20
+2022-03-27 02:43:55,925 - dash_buffer.py:207 - INFO - Writing segment 20 at time 18.1224329472
+2022-03-27 02:43:55,925 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=18.1225631237,CurrentPlaybackTime=18,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-27 02:43:55,925 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s19.m4s. Size = 212123 in 2.94021487236 seconds
+2022-03-27 02:43:55,926 - dash_client.py:270 - INFO -  SMART: Processing the segment 21
+2022-03-27 02:43:55,926 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s20.m4s
+2022-03-27 02:43:56,992 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s20.m4s
+2022-03-27 02:43:56,992 - dash_client.py:380 - INFO - SMART : The total downloaded = 1365655, segment_size = 74004, segment_number = 21
+2022-03-27 02:43:56,992 - dash_buffer.py:207 - INFO - Writing segment 21 at time 19.1893680096
+2022-03-27 02:43:56,992 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=19.1895020008,CurrentPlaybackTime=19,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:56,992 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s20.m4s. Size = 74004 in 1.06574392319 seconds
+2022-03-27 02:43:56,993 - dash_client.py:270 - INFO -  SMART: Processing the segment 22
+2022-03-27 02:43:56,993 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s21.m4s
+2022-03-27 02:43:57,809 - dash_buffer.py:163 - INFO - Reading the segment number 11 from the buffer at playtime 20
+2022-03-27 02:43:57,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=20.0066151619,CurrentPlaybackTime=20,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:43:58,051 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s21.m4s
+2022-03-27 02:43:58,052 - dash_client.py:380 - INFO - SMART : The total downloaded = 1439936, segment_size = 74281, segment_number = 22
+2022-03-27 02:43:58,052 - dash_buffer.py:207 - INFO - Writing segment 22 at time 20.2490160465
+2022-03-27 02:43:58,052 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=20.2491681576,CurrentPlaybackTime=20,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:58,052 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s21.m4s. Size = 74281 in 1.05844807625 seconds
+2022-03-27 02:43:58,052 - dash_client.py:270 - INFO -  SMART: Processing the segment 23
+2022-03-27 02:43:58,053 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s22.m4s
+2022-03-27 02:43:59,054 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s22.m4s
+2022-03-27 02:43:59,054 - dash_client.py:380 - INFO - SMART : The total downloaded = 1511797, segment_size = 71861, segment_number = 23
+2022-03-27 02:43:59,055 - dash_buffer.py:207 - INFO - Writing segment 23 at time 21.2518811226
+2022-03-27 02:43:59,055 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=21.2521891594,CurrentPlaybackTime=21,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:43:59,055 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s22.m4s. Size = 71861 in 1.00165700912 seconds
+2022-03-27 02:43:59,055 - dash_client.py:270 - INFO -  SMART: Processing the segment 24
+2022-03-27 02:43:59,056 - weighted_dash.py:88 - INFO - Delay:2
+2022-03-27 02:43:59,056 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s23.m4s
+2022-03-27 02:43:59,056 - dash_client.py:352 - INFO - SLEEPING for 4seconds 
+2022-03-27 02:43:59,809 - dash_buffer.py:163 - INFO - Reading the segment number 12 from the buffer at playtime 22
+2022-03-27 02:43:59,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=22.0065729618,CurrentPlaybackTime=22,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:01,809 - dash_buffer.py:163 - INFO - Reading the segment number 13 from the buffer at playtime 24
+2022-03-27 02:44:01,810 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=24.0067019463,CurrentPlaybackTime=24,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:03,809 - dash_buffer.py:163 - INFO - Reading the segment number 14 from the buffer at playtime 26
+2022-03-27 02:44:03,810 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=26.007076025,CurrentPlaybackTime=26,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:05,809 - dash_buffer.py:163 - INFO - Reading the segment number 15 from the buffer at playtime 28
+2022-03-27 02:44:05,810 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=28.0066609383,CurrentPlaybackTime=28,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:07,809 - dash_buffer.py:163 - INFO - Reading the segment number 16 from the buffer at playtime 30
+2022-03-27 02:44:07,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=30.0066361427,CurrentPlaybackTime=30,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:09,809 - dash_buffer.py:163 - INFO - Reading the segment number 17 from the buffer at playtime 32
+2022-03-27 02:44:09,810 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=32.0066809654,CurrentPlaybackTime=32,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:11,809 - dash_buffer.py:163 - INFO - Reading the segment number 18 from the buffer at playtime 34
+2022-03-27 02:44:11,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=34.0066311359,CurrentPlaybackTime=34,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=791182
+2022-03-27 02:44:13,809 - dash_buffer.py:163 - INFO - Reading the segment number 19 from the buffer at playtime 36
+2022-03-27 02:44:13,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=36.0066320896,CurrentPlaybackTime=36,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:15,809 - dash_buffer.py:163 - INFO - Reading the segment number 20 from the buffer at playtime 38
+2022-03-27 02:44:15,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=38.0066430569,CurrentPlaybackTime=38,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=791182
+2022-03-27 02:44:17,809 - dash_buffer.py:163 - INFO - Reading the segment number 21 from the buffer at playtime 40
+2022-03-27 02:44:17,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=40.0066130161,CurrentPlaybackTime=40,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:19,809 - dash_buffer.py:163 - INFO - Reading the segment number 22 from the buffer at playtime 42
+2022-03-27 02:44:19,810 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=42.006688118,CurrentPlaybackTime=42,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:21,809 - dash_buffer.py:163 - INFO - Reading the segment number 23 from the buffer at playtime 44
+2022-03-27 02:44:21,809 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=44.0066311359,CurrentPlaybackTime=44,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:23,809 - dash_buffer.py:152 - INFO - Buffer empty after 46 seconds of playback
+2022-03-27 02:44:23,809 - dash_buffer.py:63 - INFO - Changing state from PLAY to BUFFERING at 46 Playback time 
+2022-03-27 02:44:23,810 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=46.0069100857,CurrentPlaybackTime=46,CurrentBufferSize=0,CurrentPlaybackState=BUFFERING,Action=Play-Buffering,Bitrate=0
+2022-03-27 02:44:23,810 - dash_buffer.py:109 - INFO - Entering buffering stage after 46 seconds of playback
+2022-03-27 02:44:26,716 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s23.m4s
+2022-03-27 02:44:26,716 - dash_client.py:380 - INFO - SMART : The total downloaded = 2724802, segment_size = 1213005, segment_number = 24
+2022-03-27 02:44:26,716 - dash_buffer.py:207 - INFO - Writing segment 24 at time 48.9135501385
+2022-03-27 02:44:26,717 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=48.9137289524,CurrentPlaybackTime=46,CurrentBufferSize=1,CurrentPlaybackState=BUFFERING,Action=Writing,Bitrate=4219897
+2022-03-27 02:44:26,717 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s23.m4s. Size = 1213005 in 23.6562879086 seconds
+2022-03-27 02:44:26,717 - dash_client.py:270 - INFO -  SMART: Processing the segment 25
+2022-03-27 02:44:26,717 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s24.m4s
+2022-03-27 02:44:26,718 - dash_buffer.py:129 - INFO - Duration of interruption = 2.90785217285
+2022-03-27 02:44:26,718 - dash_buffer.py:63 - INFO - Changing state from BUFFERING to PLAY at 46 Playback time 
+2022-03-27 02:44:26,719 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=48.9159140587,CurrentPlaybackTime=46,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Buffering-Play,Bitrate=0
+2022-03-27 02:44:26,719 - dash_buffer.py:163 - INFO - Reading the segment number 24 from the buffer at playtime 46
+2022-03-27 02:44:26,719 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=48.9166181087,CurrentPlaybackTime=46,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=4219897
+2022-03-27 02:44:28,631 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s24.m4s
+2022-03-27 02:44:28,632 - dash_client.py:380 - INFO - SMART : The total downloaded = 2749246, segment_size = 24444, segment_number = 25
+2022-03-27 02:44:28,632 - dash_buffer.py:207 - INFO - Writing segment 25 at time 50.8290081024
+2022-03-27 02:44:28,632 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=50.8291430473,CurrentPlaybackTime=47,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:28,632 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s24.m4s. Size = 24444 in 1.91397380829 seconds
+2022-03-27 02:44:28,632 - dash_client.py:270 - INFO -  SMART: Processing the segment 26
+2022-03-27 02:44:28,633 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s25.m4s
+2022-03-27 02:44:28,719 - dash_buffer.py:163 - INFO - Reading the segment number 25 from the buffer at playtime 48
+2022-03-27 02:44:28,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=50.916918993,CurrentPlaybackTime=48,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:28,980 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s25.m4s
+2022-03-27 02:44:28,980 - dash_client.py:380 - INFO - SMART : The total downloaded = 2772239, segment_size = 22993, segment_number = 26
+2022-03-27 02:44:28,980 - dash_buffer.py:207 - INFO - Writing segment 26 at time 51.1776480675
+2022-03-27 02:44:28,981 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=51.1777760983,CurrentPlaybackTime=48,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:28,981 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s25.m4s. Size = 22993 in 0.347470998764 seconds
+2022-03-27 02:44:28,981 - dash_client.py:270 - INFO -  SMART: Processing the segment 27
+2022-03-27 02:44:28,981 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s26.m4s
+2022-03-27 02:44:29,188 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s26.m4s
+2022-03-27 02:44:29,188 - dash_client.py:380 - INFO - SMART : The total downloaded = 2795656, segment_size = 23417, segment_number = 27
+2022-03-27 02:44:29,188 - dash_buffer.py:207 - INFO - Writing segment 27 at time 51.3853449821
+2022-03-27 02:44:29,188 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=51.3854739666,CurrentPlaybackTime=48,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:29,188 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s26.m4s. Size = 23417 in 0.206561088562 seconds
+2022-03-27 02:44:29,188 - dash_client.py:270 - INFO -  SMART: Processing the segment 28
+2022-03-27 02:44:29,189 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s27.m4s
+2022-03-27 02:44:29,611 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s27.m4s
+2022-03-27 02:44:29,611 - dash_client.py:380 - INFO - SMART : The total downloaded = 2816876, segment_size = 21220, segment_number = 28
+2022-03-27 02:44:29,611 - dash_buffer.py:207 - INFO - Writing segment 28 at time 51.8085379601
+2022-03-27 02:44:29,611 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=51.8086719513,CurrentPlaybackTime=48,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:29,612 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s27.m4s. Size = 21220 in 0.422087192535 seconds
+2022-03-27 02:44:29,612 - dash_client.py:270 - INFO -  SMART: Processing the segment 29
+2022-03-27 02:44:29,612 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 540672.0, weighted_dwn_rate = 49983.2329151 , available_video=4 seconds, ratio = 10.8170674137
+2022-03-27 02:44:29,612 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s28.m4s
+2022-03-27 02:44:29,974 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s28.m4s
+2022-03-27 02:44:29,974 - dash_client.py:380 - INFO - SMART : The total downloaded = 2842027, segment_size = 25151, segment_number = 29
+2022-03-27 02:44:29,974 - dash_buffer.py:207 - INFO - Writing segment 29 at time 52.171405077
+2022-03-27 02:44:29,974 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=52.1715381145,CurrentPlaybackTime=49,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:29,974 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s28.m4s. Size = 25151 in 0.36152100563 seconds
+2022-03-27 02:44:29,975 - dash_client.py:270 - INFO -  SMART: Processing the segment 30
+2022-03-27 02:44:29,975 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 548864.0, weighted_dwn_rate = 49436.4071894 , available_video=6 seconds, ratio = 11.1024249375
+2022-03-27 02:44:29,975 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s29.m4s
+2022-03-27 02:44:30,232 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s29.m4s
+2022-03-27 02:44:30,232 - dash_client.py:380 - INFO - SMART : The total downloaded = 2861340, segment_size = 19313, segment_number = 30
+2022-03-27 02:44:30,232 - dash_buffer.py:207 - INFO - Writing segment 30 at time 52.4296030998
+2022-03-27 02:44:30,233 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=52.4297349453,CurrentPlaybackTime=49,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:30,233 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s29.m4s. Size = 19313 in 0.256709098816 seconds
+2022-03-27 02:44:30,233 - dash_client.py:270 - INFO -  SMART: Processing the segment 31
+2022-03-27 02:44:30,233 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 565248.0, weighted_dwn_rate = 38918.3072666 , available_video=8 seconds, ratio = 14.5239615929
+2022-03-27 02:44:30,233 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s30.m4s
+2022-03-27 02:44:30,560 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s30.m4s
+2022-03-27 02:44:30,560 - dash_client.py:380 - INFO - SMART : The total downloaded = 2883091, segment_size = 21751, segment_number = 31
+2022-03-27 02:44:30,560 - dash_buffer.py:207 - INFO - Writing segment 31 at time 52.7576460838
+2022-03-27 02:44:30,561 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=52.757776022,CurrentPlaybackTime=49,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:30,561 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s30.m4s. Size = 21751 in 0.326785087585 seconds
+2022-03-27 02:44:30,561 - dash_client.py:270 - INFO -  SMART: Processing the segment 32
+2022-03-27 02:44:30,561 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 573440.0, weighted_dwn_rate = 69669.7716678 , available_video=10 seconds, ratio = 8.23082932917
+2022-03-27 02:44:30,561 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s31.m4s
+2022-03-27 02:44:30,719 - dash_buffer.py:163 - INFO - Reading the segment number 26 from the buffer at playtime 50
+2022-03-27 02:44:30,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=52.9169070721,CurrentPlaybackTime=50,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:31,357 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s31.m4s
+2022-03-27 02:44:31,357 - dash_client.py:380 - INFO - SMART : The total downloaded = 2939726, segment_size = 56635, segment_number = 32
+2022-03-27 02:44:31,358 - dash_buffer.py:207 - INFO - Writing segment 32 at time 53.5548260212
+2022-03-27 02:44:31,358 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=53.5551400185,CurrentPlaybackTime=50,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:31,358 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s31.m4s. Size = 56635 in 0.795720100403 seconds
+2022-03-27 02:44:31,359 - dash_client.py:270 - INFO -  SMART: Processing the segment 33
+2022-03-27 02:44:31,360 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 1638400.0, weighted_dwn_rate = 70688.0058894 , available_video=10 seconds, ratio = 23.1779066248
+2022-03-27 02:44:31,363 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s32.m4s
+2022-03-27 02:44:32,235 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s32.m4s
+2022-03-27 02:44:32,235 - dash_client.py:380 - INFO - SMART : The total downloaded = 3003092, segment_size = 63366, segment_number = 33
+2022-03-27 02:44:32,235 - dash_buffer.py:207 - INFO - Writing segment 33 at time 54.4322531223
+2022-03-27 02:44:32,235 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=54.4323990345,CurrentPlaybackTime=51,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:32,235 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s32.m4s. Size = 63366 in 0.871260881424 seconds
+2022-03-27 02:44:32,236 - dash_client.py:270 - INFO -  SMART: Processing the segment 34
+2022-03-27 02:44:32,236 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s33.m4s
+2022-03-27 02:44:32,719 - dash_buffer.py:163 - INFO - Reading the segment number 27 from the buffer at playtime 52
+2022-03-27 02:44:32,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=54.9169080257,CurrentPlaybackTime=52,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:33,084 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s33.m4s
+2022-03-27 02:44:33,085 - dash_client.py:380 - INFO - SMART : The total downloaded = 3060826, segment_size = 57734, segment_number = 34
+2022-03-27 02:44:33,085 - dash_buffer.py:207 - INFO - Writing segment 34 at time 55.2820470333
+2022-03-27 02:44:33,085 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=55.2821741104,CurrentPlaybackTime=52,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:33,085 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s33.m4s. Size = 57734 in 0.848191022873 seconds
+2022-03-27 02:44:33,085 - dash_client.py:270 - INFO -  SMART: Processing the segment 35
+2022-03-27 02:44:33,086 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s34.m4s
+2022-03-27 02:44:34,079 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s34.m4s
+2022-03-27 02:44:34,079 - dash_client.py:380 - INFO - SMART : The total downloaded = 3130923, segment_size = 70097, segment_number = 35
+2022-03-27 02:44:34,079 - dash_buffer.py:207 - INFO - Writing segment 35 at time 56.2767059803
+2022-03-27 02:44:34,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=56.2768399715,CurrentPlaybackTime=53,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:34,080 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s34.m4s. Size = 70097 in 0.993512868881 seconds
+2022-03-27 02:44:34,080 - dash_client.py:270 - INFO -  SMART: Processing the segment 36
+2022-03-27 02:44:34,080 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s35.m4s
+2022-03-27 02:44:34,719 - dash_buffer.py:163 - INFO - Reading the segment number 28 from the buffer at playtime 54
+2022-03-27 02:44:34,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=56.9170131683,CurrentPlaybackTime=54,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:35,064 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s35.m4s
+2022-03-27 02:44:35,065 - dash_client.py:380 - INFO - SMART : The total downloaded = 3202278, segment_size = 71355, segment_number = 36
+2022-03-27 02:44:35,065 - dash_buffer.py:207 - INFO - Writing segment 36 at time 57.2621581554
+2022-03-27 02:44:35,065 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=57.2624759674,CurrentPlaybackTime=54,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:35,066 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s35.m4s. Size = 71355 in 0.983999013901 seconds
+2022-03-27 02:44:35,066 - dash_client.py:270 - INFO -  SMART: Processing the segment 37
+2022-03-27 02:44:35,067 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s36.m4s
+2022-03-27 02:44:35,784 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s36.m4s
+2022-03-27 02:44:35,784 - dash_client.py:380 - INFO - SMART : The total downloaded = 3253648, segment_size = 51370, segment_number = 37
+2022-03-27 02:44:35,785 - dash_buffer.py:207 - INFO - Writing segment 37 at time 57.9819829464
+2022-03-27 02:44:35,785 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=57.9822590351,CurrentPlaybackTime=55,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:35,785 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s36.m4s. Size = 51370 in 0.713443994522 seconds
+2022-03-27 02:44:35,786 - dash_client.py:270 - INFO -  SMART: Processing the segment 38
+2022-03-27 02:44:35,787 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s37.m4s
+2022-03-27 02:44:36,719 - dash_buffer.py:163 - INFO - Reading the segment number 29 from the buffer at playtime 56
+2022-03-27 02:44:36,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=58.9169361591,CurrentPlaybackTime=56,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:38,719 - dash_buffer.py:163 - INFO - Reading the segment number 30 from the buffer at playtime 58
+2022-03-27 02:44:38,721 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=60.9185180664,CurrentPlaybackTime=58,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:40,719 - dash_buffer.py:163 - INFO - Reading the segment number 31 from the buffer at playtime 60
+2022-03-27 02:44:40,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=62.9170930386,CurrentPlaybackTime=60,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:42,719 - dash_buffer.py:163 - INFO - Reading the segment number 32 from the buffer at playtime 62
+2022-03-27 02:44:42,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=64.9170429707,CurrentPlaybackTime=62,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:44,719 - dash_buffer.py:163 - INFO - Reading the segment number 33 from the buffer at playtime 64
+2022-03-27 02:44:44,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=66.91705513,CurrentPlaybackTime=64,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:46,719 - dash_buffer.py:163 - INFO - Reading the segment number 34 from the buffer at playtime 66
+2022-03-27 02:44:46,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=68.9170980453,CurrentPlaybackTime=66,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:48,719 - dash_buffer.py:163 - INFO - Reading the segment number 35 from the buffer at playtime 68
+2022-03-27 02:44:48,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=70.9175050259,CurrentPlaybackTime=68,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:50,719 - dash_buffer.py:163 - INFO - Reading the segment number 36 from the buffer at playtime 70
+2022-03-27 02:44:50,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=72.9174699783,CurrentPlaybackTime=70,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:52,719 - dash_buffer.py:163 - INFO - Reading the segment number 37 from the buffer at playtime 72
+2022-03-27 02:44:52,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=74.9174671173,CurrentPlaybackTime=72,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:53,134 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s37.m4s
+2022-03-27 02:44:53,134 - dash_client.py:380 - INFO - SMART : The total downloaded = 3309257, segment_size = 55609, segment_number = 38
+2022-03-27 02:44:53,134 - dash_buffer.py:207 - INFO - Writing segment 38 at time 75.331635952
+2022-03-27 02:44:53,135 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=75.331911087,CurrentPlaybackTime=72,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:53,136 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s37.m4s. Size = 55609 in 17.3431389332 seconds
+2022-03-27 02:44:53,136 - dash_client.py:270 - INFO -  SMART: Processing the segment 39
+2022-03-27 02:44:53,137 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s38.m4s
+2022-03-27 02:44:53,451 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s38.m4s
+2022-03-27 02:44:53,451 - dash_client.py:380 - INFO - SMART : The total downloaded = 3332638, segment_size = 23381, segment_number = 39
+2022-03-27 02:44:53,452 - dash_buffer.py:207 - INFO - Writing segment 39 at time 75.6488370895
+2022-03-27 02:44:53,452 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=75.6489670277,CurrentPlaybackTime=72,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:53,452 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s38.m4s. Size = 23381 in 0.308549880981 seconds
+2022-03-27 02:44:53,452 - dash_client.py:270 - INFO -  SMART: Processing the segment 40
+2022-03-27 02:44:53,453 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s39.m4s
+2022-03-27 02:44:53,826 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s39.m4s
+2022-03-27 02:44:53,827 - dash_client.py:380 - INFO - SMART : The total downloaded = 3356064, segment_size = 23426, segment_number = 40
+2022-03-27 02:44:53,827 - dash_buffer.py:207 - INFO - Writing segment 40 at time 76.0244410038
+2022-03-27 02:44:53,828 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=76.0247609615,CurrentPlaybackTime=73,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:53,828 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s39.m4s. Size = 23426 in 0.373830080032 seconds
+2022-03-27 02:44:53,828 - dash_client.py:270 - INFO -  SMART: Processing the segment 41
+2022-03-27 02:44:53,829 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s40.m4s
+2022-03-27 02:44:54,181 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s40.m4s
+2022-03-27 02:44:54,181 - dash_client.py:380 - INFO - SMART : The total downloaded = 3382304, segment_size = 26240, segment_number = 41
+2022-03-27 02:44:54,182 - dash_buffer.py:207 - INFO - Writing segment 41 at time 76.3788261414
+2022-03-27 02:44:54,182 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=76.3791451454,CurrentPlaybackTime=73,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:54,182 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s40.m4s. Size = 26240 in 0.351608991623 seconds
+2022-03-27 02:44:54,183 - dash_client.py:270 - INFO -  SMART: Processing the segment 42
+2022-03-27 02:44:54,185 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s41.m4s
+2022-03-27 02:44:54,494 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s41.m4s
+2022-03-27 02:44:54,494 - dash_client.py:380 - INFO - SMART : The total downloaded = 3404598, segment_size = 22294, segment_number = 42
+2022-03-27 02:44:54,494 - dash_buffer.py:207 - INFO - Writing segment 42 at time 76.6917741299
+2022-03-27 02:44:54,496 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=76.6926541328,CurrentPlaybackTime=73,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:54,496 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s41.m4s. Size = 22294 in 0.303269147873 seconds
+2022-03-27 02:44:54,497 - dash_client.py:270 - INFO -  SMART: Processing the segment 43
+2022-03-27 02:44:54,498 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s42.m4s
+2022-03-27 02:44:54,719 - dash_buffer.py:163 - INFO - Reading the segment number 38 from the buffer at playtime 74
+2022-03-27 02:44:54,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=76.9173240662,CurrentPlaybackTime=74,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:44:54,852 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s42.m4s
+2022-03-27 02:44:54,852 - dash_client.py:380 - INFO - SMART : The total downloaded = 3429205, segment_size = 24607, segment_number = 43
+2022-03-27 02:44:54,852 - dash_buffer.py:207 - INFO - Writing segment 43 at time 77.0497660637
+2022-03-27 02:44:54,853 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=77.0498969555,CurrentPlaybackTime=74,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:54,853 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s42.m4s. Size = 24607 in 0.349411964417 seconds
+2022-03-27 02:44:54,853 - dash_client.py:270 - INFO -  SMART: Processing the segment 44
+2022-03-27 02:44:54,853 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s43.m4s
+2022-03-27 02:44:55,163 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s43.m4s
+2022-03-27 02:44:55,163 - dash_client.py:380 - INFO - SMART : The total downloaded = 3451014, segment_size = 21809, segment_number = 44
+2022-03-27 02:44:55,163 - dash_buffer.py:207 - INFO - Writing segment 44 at time 77.3603329659
+2022-03-27 02:44:55,163 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=77.3604640961,CurrentPlaybackTime=74,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:44:55,163 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s43.m4s. Size = 21809 in 0.309381008148 seconds
+2022-03-27 02:44:55,163 - dash_client.py:270 - INFO -  SMART: Processing the segment 45
+2022-03-27 02:44:55,164 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 532480.0, weighted_dwn_rate = 71018.7238755 , available_video=10 seconds, ratio = 7.49774103142
+2022-03-27 02:44:55,164 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s44.m4s
+2022-03-27 02:44:56,161 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s44.m4s
+2022-03-27 02:44:56,161 - dash_client.py:380 - INFO - SMART : The total downloaded = 3520953, segment_size = 69939, segment_number = 45
+2022-03-27 02:44:56,161 - dash_buffer.py:207 - INFO - Writing segment 45 at time 78.3586330414
+2022-03-27 02:44:56,162 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=78.3587839603,CurrentPlaybackTime=75,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:56,162 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s44.m4s. Size = 69939 in 0.996891975403 seconds
+2022-03-27 02:44:56,162 - dash_client.py:270 - INFO -  SMART: Processing the segment 46
+2022-03-27 02:44:56,162 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s45.m4s
+2022-03-27 02:44:56,719 - dash_buffer.py:163 - INFO - Reading the segment number 39 from the buffer at playtime 76
+2022-03-27 02:44:56,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=78.9169540405,CurrentPlaybackTime=76,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:56,861 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s45.m4s
+2022-03-27 02:44:56,861 - dash_client.py:380 - INFO - SMART : The total downloaded = 3573723, segment_size = 52770, segment_number = 46
+2022-03-27 02:44:56,861 - dash_buffer.py:207 - INFO - Writing segment 46 at time 79.0585019588
+2022-03-27 02:44:56,861 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=79.0586321354,CurrentPlaybackTime=76,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:56,862 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s45.m4s. Size = 52770 in 0.698491811752 seconds
+2022-03-27 02:44:56,862 - dash_client.py:270 - INFO -  SMART: Processing the segment 47
+2022-03-27 02:44:56,862 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s46.m4s
+2022-03-27 02:44:57,644 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s46.m4s
+2022-03-27 02:44:57,644 - dash_client.py:380 - INFO - SMART : The total downloaded = 3626087, segment_size = 52364, segment_number = 47
+2022-03-27 02:44:57,645 - dash_buffer.py:207 - INFO - Writing segment 47 at time 79.8418400288
+2022-03-27 02:44:57,645 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=79.8419690132,CurrentPlaybackTime=76,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:57,645 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s46.m4s. Size = 52364 in 0.782150030136 seconds
+2022-03-27 02:44:57,645 - dash_client.py:270 - INFO -  SMART: Processing the segment 48
+2022-03-27 02:44:57,645 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s47.m4s
+2022-03-27 02:44:58,342 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s47.m4s
+2022-03-27 02:44:58,342 - dash_client.py:380 - INFO - SMART : The total downloaded = 3676006, segment_size = 49919, segment_number = 48
+2022-03-27 02:44:58,342 - dash_buffer.py:207 - INFO - Writing segment 48 at time 80.5393190384
+2022-03-27 02:44:58,342 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=80.5394539833,CurrentPlaybackTime=77,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:58,342 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s47.m4s. Size = 49919 in 0.6962890625 seconds
+2022-03-27 02:44:58,342 - dash_client.py:270 - INFO -  SMART: Processing the segment 49
+2022-03-27 02:44:58,343 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s48.m4s
+2022-03-27 02:44:58,719 - dash_buffer.py:163 - INFO - Reading the segment number 40 from the buffer at playtime 78
+2022-03-27 02:44:58,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=80.9169509411,CurrentPlaybackTime=78,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:44:59,207 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s48.m4s
+2022-03-27 02:44:59,207 - dash_client.py:380 - INFO - SMART : The total downloaded = 3741132, segment_size = 65126, segment_number = 49
+2022-03-27 02:44:59,208 - dash_buffer.py:207 - INFO - Writing segment 49 at time 81.4050850868
+2022-03-27 02:44:59,208 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=81.4054031372,CurrentPlaybackTime=78,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:44:59,209 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s48.m4s. Size = 65126 in 0.8640229702 seconds
+2022-03-27 02:44:59,209 - dash_client.py:270 - INFO -  SMART: Processing the segment 50
+2022-03-27 02:44:59,210 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s49.m4s
+2022-03-27 02:45:00,244 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s49.m4s
+2022-03-27 02:45:00,244 - dash_client.py:380 - INFO - SMART : The total downloaded = 3810906, segment_size = 69774, segment_number = 50
+2022-03-27 02:45:00,245 - dash_buffer.py:207 - INFO - Writing segment 50 at time 82.4418270588
+2022-03-27 02:45:00,245 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=82.4421491623,CurrentPlaybackTime=79,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:00,245 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s49.m4s. Size = 69774 in 1.03375601768 seconds
+2022-03-27 02:45:00,246 - dash_client.py:270 - INFO -  SMART: Processing the segment 51
+2022-03-27 02:45:00,247 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s50.m4s
+2022-03-27 02:45:00,719 - dash_buffer.py:163 - INFO - Reading the segment number 41 from the buffer at playtime 80
+2022-03-27 02:45:00,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=82.9172811508,CurrentPlaybackTime=80,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:45:02,536 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s50.m4s
+2022-03-27 02:45:02,536 - dash_client.py:380 - INFO - SMART : The total downloaded = 3973035, segment_size = 162129, segment_number = 51
+2022-03-27 02:45:02,537 - dash_buffer.py:207 - INFO - Writing segment 51 at time 84.7338020802
+2022-03-27 02:45:02,537 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=84.7339391708,CurrentPlaybackTime=81,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-27 02:45:02,537 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s50.m4s. Size = 162129 in 2.28546881676 seconds
+2022-03-27 02:45:02,537 - dash_client.py:270 - INFO -  SMART: Processing the segment 52
+2022-03-27 02:45:02,538 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s51.m4s
+2022-03-27 02:45:02,719 - dash_buffer.py:163 - INFO - Reading the segment number 42 from the buffer at playtime 82
+2022-03-27 02:45:02,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=84.9169080257,CurrentPlaybackTime=82,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:45:04,719 - dash_buffer.py:163 - INFO - Reading the segment number 43 from the buffer at playtime 84
+2022-03-27 02:45:04,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=86.9170091152,CurrentPlaybackTime=84,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:45:04,946 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s51.m4s
+2022-03-27 02:45:04,946 - dash_client.py:380 - INFO - SMART : The total downloaded = 4146261, segment_size = 173226, segment_number = 52
+2022-03-27 02:45:04,946 - dash_buffer.py:207 - INFO - Writing segment 52 at time 87.1432540417
+2022-03-27 02:45:04,946 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=87.1433861256,CurrentPlaybackTime=84,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-27 02:45:04,946 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s51.m4s. Size = 173226 in 2.40812802315 seconds
+2022-03-27 02:45:04,946 - dash_client.py:270 - INFO -  SMART: Processing the segment 53
+2022-03-27 02:45:04,947 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s52.m4s
+2022-03-27 02:45:05,874 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s52.m4s
+2022-03-27 02:45:05,874 - dash_client.py:380 - INFO - SMART : The total downloaded = 4210091, segment_size = 63830, segment_number = 53
+2022-03-27 02:45:05,874 - dash_buffer.py:207 - INFO - Writing segment 53 at time 88.0716600418
+2022-03-27 02:45:05,875 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=88.0717949867,CurrentPlaybackTime=85,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:05,875 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s52.m4s. Size = 63830 in 0.926779985428 seconds
+2022-03-27 02:45:05,875 - dash_client.py:270 - INFO -  SMART: Processing the segment 54
+2022-03-27 02:45:05,876 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s53.m4s
+2022-03-27 02:45:06,719 - dash_buffer.py:163 - INFO - Reading the segment number 44 from the buffer at playtime 86
+2022-03-27 02:45:06,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=88.917042017,CurrentPlaybackTime=86,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:45:06,772 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s53.m4s
+2022-03-27 02:45:06,772 - dash_client.py:380 - INFO - SMART : The total downloaded = 4278472, segment_size = 68381, segment_number = 54
+2022-03-27 02:45:06,772 - dash_buffer.py:207 - INFO - Writing segment 54 at time 88.9693231583
+2022-03-27 02:45:06,772 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=88.9694550037,CurrentPlaybackTime=86,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:06,772 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s53.m4s. Size = 68381 in 0.896181821823 seconds
+2022-03-27 02:45:06,772 - dash_client.py:270 - INFO -  SMART: Processing the segment 55
+2022-03-27 02:45:06,773 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s54.m4s
+2022-03-27 02:45:07,773 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s54.m4s
+2022-03-27 02:45:07,773 - dash_client.py:380 - INFO - SMART : The total downloaded = 4345071, segment_size = 66599, segment_number = 55
+2022-03-27 02:45:07,773 - dash_buffer.py:207 - INFO - Writing segment 55 at time 89.9706261158
+2022-03-27 02:45:07,774 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=89.9707591534,CurrentPlaybackTime=87,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:07,774 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s54.m4s. Size = 66599 in 1.00003910065 seconds
+2022-03-27 02:45:07,774 - dash_client.py:270 - INFO -  SMART: Processing the segment 56
+2022-03-27 02:45:07,774 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s55.m4s
+2022-03-27 02:45:08,629 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s55.m4s
+2022-03-27 02:45:08,629 - dash_client.py:380 - INFO - SMART : The total downloaded = 4407808, segment_size = 62737, segment_number = 56
+2022-03-27 02:45:08,629 - dash_buffer.py:207 - INFO - Writing segment 56 at time 90.8261480331
+2022-03-27 02:45:08,629 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=90.8262841702,CurrentPlaybackTime=87,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:08,629 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s55.m4s. Size = 62737 in 0.854281902313 seconds
+2022-03-27 02:45:08,629 - dash_client.py:270 - INFO -  SMART: Processing the segment 57
+2022-03-27 02:45:08,630 - weighted_dash.py:88 - INFO - Delay:2
+2022-03-27 02:45:08,630 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s56.m4s
+2022-03-27 02:45:08,630 - dash_client.py:352 - INFO - SLEEPING for 4seconds 
+2022-03-27 02:45:08,719 - dash_buffer.py:163 - INFO - Reading the segment number 45 from the buffer at playtime 88
+2022-03-27 02:45:08,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=90.9169020653,CurrentPlaybackTime=88,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:10,719 - dash_buffer.py:163 - INFO - Reading the segment number 46 from the buffer at playtime 90
+2022-03-27 02:45:10,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=92.9170510769,CurrentPlaybackTime=90,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:12,719 - dash_buffer.py:163 - INFO - Reading the segment number 47 from the buffer at playtime 92
+2022-03-27 02:45:12,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=94.9169750214,CurrentPlaybackTime=92,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:14,719 - dash_buffer.py:163 - INFO - Reading the segment number 48 from the buffer at playtime 94
+2022-03-27 02:45:14,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=96.9170651436,CurrentPlaybackTime=94,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:16,719 - dash_buffer.py:163 - INFO - Reading the segment number 49 from the buffer at playtime 96
+2022-03-27 02:45:16,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=98.9170620441,CurrentPlaybackTime=96,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:18,719 - dash_buffer.py:163 - INFO - Reading the segment number 50 from the buffer at playtime 98
+2022-03-27 02:45:18,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=100.917011976,CurrentPlaybackTime=98,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:20,719 - dash_buffer.py:163 - INFO - Reading the segment number 51 from the buffer at playtime 100
+2022-03-27 02:45:20,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=102.917021036,CurrentPlaybackTime=100,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=791182
+2022-03-27 02:45:22,365 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s56.m4s
+2022-03-27 02:45:22,365 - dash_client.py:380 - INFO - SMART : The total downloaded = 4883339, segment_size = 475531, segment_number = 57
+2022-03-27 02:45:22,365 - dash_buffer.py:207 - INFO - Writing segment 57 at time 104.562442064
+2022-03-27 02:45:22,365 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=104.562577009,CurrentPlaybackTime=101,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=4219897
+2022-03-27 02:45:22,365 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s56.m4s. Size = 475531 in 9.73093008995 seconds
+2022-03-27 02:45:22,366 - dash_client.py:270 - INFO -  SMART: Processing the segment 58
+2022-03-27 02:45:22,366 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s57.m4s
+2022-03-27 02:45:22,719 - dash_buffer.py:163 - INFO - Reading the segment number 52 from the buffer at playtime 102
+2022-03-27 02:45:22,757 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=104.954326153,CurrentPlaybackTime=102,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=791182
+2022-03-27 02:45:23,406 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s57.m4s
+2022-03-27 02:45:23,407 - dash_client.py:380 - INFO - SMART : The total downloaded = 4954380, segment_size = 71041, segment_number = 58
+2022-03-27 02:45:23,407 - dash_buffer.py:207 - INFO - Writing segment 58 at time 105.604535103
+2022-03-27 02:45:23,408 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=105.604859114,CurrentPlaybackTime=102,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:23,408 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s57.m4s. Size = 71041 in 1.04018998146 seconds
+2022-03-27 02:45:23,408 - dash_client.py:270 - INFO -  SMART: Processing the segment 59
+2022-03-27 02:45:23,410 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 1597440.0, weighted_dwn_rate = 55931.3722507 , available_video=10 seconds, ratio = 28.5607153145
+2022-03-27 02:45:23,410 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s58.m4s
+2022-03-27 02:45:24,323 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s58.m4s
+2022-03-27 02:45:24,323 - dash_client.py:380 - INFO - SMART : The total downloaded = 5019840, segment_size = 65460, segment_number = 59
+2022-03-27 02:45:24,324 - dash_buffer.py:207 - INFO - Writing segment 59 at time 106.520835161
+2022-03-27 02:45:24,324 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=106.520967007,CurrentPlaybackTime=103,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:24,324 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s58.m4s. Size = 65460 in 0.913195133209 seconds
+2022-03-27 02:45:24,324 - dash_client.py:270 - INFO -  SMART: Processing the segment 60
+2022-03-27 02:45:24,325 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s59.m4s
+2022-03-27 02:45:24,719 - dash_buffer.py:163 - INFO - Reading the segment number 53 from the buffer at playtime 104
+2022-03-27 02:45:24,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=106.917001009,CurrentPlaybackTime=104,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:25,365 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s59.m4s
+2022-03-27 02:45:25,366 - dash_client.py:380 - INFO - SMART : The total downloaded = 5092959, segment_size = 73119, segment_number = 60
+2022-03-27 02:45:25,366 - dash_buffer.py:207 - INFO - Writing segment 60 at time 107.563009977
+2022-03-27 02:45:25,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=107.563143969,CurrentPlaybackTime=104,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:25,366 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s59.m4s. Size = 73119 in 1.04087305069 seconds
+2022-03-27 02:45:25,366 - dash_client.py:270 - INFO -  SMART: Processing the segment 61
+2022-03-27 02:45:25,367 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s60.m4s
+2022-03-27 02:45:26,312 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s60.m4s
+2022-03-27 02:45:26,313 - dash_client.py:380 - INFO - SMART : The total downloaded = 5160496, segment_size = 67537, segment_number = 61
+2022-03-27 02:45:26,313 - dash_buffer.py:207 - INFO - Writing segment 61 at time 108.510334969
+2022-03-27 02:45:26,314 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=108.510658026,CurrentPlaybackTime=105,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:26,314 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s60.m4s. Size = 67537 in 0.945466995239 seconds
+2022-03-27 02:45:26,314 - dash_client.py:270 - INFO -  SMART: Processing the segment 62
+2022-03-27 02:45:26,316 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s61.m4s
+2022-03-27 02:45:26,719 - dash_buffer.py:163 - INFO - Reading the segment number 54 from the buffer at playtime 106
+2022-03-27 02:45:26,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=108.91736412,CurrentPlaybackTime=106,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:27,262 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s61.m4s
+2022-03-27 02:45:27,262 - dash_client.py:380 - INFO - SMART : The total downloaded = 5228401, segment_size = 67905, segment_number = 62
+2022-03-27 02:45:27,262 - dash_buffer.py:207 - INFO - Writing segment 62 at time 109.459362984
+2022-03-27 02:45:27,262 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=109.459496021,CurrentPlaybackTime=106,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:27,262 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s61.m4s. Size = 67905 in 0.943006038666 seconds
+2022-03-27 02:45:27,263 - dash_client.py:270 - INFO -  SMART: Processing the segment 63
+2022-03-27 02:45:27,263 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s62.m4s
+2022-03-27 02:45:28,257 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s62.m4s
+2022-03-27 02:45:28,258 - dash_client.py:380 - INFO - SMART : The total downloaded = 5299760, segment_size = 71359, segment_number = 63
+2022-03-27 02:45:28,258 - dash_buffer.py:207 - INFO - Writing segment 63 at time 110.455089092
+2022-03-27 02:45:28,258 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=110.455224037,CurrentPlaybackTime=107,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:28,258 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s62.m4s. Size = 71359 in 0.994117975235 seconds
+2022-03-27 02:45:28,258 - dash_client.py:270 - INFO -  SMART: Processing the segment 64
+2022-03-27 02:45:28,259 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s63.m4s
+2022-03-27 02:45:28,719 - dash_buffer.py:163 - INFO - Reading the segment number 55 from the buffer at playtime 108
+2022-03-27 02:45:28,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=110.916901112,CurrentPlaybackTime=108,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:29,180 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s63.m4s
+2022-03-27 02:45:29,180 - dash_client.py:380 - INFO - SMART : The total downloaded = 5364556, segment_size = 64796, segment_number = 64
+2022-03-27 02:45:29,180 - dash_buffer.py:207 - INFO - Writing segment 64 at time 111.377490997
+2022-03-27 02:45:29,180 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=111.377625942,CurrentPlaybackTime=108,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:29,181 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s63.m4s. Size = 64796 in 0.920794010162 seconds
+2022-03-27 02:45:29,181 - dash_client.py:270 - INFO -  SMART: Processing the segment 65
+2022-03-27 02:45:29,181 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s64.m4s
+2022-03-27 02:45:30,131 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s64.m4s
+2022-03-27 02:45:30,131 - dash_client.py:380 - INFO - SMART : The total downloaded = 5431533, segment_size = 66977, segment_number = 65
+2022-03-27 02:45:30,131 - dash_buffer.py:207 - INFO - Writing segment 65 at time 112.328448057
+2022-03-27 02:45:30,131 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=112.328603983,CurrentPlaybackTime=109,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:30,132 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s64.m4s. Size = 66977 in 0.949606895447 seconds
+2022-03-27 02:45:30,132 - dash_client.py:270 - INFO -  SMART: Processing the segment 66
+2022-03-27 02:45:30,132 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s65.m4s
+2022-03-27 02:45:30,719 - dash_buffer.py:163 - INFO - Reading the segment number 56 from the buffer at playtime 110
+2022-03-27 02:45:30,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=112.916919947,CurrentPlaybackTime=110,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:31,073 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s65.m4s
+2022-03-27 02:45:31,073 - dash_client.py:380 - INFO - SMART : The total downloaded = 5498837, segment_size = 67304, segment_number = 66
+2022-03-27 02:45:31,073 - dash_buffer.py:207 - INFO - Writing segment 66 at time 113.270421028
+2022-03-27 02:45:31,073 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=113.270554066,CurrentPlaybackTime=110,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:31,073 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s65.m4s. Size = 67304 in 0.940498113632 seconds
+2022-03-27 02:45:31,074 - dash_client.py:270 - INFO -  SMART: Processing the segment 67
+2022-03-27 02:45:31,074 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s66.m4s
+2022-03-27 02:45:32,719 - dash_buffer.py:163 - INFO - Reading the segment number 57 from the buffer at playtime 112
+2022-03-27 02:45:32,722 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=114.918852091,CurrentPlaybackTime=112,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=4219897
+2022-03-27 02:45:34,719 - dash_buffer.py:163 - INFO - Reading the segment number 58 from the buffer at playtime 114
+2022-03-27 02:45:34,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=116.917041063,CurrentPlaybackTime=114,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:36,719 - dash_buffer.py:163 - INFO - Reading the segment number 59 from the buffer at playtime 116
+2022-03-27 02:45:36,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=118.917109966,CurrentPlaybackTime=116,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:38,719 - dash_buffer.py:163 - INFO - Reading the segment number 60 from the buffer at playtime 118
+2022-03-27 02:45:38,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=120.916970015,CurrentPlaybackTime=118,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:39,326 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s66.m4s
+2022-03-27 02:45:39,326 - dash_client.py:380 - INFO - SMART : The total downloaded = 5570571, segment_size = 71734, segment_number = 67
+2022-03-27 02:45:39,327 - dash_buffer.py:207 - INFO - Writing segment 67 at time 121.524374962
+2022-03-27 02:45:39,328 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=121.524992943,CurrentPlaybackTime=118,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:39,328 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s66.m4s. Size = 71734 in 8.25211691856 seconds
+2022-03-27 02:45:39,329 - dash_client.py:270 - INFO -  SMART: Processing the segment 68
+2022-03-27 02:45:39,335 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s67.m4s
+2022-03-27 02:45:39,627 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s67.m4s
+2022-03-27 02:45:39,627 - dash_client.py:380 - INFO - SMART : The total downloaded = 5592028, segment_size = 21457, segment_number = 68
+2022-03-27 02:45:39,628 - dash_buffer.py:207 - INFO - Writing segment 68 at time 121.82488203
+2022-03-27 02:45:39,628 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=121.825193167,CurrentPlaybackTime=118,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:45:39,628 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s67.m4s. Size = 21457 in 0.292041063309 seconds
+2022-03-27 02:45:39,629 - dash_client.py:270 - INFO -  SMART: Processing the segment 69
+2022-03-27 02:45:39,630 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s68.m4s
+2022-03-27 02:45:39,935 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s68.m4s
+2022-03-27 02:45:39,936 - dash_client.py:380 - INFO - SMART : The total downloaded = 5614735, segment_size = 22707, segment_number = 69
+2022-03-27 02:45:39,936 - dash_buffer.py:207 - INFO - Writing segment 69 at time 122.133032084
+2022-03-27 02:45:39,936 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=122.133229971,CurrentPlaybackTime=119,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:45:39,936 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s68.m4s. Size = 22707 in 0.305337905884 seconds
+2022-03-27 02:45:39,936 - dash_client.py:270 - INFO -  SMART: Processing the segment 70
+2022-03-27 02:45:39,937 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s69.m4s
+2022-03-27 02:45:40,719 - dash_buffer.py:163 - INFO - Reading the segment number 61 from the buffer at playtime 120
+2022-03-27 02:45:40,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=122.917339087,CurrentPlaybackTime=120,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:40,946 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s69.m4s
+2022-03-27 02:45:40,946 - dash_client.py:380 - INFO - SMART : The total downloaded = 5685459, segment_size = 70724, segment_number = 70
+2022-03-27 02:45:40,946 - dash_buffer.py:207 - INFO - Writing segment 70 at time 123.143162966
+2022-03-27 02:45:40,946 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=123.143293142,CurrentPlaybackTime=120,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:40,946 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s69.m4s. Size = 70724 in 1.00837993622 seconds
+2022-03-27 02:45:40,946 - dash_client.py:270 - INFO -  SMART: Processing the segment 71
+2022-03-27 02:45:40,947 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s70.m4s
+2022-03-27 02:45:41,940 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s70.m4s
+2022-03-27 02:45:41,940 - dash_client.py:380 - INFO - SMART : The total downloaded = 5757494, segment_size = 72035, segment_number = 71
+2022-03-27 02:45:41,940 - dash_buffer.py:207 - INFO - Writing segment 71 at time 124.137693167
+2022-03-27 02:45:41,941 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=124.137969971,CurrentPlaybackTime=121,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:45:41,941 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s70.m4s. Size = 72035 in 0.992781162262 seconds
+2022-03-27 02:45:41,941 - dash_client.py:270 - INFO -  SMART: Processing the segment 72
+2022-03-27 02:45:41,943 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s71.m4s
+2022-03-27 02:45:42,305 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s71.m4s
+2022-03-27 02:45:42,305 - dash_client.py:380 - INFO - SMART : The total downloaded = 5782206, segment_size = 24712, segment_number = 72
+2022-03-27 02:45:42,306 - dash_buffer.py:207 - INFO - Writing segment 72 at time 124.503016949
+2022-03-27 02:45:42,306 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=124.503329039,CurrentPlaybackTime=121,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:45:42,306 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s71.m4s. Size = 24712 in 0.358392000198 seconds
+2022-03-27 02:45:42,307 - dash_client.py:270 - INFO -  SMART: Processing the segment 73
+2022-03-27 02:45:42,309 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s72.m4s
+2022-03-27 02:45:42,657 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s72.m4s
+2022-03-27 02:45:42,658 - dash_client.py:380 - INFO - SMART : The total downloaded = 5807277, segment_size = 25071, segment_number = 73
+2022-03-27 02:45:42,658 - dash_buffer.py:207 - INFO - Writing segment 73 at time 124.855396986
+2022-03-27 02:45:42,659 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=124.855708122,CurrentPlaybackTime=121,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:45:42,659 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s72.m4s. Size = 25071 in 0.342926979065 seconds
+2022-03-27 02:45:42,660 - dash_client.py:270 - INFO -  SMART: Processing the segment 74
+2022-03-27 02:45:42,662 - weighted_dash.py:88 - INFO - Delay:2
+2022-03-27 02:45:42,667 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s73.m4s
+2022-03-27 02:45:42,667 - dash_client.py:352 - INFO - SLEEPING for 4seconds 
+2022-03-27 02:45:42,719 - dash_buffer.py:163 - INFO - Reading the segment number 62 from the buffer at playtime 122
+2022-03-27 02:45:42,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=124.917257071,CurrentPlaybackTime=122,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:44,719 - dash_buffer.py:163 - INFO - Reading the segment number 63 from the buffer at playtime 124
+2022-03-27 02:45:44,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=126.917503119,CurrentPlaybackTime=124,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:46,719 - dash_buffer.py:163 - INFO - Reading the segment number 64 from the buffer at playtime 126
+2022-03-27 02:45:46,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=128.916988134,CurrentPlaybackTime=126,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:48,719 - dash_buffer.py:163 - INFO - Reading the segment number 65 from the buffer at playtime 128
+2022-03-27 02:45:48,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=130.917013168,CurrentPlaybackTime=128,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:50,719 - dash_buffer.py:163 - INFO - Reading the segment number 66 from the buffer at playtime 130
+2022-03-27 02:45:50,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=132.917047977,CurrentPlaybackTime=130,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:52,719 - dash_buffer.py:163 - INFO - Reading the segment number 67 from the buffer at playtime 132
+2022-03-27 02:45:52,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=134.916998148,CurrentPlaybackTime=132,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:45:54,719 - dash_buffer.py:163 - INFO - Reading the segment number 68 from the buffer at playtime 134
+2022-03-27 02:45:54,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=136.91744709,CurrentPlaybackTime=134,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:45:56,719 - dash_buffer.py:163 - INFO - Reading the segment number 69 from the buffer at playtime 136
+2022-03-27 02:45:56,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=138.917036057,CurrentPlaybackTime=136,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:45:58,719 - dash_buffer.py:163 - INFO - Reading the segment number 70 from the buffer at playtime 138
+2022-03-27 02:45:58,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=140.917019129,CurrentPlaybackTime=138,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:00,719 - dash_buffer.py:163 - INFO - Reading the segment number 71 from the buffer at playtime 140
+2022-03-27 02:46:00,721 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=142.917575121,CurrentPlaybackTime=140,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:02,704 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s73.m4s
+2022-03-27 02:46:02,705 - dash_client.py:380 - INFO - SMART : The total downloaded = 6562933, segment_size = 755656, segment_number = 74
+2022-03-27 02:46:02,705 - dash_buffer.py:207 - INFO - Writing segment 74 at time 144.902022123
+2022-03-27 02:46:02,705 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=144.902158022,CurrentPlaybackTime=141,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=4219897
+2022-03-27 02:46:02,705 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s73.m4s. Size = 755656 in 16.0328018665 seconds
+2022-03-27 02:46:02,705 - dash_client.py:270 - INFO -  SMART: Processing the segment 75
+2022-03-27 02:46:02,706 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s74.m4s
+2022-03-27 02:46:02,719 - dash_buffer.py:163 - INFO - Reading the segment number 72 from the buffer at playtime 142
+2022-03-27 02:46:02,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=144.916908026,CurrentPlaybackTime=142,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:03,027 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s74.m4s
+2022-03-27 02:46:03,028 - dash_client.py:380 - INFO - SMART : The total downloaded = 6585003, segment_size = 22070, segment_number = 75
+2022-03-27 02:46:03,028 - dash_buffer.py:207 - INFO - Writing segment 75 at time 145.224991083
+2022-03-27 02:46:03,028 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=145.225131989,CurrentPlaybackTime=142,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:03,028 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s74.m4s. Size = 22070 in 0.321606874466 seconds
+2022-03-27 02:46:03,028 - dash_client.py:270 - INFO -  SMART: Processing the segment 76
+2022-03-27 02:46:03,029 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 532480.0, weighted_dwn_rate = 50914.2918988 , available_video=4 seconds, ratio = 10.4583601213
+2022-03-27 02:46:03,029 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s75.m4s
+2022-03-27 02:46:03,343 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s75.m4s
+2022-03-27 02:46:03,343 - dash_client.py:380 - INFO - SMART : The total downloaded = 6606405, segment_size = 21402, segment_number = 76
+2022-03-27 02:46:03,343 - dash_buffer.py:207 - INFO - Writing segment 76 at time 145.540271997
+2022-03-27 02:46:03,343 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=145.540400982,CurrentPlaybackTime=142,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:03,343 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s75.m4s. Size = 21402 in 0.313868045807 seconds
+2022-03-27 02:46:03,343 - dash_client.py:270 - INFO -  SMART: Processing the segment 77
+2022-03-27 02:46:03,344 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 311296.0, weighted_dwn_rate = 50153.9644674 , available_video=6 seconds, ratio = 6.20680744396
+2022-03-27 02:46:03,344 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s76.m4s
+2022-03-27 02:46:03,608 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s76.m4s
+2022-03-27 02:46:03,608 - dash_client.py:380 - INFO - SMART : The total downloaded = 6625906, segment_size = 19501, segment_number = 77
+2022-03-27 02:46:03,608 - dash_buffer.py:207 - INFO - Writing segment 77 at time 145.805580139
+2022-03-27 02:46:03,608 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=145.805711985,CurrentPlaybackTime=142,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:03,609 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s76.m4s. Size = 19501 in 0.263932943344 seconds
+2022-03-27 02:46:03,609 - dash_client.py:270 - INFO -  SMART: Processing the segment 78
+2022-03-27 02:46:03,609 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 548864.0, weighted_dwn_rate = 49247.7719185 , available_video=8 seconds, ratio = 11.1449509007
+2022-03-27 02:46:03,609 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s77.m4s
+2022-03-27 02:46:03,982 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s77.m4s
+2022-03-27 02:46:03,982 - dash_client.py:380 - INFO - SMART : The total downloaded = 6649104, segment_size = 23198, segment_number = 78
+2022-03-27 02:46:03,982 - dash_buffer.py:207 - INFO - Writing segment 78 at time 146.17956996
+2022-03-27 02:46:03,982 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=146.179697037,CurrentPlaybackTime=143,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:03,983 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s77.m4s. Size = 23198 in 0.372570037842 seconds
+2022-03-27 02:46:03,983 - dash_client.py:270 - INFO -  SMART: Processing the segment 79
+2022-03-27 02:46:03,983 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 581632.0, weighted_dwn_rate = 49122.4164377 , available_video=10 seconds, ratio = 11.8404598588
+2022-03-27 02:46:03,984 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s78.m4s
+2022-03-27 02:46:04,192 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s78.m4s
+2022-03-27 02:46:04,192 - dash_client.py:380 - INFO - SMART : The total downloaded = 6671345, segment_size = 22241, segment_number = 79
+2022-03-27 02:46:04,193 - dash_buffer.py:207 - INFO - Writing segment 79 at time 146.389909029
+2022-03-27 02:46:04,193 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=146.39003706,CurrentPlaybackTime=143,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:04,193 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s78.m4s. Size = 22241 in 0.208805084229 seconds
+2022-03-27 02:46:04,193 - dash_client.py:270 - INFO -  SMART: Processing the segment 80
+2022-03-27 02:46:04,194 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s79.m4s
+2022-03-27 02:46:04,719 - dash_buffer.py:163 - INFO - Reading the segment number 73 from the buffer at playtime 144
+2022-03-27 02:46:04,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=146.916952133,CurrentPlaybackTime=144,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:05,128 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s79.m4s
+2022-03-27 02:46:05,128 - dash_client.py:380 - INFO - SMART : The total downloaded = 6731395, segment_size = 60050, segment_number = 80
+2022-03-27 02:46:05,128 - dash_buffer.py:207 - INFO - Writing segment 80 at time 147.325756073
+2022-03-27 02:46:05,129 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=147.326071024,CurrentPlaybackTime=144,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:05,129 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s79.m4s. Size = 60050 in 0.934371948242 seconds
+2022-03-27 02:46:05,130 - dash_client.py:270 - INFO -  SMART: Processing the segment 81
+2022-03-27 02:46:05,131 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s80.m4s
+2022-03-27 02:46:06,053 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s80.m4s
+2022-03-27 02:46:06,053 - dash_client.py:380 - INFO - SMART : The total downloaded = 6797047, segment_size = 65652, segment_number = 81
+2022-03-27 02:46:06,053 - dash_buffer.py:207 - INFO - Writing segment 81 at time 148.250507116
+2022-03-27 02:46:06,053 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=148.250669956,CurrentPlaybackTime=145,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:06,054 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s80.m4s. Size = 65652 in 0.918117046356 seconds
+2022-03-27 02:46:06,054 - dash_client.py:270 - INFO -  SMART: Processing the segment 82
+2022-03-27 02:46:06,055 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s81.m4s
+2022-03-27 02:46:06,719 - dash_buffer.py:163 - INFO - Reading the segment number 74 from the buffer at playtime 146
+2022-03-27 02:46:06,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=148.916945934,CurrentPlaybackTime=146,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=4219897
+2022-03-27 02:46:06,976 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s81.m4s
+2022-03-27 02:46:06,976 - dash_client.py:380 - INFO - SMART : The total downloaded = 6862350, segment_size = 65303, segment_number = 82
+2022-03-27 02:46:06,977 - dash_buffer.py:207 - INFO - Writing segment 82 at time 149.173884153
+2022-03-27 02:46:06,977 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=149.174196959,CurrentPlaybackTime=146,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:06,977 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s81.m4s. Size = 65303 in 0.921398878098 seconds
+2022-03-27 02:46:06,978 - dash_client.py:270 - INFO -  SMART: Processing the segment 83
+2022-03-27 02:46:06,980 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s82.m4s
+2022-03-27 02:46:07,894 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s82.m4s
+2022-03-27 02:46:07,894 - dash_client.py:380 - INFO - SMART : The total downloaded = 6927113, segment_size = 64763, segment_number = 83
+2022-03-27 02:46:07,894 - dash_buffer.py:207 - INFO - Writing segment 83 at time 150.091274977
+2022-03-27 02:46:07,894 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=150.091418028,CurrentPlaybackTime=147,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:07,894 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s82.m4s. Size = 64763 in 0.910909891129 seconds
+2022-03-27 02:46:07,894 - dash_client.py:270 - INFO -  SMART: Processing the segment 84
+2022-03-27 02:46:07,895 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s83.m4s
+2022-03-27 02:46:08,719 - dash_buffer.py:163 - INFO - Reading the segment number 75 from the buffer at playtime 148
+2022-03-27 02:46:08,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=150.916980028,CurrentPlaybackTime=148,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:08,885 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s83.m4s
+2022-03-27 02:46:08,885 - dash_client.py:380 - INFO - SMART : The total downloaded = 6996671, segment_size = 69558, segment_number = 84
+2022-03-27 02:46:08,886 - dash_buffer.py:207 - INFO - Writing segment 84 at time 151.083078146
+2022-03-27 02:46:08,886 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=151.083394051,CurrentPlaybackTime=148,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:08,887 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s83.m4s. Size = 69558 in 0.989871025085 seconds
+2022-03-27 02:46:08,887 - dash_client.py:270 - INFO -  SMART: Processing the segment 85
+2022-03-27 02:46:08,889 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s84.m4s
+2022-03-27 02:46:09,620 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s84.m4s
+2022-03-27 02:46:09,621 - dash_client.py:380 - INFO - SMART : The total downloaded = 7051351, segment_size = 54680, segment_number = 85
+2022-03-27 02:46:09,621 - dash_buffer.py:207 - INFO - Writing segment 85 at time 151.818350077
+2022-03-27 02:46:09,622 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=151.818668127,CurrentPlaybackTime=148,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:09,622 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s84.m4s. Size = 54680 in 0.725875139236 seconds
+2022-03-27 02:46:09,622 - dash_client.py:270 - INFO -  SMART: Processing the segment 86
+2022-03-27 02:46:09,624 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s85.m4s
+2022-03-27 02:46:10,693 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s85.m4s
+2022-03-27 02:46:10,693 - dash_client.py:380 - INFO - SMART : The total downloaded = 7125501, segment_size = 74150, segment_number = 86
+2022-03-27 02:46:10,694 - dash_buffer.py:207 - INFO - Writing segment 86 at time 152.890789032
+2022-03-27 02:46:10,694 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=152.891113043,CurrentPlaybackTime=149,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:10,694 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s85.m4s. Size = 74150 in 1.06624698639 seconds
+2022-03-27 02:46:10,695 - dash_client.py:270 - INFO -  SMART: Processing the segment 87
+2022-03-27 02:46:10,697 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s86.m4s
+2022-03-27 02:46:10,719 - dash_buffer.py:163 - INFO - Reading the segment number 76 from the buffer at playtime 150
+2022-03-27 02:46:10,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=152.917289972,CurrentPlaybackTime=150,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:11,330 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s86.m4s
+2022-03-27 02:46:11,330 - dash_client.py:380 - INFO - SMART : The total downloaded = 7171229, segment_size = 45728, segment_number = 87
+2022-03-27 02:46:11,331 - dash_buffer.py:207 - INFO - Writing segment 87 at time 153.528241158
+2022-03-27 02:46:11,332 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=153.528771162,CurrentPlaybackTime=150,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:11,332 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s86.m4s. Size = 45728 in 0.627464056015 seconds
+2022-03-27 02:46:11,333 - dash_client.py:270 - INFO -  SMART: Processing the segment 88
+2022-03-27 02:46:11,334 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s87.m4s
+2022-03-27 02:46:12,096 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s87.m4s
+2022-03-27 02:46:12,096 - dash_client.py:380 - INFO - SMART : The total downloaded = 7225314, segment_size = 54085, segment_number = 88
+2022-03-27 02:46:12,096 - dash_buffer.py:207 - INFO - Writing segment 88 at time 154.293457985
+2022-03-27 02:46:12,096 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=154.293594122,CurrentPlaybackTime=151,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:12,096 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s87.m4s. Size = 54085 in 0.75715303421 seconds
+2022-03-27 02:46:12,097 - dash_client.py:270 - INFO -  SMART: Processing the segment 89
+2022-03-27 02:46:12,097 - weighted_dash.py:88 - INFO - Delay:2
+2022-03-27 02:46:12,097 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s88.m4s
+2022-03-27 02:46:12,098 - dash_client.py:352 - INFO - SLEEPING for 4seconds 
+2022-03-27 02:46:12,719 - dash_buffer.py:163 - INFO - Reading the segment number 77 from the buffer at playtime 152
+2022-03-27 02:46:12,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=154.916975021,CurrentPlaybackTime=152,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:14,719 - dash_buffer.py:163 - INFO - Reading the segment number 78 from the buffer at playtime 154
+2022-03-27 02:46:14,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=156.917067051,CurrentPlaybackTime=154,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:16,719 - dash_buffer.py:163 - INFO - Reading the segment number 79 from the buffer at playtime 156
+2022-03-27 02:46:16,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=158.917057037,CurrentPlaybackTime=156,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:18,719 - dash_buffer.py:163 - INFO - Reading the segment number 80 from the buffer at playtime 158
+2022-03-27 02:46:18,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=160.917397022,CurrentPlaybackTime=158,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:20,719 - dash_buffer.py:163 - INFO - Reading the segment number 81 from the buffer at playtime 160
+2022-03-27 02:46:20,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=162.917454958,CurrentPlaybackTime=160,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:22,719 - dash_buffer.py:163 - INFO - Reading the segment number 82 from the buffer at playtime 162
+2022-03-27 02:46:22,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=164.917515993,CurrentPlaybackTime=162,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:24,719 - dash_buffer.py:163 - INFO - Reading the segment number 83 from the buffer at playtime 164
+2022-03-27 02:46:24,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=166.917436123,CurrentPlaybackTime=164,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:26,719 - dash_buffer.py:163 - INFO - Reading the segment number 84 from the buffer at playtime 166
+2022-03-27 02:46:26,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=168.91744709,CurrentPlaybackTime=166,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:27,339 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s88.m4s
+2022-03-27 02:46:27,339 - dash_client.py:380 - INFO - SMART : The total downloaded = 7818614, segment_size = 593300, segment_number = 89
+2022-03-27 02:46:27,339 - dash_buffer.py:207 - INFO - Writing segment 89 at time 169.536761045
+2022-03-27 02:46:27,340 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=169.536895037,CurrentPlaybackTime=166,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=4219897
+2022-03-27 02:46:27,340 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s88.m4s. Size = 593300 in 11.2373049259 seconds
+2022-03-27 02:46:27,340 - dash_client.py:270 - INFO -  SMART: Processing the segment 90
+2022-03-27 02:46:27,341 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s89.m4s
+2022-03-27 02:46:28,719 - dash_buffer.py:163 - INFO - Reading the segment number 85 from the buffer at playtime 168
+2022-03-27 02:46:28,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=170.917016983,CurrentPlaybackTime=168,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:30,719 - dash_buffer.py:163 - INFO - Reading the segment number 86 from the buffer at playtime 170
+2022-03-27 02:46:30,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=172.917016983,CurrentPlaybackTime=170,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:31,472 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s89.m4s
+2022-03-27 02:46:31,472 - dash_client.py:380 - INFO - SMART : The total downloaded = 7891995, segment_size = 73381, segment_number = 90
+2022-03-27 02:46:31,473 - dash_buffer.py:207 - INFO - Writing segment 90 at time 173.669909954
+2022-03-27 02:46:31,473 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=173.670042992,CurrentPlaybackTime=170,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:31,473 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s89.m4s. Size = 73381 in 4.13162684441 seconds
+2022-03-27 02:46:31,473 - dash_client.py:270 - INFO -  SMART: Processing the segment 91
+2022-03-27 02:46:31,474 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s90.m4s
+2022-03-27 02:46:31,776 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s90.m4s
+2022-03-27 02:46:31,776 - dash_client.py:380 - INFO - SMART : The total downloaded = 7913534, segment_size = 21539, segment_number = 91
+2022-03-27 02:46:31,776 - dash_buffer.py:207 - INFO - Writing segment 91 at time 173.973507166
+2022-03-27 02:46:31,776 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=173.973637104,CurrentPlaybackTime=171,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:31,777 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s90.m4s. Size = 21539 in 0.302213907242 seconds
+2022-03-27 02:46:31,777 - dash_client.py:270 - INFO -  SMART: Processing the segment 92
+2022-03-27 02:46:31,777 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 565248.0, weighted_dwn_rate = 47576.5663795 , available_video=8 seconds, ratio = 11.8808069395
+2022-03-27 02:46:31,777 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s91.m4s
+2022-03-27 02:46:32,124 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s91.m4s
+2022-03-27 02:46:32,125 - dash_client.py:380 - INFO - SMART : The total downloaded = 7936566, segment_size = 23032, segment_number = 92
+2022-03-27 02:46:32,125 - dash_buffer.py:207 - INFO - Writing segment 92 at time 174.321966171
+2022-03-27 02:46:32,125 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=174.322095156,CurrentPlaybackTime=171,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:32,125 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s91.m4s. Size = 23032 in 0.347017049789 seconds
+2022-03-27 02:46:32,125 - dash_client.py:270 - INFO -  SMART: Processing the segment 93
+2022-03-27 02:46:32,126 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 483328.0, weighted_dwn_rate = 46605.4853593 , available_video=10 seconds, ratio = 10.370624751
+2022-03-27 02:46:32,126 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s92.m4s
+2022-03-27 02:46:32,457 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s92.m4s
+2022-03-27 02:46:32,457 - dash_client.py:380 - INFO - SMART : The total downloaded = 7960455, segment_size = 23889, segment_number = 93
+2022-03-27 02:46:32,457 - dash_buffer.py:207 - INFO - Writing segment 93 at time 174.654430151
+2022-03-27 02:46:32,457 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=174.654571056,CurrentPlaybackTime=171,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:32,457 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s92.m4s. Size = 23889 in 0.331043958664 seconds
+2022-03-27 02:46:32,458 - dash_client.py:270 - INFO -  SMART: Processing the segment 94
+2022-03-27 02:46:32,458 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s93.m4s
+2022-03-27 02:46:32,719 - dash_buffer.py:163 - INFO - Reading the segment number 87 from the buffer at playtime 172
+2022-03-27 02:46:32,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=174.916938066,CurrentPlaybackTime=172,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:33,458 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s93.m4s
+2022-03-27 02:46:33,458 - dash_client.py:380 - INFO - SMART : The total downloaded = 8031038, segment_size = 70583, segment_number = 94
+2022-03-27 02:46:33,458 - dash_buffer.py:207 - INFO - Writing segment 94 at time 175.655655146
+2022-03-27 02:46:33,459 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=175.655786991,CurrentPlaybackTime=172,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:33,459 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s93.m4s. Size = 70583 in 0.999826192856 seconds
+2022-03-27 02:46:33,459 - dash_client.py:270 - INFO -  SMART: Processing the segment 95
+2022-03-27 02:46:33,460 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s94.m4s
+2022-03-27 02:46:34,530 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s94.m4s
+2022-03-27 02:46:34,530 - dash_client.py:380 - INFO - SMART : The total downloaded = 8107933, segment_size = 76895, segment_number = 95
+2022-03-27 02:46:34,530 - dash_buffer.py:207 - INFO - Writing segment 95 at time 176.727391958
+2022-03-27 02:46:34,530 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=176.727528095,CurrentPlaybackTime=173,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:34,530 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s94.m4s. Size = 76895 in 1.07016301155 seconds
+2022-03-27 02:46:34,531 - dash_client.py:270 - INFO -  SMART: Processing the segment 96
+2022-03-27 02:46:34,531 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s95.m4s
+2022-03-27 02:46:34,719 - dash_buffer.py:163 - INFO - Reading the segment number 88 from the buffer at playtime 174
+2022-03-27 02:46:34,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=176.916928053,CurrentPlaybackTime=174,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:35,408 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s95.m4s
+2022-03-27 02:46:35,409 - dash_client.py:380 - INFO - SMART : The total downloaded = 8169603, segment_size = 61670, segment_number = 96
+2022-03-27 02:46:35,409 - dash_buffer.py:207 - INFO - Writing segment 96 at time 177.606106997
+2022-03-27 02:46:35,409 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=177.606425047,CurrentPlaybackTime=174,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:35,410 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s95.m4s. Size = 61670 in 0.876770019531 seconds
+2022-03-27 02:46:35,410 - dash_client.py:270 - INFO -  SMART: Processing the segment 97
+2022-03-27 02:46:35,412 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s96.m4s
+2022-03-27 02:46:35,972 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s96.m4s
+2022-03-27 02:46:35,973 - dash_client.py:380 - INFO - SMART : The total downloaded = 8208400, segment_size = 38797, segment_number = 97
+2022-03-27 02:46:35,973 - dash_buffer.py:207 - INFO - Writing segment 97 at time 178.170161009
+2022-03-27 02:46:35,973 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=178.170477152,CurrentPlaybackTime=175,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:35,974 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s96.m4s. Size = 38797 in 0.5576171875 seconds
+2022-03-27 02:46:35,974 - dash_client.py:270 - INFO -  SMART: Processing the segment 98
+2022-03-27 02:46:35,976 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s97.m4s
+2022-03-27 02:46:36,719 - dash_buffer.py:163 - INFO - Reading the segment number 89 from the buffer at playtime 176
+2022-03-27 02:46:36,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=178.917422056,CurrentPlaybackTime=176,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=4219897
+2022-03-27 02:46:36,885 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s97.m4s
+2022-03-27 02:46:36,885 - dash_client.py:380 - INFO - SMART : The total downloaded = 8276855, segment_size = 68455, segment_number = 98
+2022-03-27 02:46:36,886 - dash_buffer.py:207 - INFO - Writing segment 98 at time 179.082842112
+2022-03-27 02:46:36,886 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=179.08315897,CurrentPlaybackTime=176,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:36,886 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s97.m4s. Size = 68455 in 0.906261920929 seconds
+2022-03-27 02:46:36,887 - dash_client.py:270 - INFO -  SMART: Processing the segment 99
+2022-03-27 02:46:36,889 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s98.m4s
+2022-03-27 02:46:38,008 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s98.m4s
+2022-03-27 02:46:38,008 - dash_client.py:380 - INFO - SMART : The total downloaded = 8354575, segment_size = 77720, segment_number = 99
+2022-03-27 02:46:38,008 - dash_buffer.py:207 - INFO - Writing segment 99 at time 180.205356121
+2022-03-27 02:46:38,008 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=180.205487013,CurrentPlaybackTime=177,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:38,008 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s98.m4s. Size = 77720 in 1.11297607422 seconds
+2022-03-27 02:46:38,008 - dash_client.py:270 - INFO -  SMART: Processing the segment 100
+2022-03-27 02:46:38,009 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s99.m4s
+2022-03-27 02:46:38,719 - dash_buffer.py:163 - INFO - Reading the segment number 90 from the buffer at playtime 178
+2022-03-27 02:46:38,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=180.916960001,CurrentPlaybackTime=178,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:38,816 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s99.m4s
+2022-03-27 02:46:38,816 - dash_client.py:380 - INFO - SMART : The total downloaded = 8410782, segment_size = 56207, segment_number = 100
+2022-03-27 02:46:38,816 - dash_buffer.py:207 - INFO - Writing segment 100 at time 181.013594151
+2022-03-27 02:46:38,817 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=181.01375103,CurrentPlaybackTime=178,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:38,817 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s99.m4s. Size = 56207 in 0.806850194931 seconds
+2022-03-27 02:46:38,817 - dash_client.py:270 - INFO -  SMART: Processing the segment 101
+2022-03-27 02:46:38,818 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s100.m4s
+2022-03-27 02:46:39,648 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s100.m4s
+2022-03-27 02:46:39,648 - dash_client.py:380 - INFO - SMART : The total downloaded = 8469161, segment_size = 58379, segment_number = 101
+2022-03-27 02:46:39,648 - dash_buffer.py:207 - INFO - Writing segment 101 at time 181.845515013
+2022-03-27 02:46:39,648 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=181.845646143,CurrentPlaybackTime=178,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:39,649 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s100.m4s. Size = 58379 in 0.83029294014 seconds
+2022-03-27 02:46:39,649 - dash_client.py:270 - INFO -  SMART: Processing the segment 102
+2022-03-27 02:46:39,649 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s101.m4s
+2022-03-27 02:46:40,590 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s101.m4s
+2022-03-27 02:46:40,591 - dash_client.py:380 - INFO - SMART : The total downloaded = 8535546, segment_size = 66385, segment_number = 102
+2022-03-27 02:46:40,591 - dash_buffer.py:207 - INFO - Writing segment 102 at time 182.788249969
+2022-03-27 02:46:40,591 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=182.788414955,CurrentPlaybackTime=179,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:40,591 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s101.m4s. Size = 66385 in 0.941200971603 seconds
+2022-03-27 02:46:40,591 - dash_client.py:270 - INFO -  SMART: Processing the segment 103
+2022-03-27 02:46:40,592 - weighted_dash.py:88 - INFO - Delay:2
+2022-03-27 02:46:40,592 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s102.m4s
+2022-03-27 02:46:40,592 - dash_client.py:352 - INFO - SLEEPING for 4seconds 
+2022-03-27 02:46:40,719 - dash_buffer.py:163 - INFO - Reading the segment number 91 from the buffer at playtime 180
+2022-03-27 02:46:40,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=182.916955948,CurrentPlaybackTime=180,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:42,719 - dash_buffer.py:163 - INFO - Reading the segment number 92 from the buffer at playtime 182
+2022-03-27 02:46:42,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=184.917489052,CurrentPlaybackTime=182,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:44,719 - dash_buffer.py:163 - INFO - Reading the segment number 93 from the buffer at playtime 184
+2022-03-27 02:46:44,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=186.916978121,CurrentPlaybackTime=184,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:46:46,719 - dash_buffer.py:163 - INFO - Reading the segment number 94 from the buffer at playtime 186
+2022-03-27 02:46:46,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=188.917019129,CurrentPlaybackTime=186,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:48,719 - dash_buffer.py:163 - INFO - Reading the segment number 95 from the buffer at playtime 188
+2022-03-27 02:46:48,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=190.917065144,CurrentPlaybackTime=188,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:50,719 - dash_buffer.py:163 - INFO - Reading the segment number 96 from the buffer at playtime 190
+2022-03-27 02:46:50,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=192.917152166,CurrentPlaybackTime=190,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:52,719 - dash_buffer.py:163 - INFO - Reading the segment number 97 from the buffer at playtime 192
+2022-03-27 02:46:52,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=194.917032957,CurrentPlaybackTime=192,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:54,719 - dash_buffer.py:163 - INFO - Reading the segment number 98 from the buffer at playtime 194
+2022-03-27 02:46:54,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=196.91703701,CurrentPlaybackTime=194,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:55,483 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s102.m4s
+2022-03-27 02:46:55,483 - dash_client.py:380 - INFO - SMART : The total downloaded = 9062987, segment_size = 527441, segment_number = 103
+2022-03-27 02:46:55,484 - dash_buffer.py:207 - INFO - Writing segment 103 at time 197.680900097
+2022-03-27 02:46:55,484 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=197.681225061,CurrentPlaybackTime=194,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=4219897
+2022-03-27 02:46:55,484 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s102.m4s. Size = 527441 in 10.8863430023 seconds
+2022-03-27 02:46:55,485 - dash_client.py:270 - INFO -  SMART: Processing the segment 104
+2022-03-27 02:46:55,486 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s103.m4s
+2022-03-27 02:46:55,859 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s103.m4s
+2022-03-27 02:46:55,859 - dash_client.py:380 - INFO - SMART : The total downloaded = 9084966, segment_size = 21979, segment_number = 104
+2022-03-27 02:46:55,859 - dash_buffer.py:207 - INFO - Writing segment 104 at time 198.056666136
+2022-03-27 02:46:55,860 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=198.056797981,CurrentPlaybackTime=195,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:55,860 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s103.m4s. Size = 21979 in 0.368352890015 seconds
+2022-03-27 02:46:55,860 - dash_client.py:270 - INFO -  SMART: Processing the segment 105
+2022-03-27 02:46:55,861 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 581632.0, weighted_dwn_rate = 54068.6558907 , available_video=10 seconds, ratio = 10.7572860915
+2022-03-27 02:46:55,861 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s104.m4s
+2022-03-27 02:46:56,068 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s104.m4s
+2022-03-27 02:46:56,068 - dash_client.py:380 - INFO - SMART : The total downloaded = 9107619, segment_size = 22653, segment_number = 105
+2022-03-27 02:46:56,069 - dash_buffer.py:207 - INFO - Writing segment 105 at time 198.265900135
+2022-03-27 02:46:56,069 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=198.266029119,CurrentPlaybackTime=195,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:46:56,069 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s104.m4s. Size = 22653 in 0.207665920258 seconds
+2022-03-27 02:46:56,069 - dash_client.py:270 - INFO -  SMART: Processing the segment 106
+2022-03-27 02:46:56,070 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s105.m4s
+2022-03-27 02:46:56,719 - dash_buffer.py:163 - INFO - Reading the segment number 99 from the buffer at playtime 196
+2022-03-27 02:46:56,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=198.916929007,CurrentPlaybackTime=196,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:57,136 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s105.m4s
+2022-03-27 02:46:57,136 - dash_client.py:380 - INFO - SMART : The total downloaded = 9176020, segment_size = 68401, segment_number = 106
+2022-03-27 02:46:57,136 - dash_buffer.py:207 - INFO - Writing segment 106 at time 199.333126068
+2022-03-27 02:46:57,136 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=199.333310127,CurrentPlaybackTime=196,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:57,136 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s105.m4s. Size = 68401 in 1.06587386131 seconds
+2022-03-27 02:46:57,136 - dash_client.py:270 - INFO -  SMART: Processing the segment 107
+2022-03-27 02:46:57,137 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s106.m4s
+2022-03-27 02:46:58,177 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s106.m4s
+2022-03-27 02:46:58,178 - dash_client.py:380 - INFO - SMART : The total downloaded = 9249378, segment_size = 73358, segment_number = 107
+2022-03-27 02:46:58,178 - dash_buffer.py:207 - INFO - Writing segment 107 at time 200.37508297
+2022-03-27 02:46:58,178 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=200.375216007,CurrentPlaybackTime=197,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:58,178 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s106.m4s. Size = 73358 in 1.04046201706 seconds
+2022-03-27 02:46:58,178 - dash_client.py:270 - INFO -  SMART: Processing the segment 108
+2022-03-27 02:46:58,179 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s107.m4s
+2022-03-27 02:46:58,719 - dash_buffer.py:163 - INFO - Reading the segment number 100 from the buffer at playtime 198
+2022-03-27 02:46:58,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=200.916967154,CurrentPlaybackTime=198,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:46:59,248 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s107.m4s
+2022-03-27 02:46:59,248 - dash_client.py:380 - INFO - SMART : The total downloaded = 9325127, segment_size = 75749, segment_number = 108
+2022-03-27 02:46:59,248 - dash_buffer.py:207 - INFO - Writing segment 108 at time 201.445459127
+2022-03-27 02:46:59,248 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=201.445594072,CurrentPlaybackTime=198,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:46:59,248 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s107.m4s. Size = 75749 in 1.06857514381 seconds
+2022-03-27 02:46:59,249 - dash_client.py:270 - INFO -  SMART: Processing the segment 109
+2022-03-27 02:46:59,249 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s108.m4s
+2022-03-27 02:47:00,231 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s108.m4s
+2022-03-27 02:47:00,231 - dash_client.py:380 - INFO - SMART : The total downloaded = 9395947, segment_size = 70820, segment_number = 109
+2022-03-27 02:47:00,231 - dash_buffer.py:207 - INFO - Writing segment 109 at time 202.428398132
+2022-03-27 02:47:00,231 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=202.428534985,CurrentPlaybackTime=199,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:00,231 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s108.m4s. Size = 70820 in 0.981502771378 seconds
+2022-03-27 02:47:00,232 - dash_client.py:270 - INFO -  SMART: Processing the segment 110
+2022-03-27 02:47:00,232 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s109.m4s
+2022-03-27 02:47:00,719 - dash_buffer.py:163 - INFO - Reading the segment number 101 from the buffer at playtime 200
+2022-03-27 02:47:00,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=202.916910172,CurrentPlaybackTime=200,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:02,719 - dash_buffer.py:163 - INFO - Reading the segment number 102 from the buffer at playtime 202
+2022-03-27 02:47:02,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=204.917387009,CurrentPlaybackTime=202,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:04,719 - dash_buffer.py:163 - INFO - Reading the segment number 103 from the buffer at playtime 204
+2022-03-27 02:47:04,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=206.917371988,CurrentPlaybackTime=204,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=4219897
+2022-03-27 02:47:06,719 - dash_buffer.py:163 - INFO - Reading the segment number 104 from the buffer at playtime 206
+2022-03-27 02:47:06,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=208.917525053,CurrentPlaybackTime=206,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:08,719 - dash_buffer.py:163 - INFO - Reading the segment number 105 from the buffer at playtime 208
+2022-03-27 02:47:08,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=210.916985035,CurrentPlaybackTime=208,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:10,719 - dash_buffer.py:163 - INFO - Reading the segment number 106 from the buffer at playtime 210
+2022-03-27 02:47:10,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=212.917464018,CurrentPlaybackTime=210,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:12,719 - dash_buffer.py:163 - INFO - Reading the segment number 107 from the buffer at playtime 212
+2022-03-27 02:47:12,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=214.917032957,CurrentPlaybackTime=212,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:14,719 - dash_buffer.py:163 - INFO - Reading the segment number 108 from the buffer at playtime 214
+2022-03-27 02:47:14,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=216.917396069,CurrentPlaybackTime=214,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:15,200 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s109.m4s
+2022-03-27 02:47:15,200 - dash_client.py:380 - INFO - SMART : The total downloaded = 9466483, segment_size = 70536, segment_number = 110
+2022-03-27 02:47:15,201 - dash_buffer.py:207 - INFO - Writing segment 110 at time 217.397796154
+2022-03-27 02:47:15,201 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=217.398117065,CurrentPlaybackTime=214,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:15,201 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s109.m4s. Size = 70536 in 14.9676749706 seconds
+2022-03-27 02:47:15,202 - dash_client.py:270 - INFO -  SMART: Processing the segment 111
+2022-03-27 02:47:15,205 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s110.m4s
+2022-03-27 02:47:15,564 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s110.m4s
+2022-03-27 02:47:15,565 - dash_client.py:380 - INFO - SMART : The total downloaded = 9490641, segment_size = 24158, segment_number = 111
+2022-03-27 02:47:15,565 - dash_buffer.py:207 - INFO - Writing segment 111 at time 217.762182951
+2022-03-27 02:47:15,565 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=217.762436152,CurrentPlaybackTime=214,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:15,566 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s110.m4s. Size = 24158 in 0.35361790657 seconds
+2022-03-27 02:47:15,566 - dash_client.py:270 - INFO -  SMART: Processing the segment 112
+2022-03-27 02:47:15,567 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s111.m4s
+2022-03-27 02:47:15,871 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s111.m4s
+2022-03-27 02:47:15,871 - dash_client.py:380 - INFO - SMART : The total downloaded = 9511311, segment_size = 20670, segment_number = 112
+2022-03-27 02:47:15,871 - dash_buffer.py:207 - INFO - Writing segment 112 at time 218.068738937
+2022-03-27 02:47:15,872 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=218.068974972,CurrentPlaybackTime=215,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:15,872 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s111.m4s. Size = 20670 in 0.300323009491 seconds
+2022-03-27 02:47:15,872 - dash_client.py:270 - INFO -  SMART: Processing the segment 113
+2022-03-27 02:47:15,874 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s112.m4s
+2022-03-27 02:47:16,142 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s112.m4s
+2022-03-27 02:47:16,143 - dash_client.py:380 - INFO - SMART : The total downloaded = 9529470, segment_size = 18159, segment_number = 113
+2022-03-27 02:47:16,143 - dash_buffer.py:207 - INFO - Writing segment 113 at time 218.340445042
+2022-03-27 02:47:16,144 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=218.340686083,CurrentPlaybackTime=215,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:16,144 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s112.m4s. Size = 18159 in 0.269105911255 seconds
+2022-03-27 02:47:16,144 - dash_client.py:270 - INFO -  SMART: Processing the segment 114
+2022-03-27 02:47:16,145 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s113.m4s
+2022-03-27 02:47:16,443 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s113.m4s
+2022-03-27 02:47:16,444 - dash_client.py:380 - INFO - SMART : The total downloaded = 9549570, segment_size = 20100, segment_number = 114
+2022-03-27 02:47:16,444 - dash_buffer.py:207 - INFO - Writing segment 114 at time 218.641155958
+2022-03-27 02:47:16,444 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=218.641406059,CurrentPlaybackTime=215,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:16,444 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s113.m4s. Size = 20100 in 0.298119068146 seconds
+2022-03-27 02:47:16,445 - dash_client.py:270 - INFO -  SMART: Processing the segment 115
+2022-03-27 02:47:16,446 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s114.m4s
+2022-03-27 02:47:16,654 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s114.m4s
+2022-03-27 02:47:16,654 - dash_client.py:380 - INFO - SMART : The total downloaded = 9571201, segment_size = 21631, segment_number = 115
+2022-03-27 02:47:16,654 - dash_buffer.py:207 - INFO - Writing segment 115 at time 218.851593018
+2022-03-27 02:47:16,655 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=218.85184598,CurrentPlaybackTime=215,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:16,655 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s114.m4s. Size = 21631 in 0.207589864731 seconds
+2022-03-27 02:47:16,656 - dash_client.py:270 - INFO -  SMART: Processing the segment 116
+2022-03-27 02:47:16,657 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s115.m4s
+2022-03-27 02:47:16,719 - dash_buffer.py:163 - INFO - Reading the segment number 109 from the buffer at playtime 216
+2022-03-27 02:47:16,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=218.917156935,CurrentPlaybackTime=216,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:17,088 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s115.m4s
+2022-03-27 02:47:17,088 - dash_client.py:380 - INFO - SMART : The total downloaded = 9595374, segment_size = 24173, segment_number = 116
+2022-03-27 02:47:17,088 - dash_buffer.py:207 - INFO - Writing segment 116 at time 219.28563714
+2022-03-27 02:47:17,089 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=219.285766125,CurrentPlaybackTime=216,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:17,089 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s115.m4s. Size = 24173 in 0.425353050232 seconds
+2022-03-27 02:47:17,089 - dash_client.py:270 - INFO -  SMART: Processing the segment 117
+2022-03-27 02:47:17,089 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s116.m4s
+2022-03-27 02:47:17,795 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s116.m4s
+2022-03-27 02:47:17,796 - dash_client.py:380 - INFO - SMART : The total downloaded = 9644411, segment_size = 49037, segment_number = 117
+2022-03-27 02:47:17,796 - dash_buffer.py:207 - INFO - Writing segment 117 at time 219.993150949
+2022-03-27 02:47:17,796 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=219.993311167,CurrentPlaybackTime=217,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:17,796 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s116.m4s. Size = 49037 in 0.706085920334 seconds
+2022-03-27 02:47:17,796 - dash_client.py:270 - INFO -  SMART: Processing the segment 118
+2022-03-27 02:47:17,797 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s117.m4s
+2022-03-27 02:47:18,719 - dash_buffer.py:163 - INFO - Reading the segment number 110 from the buffer at playtime 218
+2022-03-27 02:47:18,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=220.916922092,CurrentPlaybackTime=218,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:18,790 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s117.m4s
+2022-03-27 02:47:18,791 - dash_client.py:380 - INFO - SMART : The total downloaded = 9716076, segment_size = 71665, segment_number = 118
+2022-03-27 02:47:18,791 - dash_buffer.py:207 - INFO - Writing segment 118 at time 220.988706112
+2022-03-27 02:47:18,792 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=220.989024162,CurrentPlaybackTime=218,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:18,792 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s117.m4s. Size = 71665 in 0.993697881699 seconds
+2022-03-27 02:47:18,792 - dash_client.py:270 - INFO -  SMART: Processing the segment 119
+2022-03-27 02:47:18,794 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s118.m4s
+2022-03-27 02:47:19,756 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s118.m4s
+2022-03-27 02:47:19,757 - dash_client.py:380 - INFO - SMART : The total downloaded = 9782400, segment_size = 66324, segment_number = 119
+2022-03-27 02:47:19,757 - dash_buffer.py:207 - INFO - Writing segment 119 at time 221.954261065
+2022-03-27 02:47:19,758 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=221.954581022,CurrentPlaybackTime=219,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:19,758 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s118.m4s. Size = 66324 in 0.962165117264 seconds
+2022-03-27 02:47:19,758 - dash_client.py:270 - INFO -  SMART: Processing the segment 120
+2022-03-27 02:47:19,760 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s119.m4s
+2022-03-27 02:47:20,719 - dash_buffer.py:163 - INFO - Reading the segment number 111 from the buffer at playtime 220
+2022-03-27 02:47:20,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=222.917286158,CurrentPlaybackTime=220,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:20,790 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s119.m4s
+2022-03-27 02:47:20,790 - dash_client.py:380 - INFO - SMART : The total downloaded = 9854906, segment_size = 72506, segment_number = 120
+2022-03-27 02:47:20,791 - dash_buffer.py:207 - INFO - Writing segment 120 at time 222.987818956
+2022-03-27 02:47:20,792 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=222.988759041,CurrentPlaybackTime=220,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:20,792 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s119.m4s. Size = 72506 in 1.02328586578 seconds
+2022-03-27 02:47:20,793 - dash_client.py:270 - INFO -  SMART: Processing the segment 121
+2022-03-27 02:47:20,799 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s120.m4s
+2022-03-27 02:47:21,788 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s120.m4s
+2022-03-27 02:47:21,789 - dash_client.py:380 - INFO - SMART : The total downloaded = 9925119, segment_size = 70213, segment_number = 121
+2022-03-27 02:47:21,789 - dash_buffer.py:207 - INFO - Writing segment 121 at time 223.986480951
+2022-03-27 02:47:21,790 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=223.986803055,CurrentPlaybackTime=221,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:21,790 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s120.m4s. Size = 70213 in 0.989629030228 seconds
+2022-03-27 02:47:21,790 - dash_client.py:270 - INFO -  SMART: Processing the segment 122
+2022-03-27 02:47:21,793 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s121.m4s
+2022-03-27 02:47:22,633 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s121.m4s
+2022-03-27 02:47:22,633 - dash_client.py:380 - INFO - SMART : The total downloaded = 9988301, segment_size = 63182, segment_number = 122
+2022-03-27 02:47:22,633 - dash_buffer.py:207 - INFO - Writing segment 122 at time 224.830760956
+2022-03-27 02:47:22,634 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=224.83089304,CurrentPlaybackTime=221,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:22,634 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s121.m4s. Size = 63182 in 0.834403038025 seconds
+2022-03-27 02:47:22,634 - dash_client.py:270 - INFO -  SMART: Processing the segment 123
+2022-03-27 02:47:22,635 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s122.m4s
+2022-03-27 02:47:22,719 - dash_buffer.py:163 - INFO - Reading the segment number 112 from the buffer at playtime 222
+2022-03-27 02:47:22,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=224.916907072,CurrentPlaybackTime=222,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:23,663 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s122.m4s
+2022-03-27 02:47:23,663 - dash_client.py:380 - INFO - SMART : The total downloaded = 10060133, segment_size = 71832, segment_number = 123
+2022-03-27 02:47:23,663 - dash_buffer.py:207 - INFO - Writing segment 123 at time 225.86020112
+2022-03-27 02:47:23,663 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=225.860334158,CurrentPlaybackTime=222,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:23,663 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s122.m4s. Size = 71832 in 1.02765512466 seconds
+2022-03-27 02:47:23,663 - dash_client.py:270 - INFO -  SMART: Processing the segment 124
+2022-03-27 02:47:23,664 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s123.m4s
+2022-03-27 02:47:24,719 - dash_buffer.py:163 - INFO - Reading the segment number 113 from the buffer at playtime 224
+2022-03-27 02:47:24,726 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s123.m4s
+2022-03-27 02:47:24,727 - dash_client.py:380 - INFO - SMART : The total downloaded = 10131850, segment_size = 71717, segment_number = 124
+2022-03-27 02:47:24,727 - dash_buffer.py:207 - INFO - Writing segment 124 at time 226.924080133
+2022-03-27 02:47:24,727 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=226.924438953,CurrentPlaybackTime=224,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:24,727 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s123.m4s. Size = 71717 in 1.06228899956 seconds
+2022-03-27 02:47:24,728 - dash_client.py:270 - INFO -  SMART: Processing the segment 125
+2022-03-27 02:47:24,728 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s124.m4s
+2022-03-27 02:47:24,729 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=226.926043034,CurrentPlaybackTime=224,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:25,662 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s124.m4s
+2022-03-27 02:47:25,662 - dash_client.py:380 - INFO - SMART : The total downloaded = 10200567, segment_size = 68717, segment_number = 125
+2022-03-27 02:47:25,662 - dash_buffer.py:207 - INFO - Writing segment 125 at time 227.859533072
+2022-03-27 02:47:25,662 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=227.859670162,CurrentPlaybackTime=224,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:25,663 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s124.m4s. Size = 68717 in 0.933643102646 seconds
+2022-03-27 02:47:25,663 - dash_client.py:270 - INFO -  SMART: Processing the segment 126
+2022-03-27 02:47:25,664 - weighted_dash.py:88 - INFO - Delay:2
+2022-03-27 02:47:25,664 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s125.m4s
+2022-03-27 02:47:25,664 - dash_client.py:352 - INFO - SLEEPING for 4seconds 
+2022-03-27 02:47:26,719 - dash_buffer.py:163 - INFO - Reading the segment number 114 from the buffer at playtime 226
+2022-03-27 02:47:26,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=228.916965961,CurrentPlaybackTime=226,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:28,719 - dash_buffer.py:163 - INFO - Reading the segment number 115 from the buffer at playtime 228
+2022-03-27 02:47:28,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=230.917466164,CurrentPlaybackTime=228,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:30,719 - dash_buffer.py:163 - INFO - Reading the segment number 116 from the buffer at playtime 230
+2022-03-27 02:47:30,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=232.917072058,CurrentPlaybackTime=230,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:32,719 - dash_buffer.py:163 - INFO - Reading the segment number 117 from the buffer at playtime 232
+2022-03-27 02:47:32,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=234.917366028,CurrentPlaybackTime=232,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:34,719 - dash_buffer.py:163 - INFO - Reading the segment number 118 from the buffer at playtime 234
+2022-03-27 02:47:34,761 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=236.957935095,CurrentPlaybackTime=234,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:36,719 - dash_buffer.py:163 - INFO - Reading the segment number 119 from the buffer at playtime 236
+2022-03-27 02:47:36,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=238.917402983,CurrentPlaybackTime=236,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:38,719 - dash_buffer.py:163 - INFO - Reading the segment number 120 from the buffer at playtime 238
+2022-03-27 02:47:38,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=240.917519093,CurrentPlaybackTime=238,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:40,719 - dash_buffer.py:163 - INFO - Reading the segment number 121 from the buffer at playtime 240
+2022-03-27 02:47:40,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=242.917433977,CurrentPlaybackTime=240,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:42,719 - dash_buffer.py:163 - INFO - Reading the segment number 122 from the buffer at playtime 242
+2022-03-27 02:47:42,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=244.917412043,CurrentPlaybackTime=242,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:44,719 - dash_buffer.py:163 - INFO - Reading the segment number 123 from the buffer at playtime 244
+2022-03-27 02:47:44,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=246.917480946,CurrentPlaybackTime=244,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:46,719 - dash_buffer.py:163 - INFO - Reading the segment number 124 from the buffer at playtime 246
+2022-03-27 02:47:46,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=248.917503119,CurrentPlaybackTime=246,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:48,719 - dash_buffer.py:163 - INFO - Reading the segment number 125 from the buffer at playtime 248
+2022-03-27 02:47:48,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=250.917479992,CurrentPlaybackTime=248,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:47:50,719 - dash_buffer.py:152 - INFO - Buffer empty after 250 seconds of playback
+2022-03-27 02:47:50,720 - dash_buffer.py:63 - INFO - Changing state from PLAY to BUFFERING at 250 Playback time 
+2022-03-27 02:47:50,721 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=252.918000937,CurrentPlaybackTime=250,CurrentBufferSize=0,CurrentPlaybackState=BUFFERING,Action=Play-Buffering,Bitrate=0
+2022-03-27 02:47:50,721 - dash_buffer.py:109 - INFO - Entering buffering stage after 250 seconds of playback
+2022-03-27 02:47:53,072 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s125.m4s
+2022-03-27 02:47:53,073 - dash_client.py:380 - INFO - SMART : The total downloaded = 11308058, segment_size = 1107491, segment_number = 126
+2022-03-27 02:47:53,073 - dash_buffer.py:207 - INFO - Writing segment 126 at time 255.270106077
+2022-03-27 02:47:53,073 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=255.270426989,CurrentPlaybackTime=250,CurrentBufferSize=1,CurrentPlaybackState=BUFFERING,Action=Writing,Bitrate=4219897
+2022-03-27 02:47:53,074 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s125.m4s. Size = 1107491 in 23.4046120644 seconds
+2022-03-27 02:47:53,074 - dash_client.py:270 - INFO -  SMART: Processing the segment 127
+2022-03-27 02:47:53,077 - dash_buffer.py:129 - INFO - Duration of interruption = 2.3545229435
+2022-03-27 02:47:53,077 - dash_buffer.py:63 - INFO - Changing state from BUFFERING to PLAY at 250 Playback time 
+2022-03-27 02:47:53,078 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=255.275079966,CurrentPlaybackTime=250,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Buffering-Play,Bitrate=0
+2022-03-27 02:47:53,076 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s126.m4s
+2022-03-27 02:47:53,079 - dash_buffer.py:163 - INFO - Reading the segment number 126 from the buffer at playtime 250
+2022-03-27 02:47:53,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=255.277161121,CurrentPlaybackTime=250,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=4219897
+2022-03-27 02:47:53,374 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s126.m4s
+2022-03-27 02:47:53,374 - dash_client.py:380 - INFO - SMART : The total downloaded = 11328460, segment_size = 20402, segment_number = 127
+2022-03-27 02:47:53,374 - dash_buffer.py:207 - INFO - Writing segment 127 at time 255.571711063
+2022-03-27 02:47:53,375 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=255.571839094,CurrentPlaybackTime=250,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:53,375 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s126.m4s. Size = 20402 in 0.295039176941 seconds
+2022-03-27 02:47:53,375 - dash_client.py:270 - INFO -  SMART: Processing the segment 128
+2022-03-27 02:47:53,376 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s127.m4s
+2022-03-27 02:47:53,734 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s127.m4s
+2022-03-27 02:47:53,734 - dash_client.py:380 - INFO - SMART : The total downloaded = 11352863, segment_size = 24403, segment_number = 128
+2022-03-27 02:47:53,734 - dash_buffer.py:207 - INFO - Writing segment 128 at time 255.931332111
+2022-03-27 02:47:53,734 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=255.931460142,CurrentPlaybackTime=250,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:53,734 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s127.m4s. Size = 24403 in 0.358023881912 seconds
+2022-03-27 02:47:53,734 - dash_client.py:270 - INFO -  SMART: Processing the segment 129
+2022-03-27 02:47:53,735 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s128.m4s
+2022-03-27 02:47:53,941 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s128.m4s
+2022-03-27 02:47:53,941 - dash_client.py:380 - INFO - SMART : The total downloaded = 11375229, segment_size = 22366, segment_number = 129
+2022-03-27 02:47:53,941 - dash_buffer.py:207 - INFO - Writing segment 129 at time 256.138434172
+2022-03-27 02:47:53,941 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=256.138561964,CurrentPlaybackTime=250,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:53,941 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s128.m4s. Size = 22366 in 0.205367088318 seconds
+2022-03-27 02:47:53,942 - dash_client.py:270 - INFO -  SMART: Processing the segment 130
+2022-03-27 02:47:53,942 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 557056.0, weighted_dwn_rate = 50081.7733506 , available_video=4 seconds, ratio = 11.1229288168
+2022-03-27 02:47:53,942 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s129.m4s
+2022-03-27 02:47:54,354 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s129.m4s
+2022-03-27 02:47:54,355 - dash_client.py:380 - INFO - SMART : The total downloaded = 11395940, segment_size = 20711, segment_number = 130
+2022-03-27 02:47:54,355 - dash_buffer.py:207 - INFO - Writing segment 130 at time 256.552232981
+2022-03-27 02:47:54,355 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=256.552397013,CurrentPlaybackTime=251,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:54,355 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s129.m4s. Size = 20711 in 0.41223692894 seconds
+2022-03-27 02:47:54,355 - dash_client.py:270 - INFO -  SMART: Processing the segment 131
+2022-03-27 02:47:54,356 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 573440.0, weighted_dwn_rate = 49361.3119677 , available_video=6 seconds, ratio = 11.6171952718
+2022-03-27 02:47:54,356 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s130.m4s
+2022-03-27 02:47:54,671 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s130.m4s
+2022-03-27 02:47:54,671 - dash_client.py:380 - INFO - SMART : The total downloaded = 11420191, segment_size = 24251, segment_number = 131
+2022-03-27 02:47:54,671 - dash_buffer.py:207 - INFO - Writing segment 131 at time 256.868662119
+2022-03-27 02:47:54,672 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=256.86879611,CurrentPlaybackTime=251,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:54,672 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s130.m4s. Size = 24251 in 0.31468296051 seconds
+2022-03-27 02:47:54,672 - dash_client.py:270 - INFO -  SMART: Processing the segment 132
+2022-03-27 02:47:54,673 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 557056.0, weighted_dwn_rate = 48804.5558081 , available_video=8 seconds, ratio = 11.414016392
+2022-03-27 02:47:54,673 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s131.m4s
+2022-03-27 02:47:55,001 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s131.m4s
+2022-03-27 02:47:55,001 - dash_client.py:380 - INFO - SMART : The total downloaded = 11442141, segment_size = 21950, segment_number = 132
+2022-03-27 02:47:55,001 - dash_buffer.py:207 - INFO - Writing segment 132 at time 257.19875598
+2022-03-27 02:47:55,002 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=257.199074984,CurrentPlaybackTime=251,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=89283
+2022-03-27 02:47:55,002 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s131.m4s. Size = 21950 in 0.328278779984 seconds
+2022-03-27 02:47:55,003 - dash_client.py:270 - INFO -  SMART: Processing the segment 133
+2022-03-27 02:47:55,005 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 557056.0, weighted_dwn_rate = 70067.4022238 , available_video=10 seconds, ratio = 7.95028761336
+2022-03-27 02:47:55,011 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s132.m4s
+2022-03-27 02:47:55,080 - dash_buffer.py:163 - INFO - Reading the segment number 127 from the buffer at playtime 252
+2022-03-27 02:47:55,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=257.277809143,CurrentPlaybackTime=252,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:55,835 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s132.m4s
+2022-03-27 02:47:55,835 - dash_client.py:380 - INFO - SMART : The total downloaded = 11501984, segment_size = 59843, segment_number = 133
+2022-03-27 02:47:55,836 - dash_buffer.py:207 - INFO - Writing segment 133 at time 258.032971144
+2022-03-27 02:47:55,836 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=258.033288956,CurrentPlaybackTime=252,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:55,836 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s132.m4s. Size = 59843 in 0.824074029922 seconds
+2022-03-27 02:47:55,837 - dash_client.py:270 - INFO -  SMART: Processing the segment 134
+2022-03-27 02:47:55,843 - weighted_dash.py:57 - INFO - next_segment_sizes[higher_bitrate] = 1712128.0, weighted_dwn_rate = 71038.8426211 , available_video=10 seconds, ratio = 24.1012935576
+2022-03-27 02:47:55,843 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s133.m4s
+2022-03-27 02:47:56,717 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s133.m4s
+2022-03-27 02:47:56,718 - dash_client.py:380 - INFO - SMART : The total downloaded = 11564361, segment_size = 62377, segment_number = 134
+2022-03-27 02:47:56,718 - dash_buffer.py:207 - INFO - Writing segment 134 at time 258.915262938
+2022-03-27 02:47:56,718 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=258.915586948,CurrentPlaybackTime=253,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:56,719 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s133.m4s. Size = 62377 in 0.874063968658 seconds
+2022-03-27 02:47:56,720 - dash_client.py:270 - INFO -  SMART: Processing the segment 135
+2022-03-27 02:47:56,722 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s134.m4s
+2022-03-27 02:47:57,080 - dash_buffer.py:163 - INFO - Reading the segment number 128 from the buffer at playtime 254
+2022-03-27 02:47:57,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=259.27779603,CurrentPlaybackTime=254,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:57,716 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s134.m4s
+2022-03-27 02:47:57,716 - dash_client.py:380 - INFO - SMART : The total downloaded = 11636149, segment_size = 71788, segment_number = 135
+2022-03-27 02:47:57,717 - dash_buffer.py:207 - INFO - Writing segment 135 at time 259.913851976
+2022-03-27 02:47:57,717 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=259.91416502,CurrentPlaybackTime=254,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:57,717 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s134.m4s. Size = 71788 in 0.989310026169 seconds
+2022-03-27 02:47:57,718 - dash_client.py:270 - INFO -  SMART: Processing the segment 136
+2022-03-27 02:47:57,720 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s135.m4s
+2022-03-27 02:47:58,764 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s135.m4s
+2022-03-27 02:47:58,765 - dash_client.py:380 - INFO - SMART : The total downloaded = 11709273, segment_size = 73124, segment_number = 136
+2022-03-27 02:47:58,765 - dash_buffer.py:207 - INFO - Writing segment 136 at time 260.962208033
+2022-03-27 02:47:58,765 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=260.962528944,CurrentPlaybackTime=255,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:58,766 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s135.m4s. Size = 73124 in 1.0377368927 seconds
+2022-03-27 02:47:58,766 - dash_client.py:270 - INFO -  SMART: Processing the segment 137
+2022-03-27 02:47:58,768 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s136.m4s
+2022-03-27 02:47:59,080 - dash_buffer.py:163 - INFO - Reading the segment number 129 from the buffer at playtime 256
+2022-03-27 02:47:59,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=261.277873993,CurrentPlaybackTime=256,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:47:59,630 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s136.m4s
+2022-03-27 02:47:59,630 - dash_client.py:380 - INFO - SMART : The total downloaded = 11772356, segment_size = 63083, segment_number = 137
+2022-03-27 02:47:59,631 - dash_buffer.py:207 - INFO - Writing segment 137 at time 261.827816963
+2022-03-27 02:47:59,632 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=261.828714132,CurrentPlaybackTime=256,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:47:59,632 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s136.m4s. Size = 63083 in 0.855260133743 seconds
+2022-03-27 02:47:59,633 - dash_client.py:270 - INFO -  SMART: Processing the segment 138
+2022-03-27 02:47:59,639 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s137.m4s
+2022-03-27 02:48:00,718 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s137.m4s
+2022-03-27 02:48:00,719 - dash_client.py:380 - INFO - SMART : The total downloaded = 11847814, segment_size = 75458, segment_number = 138
+2022-03-27 02:48:00,719 - dash_buffer.py:207 - INFO - Writing segment 138 at time 262.916450024
+2022-03-27 02:48:00,720 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=262.916731119,CurrentPlaybackTime=257,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:48:00,720 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s137.m4s. Size = 75458 in 1.07926392555 seconds
+2022-03-27 02:48:00,720 - dash_client.py:270 - INFO -  SMART: Processing the segment 139
+2022-03-27 02:48:00,722 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s138.m4s
+2022-03-27 02:48:01,080 - dash_buffer.py:163 - INFO - Reading the segment number 130 from the buffer at playtime 258
+2022-03-27 02:48:01,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=263.277781963,CurrentPlaybackTime=258,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:48:01,758 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s138.m4s
+2022-03-27 02:48:01,758 - dash_client.py:380 - INFO - SMART : The total downloaded = 11920652, segment_size = 72838, segment_number = 139
+2022-03-27 02:48:01,759 - dash_buffer.py:207 - INFO - Writing segment 139 at time 263.955888987
+2022-03-27 02:48:01,760 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=263.956789017,CurrentPlaybackTime=258,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:48:01,760 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s138.m4s. Size = 72838 in 1.03627419472 seconds
+2022-03-27 02:48:01,761 - dash_client.py:270 - INFO -  SMART: Processing the segment 140
+2022-03-27 02:48:01,767 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s139.m4s
+2022-03-27 02:48:02,720 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s139.m4s
+2022-03-27 02:48:02,721 - dash_client.py:380 - INFO - SMART : The total downloaded = 11988257, segment_size = 67605, segment_number = 140
+2022-03-27 02:48:02,721 - dash_buffer.py:207 - INFO - Writing segment 140 at time 264.918473959
+2022-03-27 02:48:02,722 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=264.918796062,CurrentPlaybackTime=259,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:48:02,722 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s139.m4s. Size = 67605 in 0.952910900116 seconds
+2022-03-27 02:48:02,722 - dash_client.py:270 - INFO -  SMART: Processing the segment 141
+2022-03-27 02:48:02,725 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s140.m4s
+2022-03-27 02:48:03,080 - dash_buffer.py:163 - INFO - Reading the segment number 131 from the buffer at playtime 260
+2022-03-27 02:48:03,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=265.277842999,CurrentPlaybackTime=260,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:48:03,630 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s140.m4s
+2022-03-27 02:48:03,630 - dash_client.py:380 - INFO - SMART : The total downloaded = 12055397, segment_size = 67140, segment_number = 141
+2022-03-27 02:48:03,631 - dash_buffer.py:207 - INFO - Writing segment 141 at time 265.827857971
+2022-03-27 02:48:03,632 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=265.828809977,CurrentPlaybackTime=260,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:48:03,632 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s140.m4s. Size = 67140 in 0.899286985397 seconds
+2022-03-27 02:48:03,633 - dash_client.py:270 - INFO -  SMART: Processing the segment 142
+2022-03-27 02:48:03,639 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s141.m4s
+2022-03-27 02:48:04,614 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s141.m4s
+2022-03-27 02:48:04,614 - dash_client.py:380 - INFO - SMART : The total downloaded = 12123696, segment_size = 68299, segment_number = 142
+2022-03-27 02:48:04,614 - dash_buffer.py:207 - INFO - Writing segment 142 at time 266.811701059
+2022-03-27 02:48:04,615 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=266.812323093,CurrentPlaybackTime=261,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:48:04,616 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s141.m4s. Size = 68299 in 0.974075078964 seconds
+2022-03-27 02:48:04,616 - dash_client.py:270 - INFO -  SMART: Processing the segment 143
+2022-03-27 02:48:04,623 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s142.m4s
+2022-03-27 02:48:05,080 - dash_buffer.py:163 - INFO - Reading the segment number 132 from the buffer at playtime 262
+2022-03-27 02:48:05,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=267.277992964,CurrentPlaybackTime=262,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-27 02:48:05,614 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s142.m4s
+2022-03-27 02:48:05,614 - dash_client.py:380 - INFO - SMART : The total downloaded = 12193241, segment_size = 69545, segment_number = 143
+2022-03-27 02:48:05,615 - dash_buffer.py:207 - INFO - Writing segment 143 at time 267.811787128
+2022-03-27 02:48:05,616 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=267.812798023,CurrentPlaybackTime=262,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-27 02:48:05,616 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s142.m4s. Size = 69545 in 0.990620851517 seconds
+2022-03-27 02:48:05,617 - dash_client.py:270 - INFO -  SMART: Processing the segment 144
+2022-03-27 02:48:05,624 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s143.m4s
+2022-03-27 02:48:07,080 - dash_buffer.py:163 - INFO - Reading the segment number 133 from the buffer at playtime 264
+2022-03-27 02:48:07,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=269.27789402,CurrentPlaybackTime=264,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:09,080 - dash_buffer.py:163 - INFO - Reading the segment number 134 from the buffer at playtime 266
+2022-03-27 02:48:09,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=271.277989149,CurrentPlaybackTime=266,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:11,080 - dash_buffer.py:163 - INFO - Reading the segment number 135 from the buffer at playtime 268
+2022-03-27 02:48:11,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=273.277549982,CurrentPlaybackTime=268,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:13,080 - dash_buffer.py:163 - INFO - Reading the segment number 136 from the buffer at playtime 270
+2022-03-27 02:48:13,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=275.277954102,CurrentPlaybackTime=270,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:15,080 - dash_buffer.py:163 - INFO - Reading the segment number 137 from the buffer at playtime 272
+2022-03-27 02:48:15,118 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=277.31477809,CurrentPlaybackTime=272,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:17,080 - dash_buffer.py:163 - INFO - Reading the segment number 138 from the buffer at playtime 274
+2022-03-27 02:48:17,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=279.277886152,CurrentPlaybackTime=274,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:19,080 - dash_buffer.py:163 - INFO - Reading the segment number 139 from the buffer at playtime 276
+2022-03-27 02:48:19,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=281.277544022,CurrentPlaybackTime=276,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:21,080 - dash_buffer.py:163 - INFO - Reading the segment number 140 from the buffer at playtime 278
+2022-03-27 02:48:21,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=283.277498007,CurrentPlaybackTime=278,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:23,080 - dash_buffer.py:163 - INFO - Reading the segment number 141 from the buffer at playtime 280
+2022-03-27 02:48:23,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=285.277533054,CurrentPlaybackTime=280,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:25,080 - dash_buffer.py:163 - INFO - Reading the segment number 142 from the buffer at playtime 282
+2022-03-27 02:48:25,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=287.277791977,CurrentPlaybackTime=282,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:27,080 - dash_buffer.py:163 - INFO - Reading the segment number 143 from the buffer at playtime 284
+2022-03-27 02:48:27,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=289.277513981,CurrentPlaybackTime=284,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-27 02:48:28,881 - dash_client.py:364 - INFO - SMART: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s143.m4s
+2022-03-27 02:48:28,881 - dash_client.py:380 - INFO - SMART : The total downloaded = 13312635, segment_size = 1119394, segment_number = 144
+2022-03-27 02:48:28,881 - dash_buffer.py:207 - INFO - Writing segment 144 at time 291.078338146
+2022-03-27 02:48:28,881 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=291.078487158,CurrentPlaybackTime=285,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=4219897
+2022-03-27 02:48:28,881 - dash_client.py:394 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_4219897bps/BigBuckBunny_2s143.m4s. Size = 1119394 in 23.2565031052 seconds
+2022-03-27 02:48:28,882 - dash_client.py:270 - INFO -  SMART: Processing the segment 145
+2022-03-27 02:48:28,882 - dash_client.py:349 - INFO - SMART: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s144.m4s
+2022-03-27 02:48:29,080 - dash_buffer.py:163 - INFO - Reading the segment number 144 from the buffer at playtime 286
+2022-03-27 02:48:29,080 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=291.277464151,CurrentPlaybackTime=286,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=4219897
+2022-03-27 02:48:31,080 - dash_buffer.py:152 - INFO - Buffer empty after 288 seconds of playback
+2022-03-27 02:48:31,080 - dash_buffer.py:63 - INFO - Changing state from PLAY to BUFFERING at 288 Playback time 
+2022-03-27 02:48:31,081 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=293.277784109,CurrentPlaybackTime=288,CurrentBufferSize=0,CurrentPlaybackState=BUFFERING,Action=Play-Buffering,Bitrate=0
+2022-03-27 02:48:31,081 - dash_buffer.py:109 - INFO - Entering buffering stage after 288 seconds of playback
