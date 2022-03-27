@@ -31,9 +31,9 @@ fig.suptitle("Total requests by quality")
 title = ["basic", "netflix", "sara"]
 
 for j in range(4):
-    bitrate_array = [get_bitrate_percentage("swrc{}/ASTREAM_LOGS/ASTREAM_basic.json".format(j+1)),
-                     get_bitrate_percentage("swrc{}/ASTREAM_LOGS/ASTREAM_netflix.json".format(j+1)),
-                     get_bitrate_percentage("swrc{}/ASTREAM_LOGS/ASTREAM_sara.json".format(j+1))]
+    bitrate_array = [get_bitrate_percentage("sw1c{}/ASTREAM_LOGS/ASTREAM_basic.json".format(j+1)),
+                     get_bitrate_percentage("sw1c{}/ASTREAM_LOGS/ASTREAM_netflix.json".format(j+1)),
+                     get_bitrate_percentage("sw1c{}/ASTREAM_LOGS/ASTREAM_sara.json".format(j+1))]
 
     for i in range(len(bitrate_array)):
         rect1 = axs[j][i].bar(i, bitrate_array[i][0], color='cyan', label='Q1')

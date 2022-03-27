@@ -6,7 +6,7 @@ fig.suptitle("Playback bitrate w.r.t playback time")
 alg = ["basic", "netflix", "sara"]
 for i in range(4):
     for j in range(3):
-        filename = "swrc{}/ASTREAM_LOGS/ASTREAM_{}.json".format(i+1, alg[j])
+        filename = "sw1c{}/ASTREAM_LOGS/ASTREAM_{}.json".format(i+1, alg[j])
 
         bitrate = []
         with open(filename) as json_file:
