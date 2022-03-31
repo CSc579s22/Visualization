@@ -1,14 +1,21 @@
 import matplotlib.pyplot as plt
 import json
 import numpy
+import os
 
-alg = ["basic"]
-fig, axs = plt.subplots(4, 1, constrained_layout=True)
-max_time = -1
-for j in range(1):
+alg = ["basic", "netflix", "sara"]
+# experiment = "baseline/"
+experiment = "fairness/"
+# experiment = "sabr/"
+exp_round = "round1/"
+prefix = os.path.join(experiment, exp_round)
+
+for j in range(len(alg)):
+    max_time = -1
+    fig, axs = plt.subplots(4, 1, constrained_layout=True)
     fig.suptitle("Playback bitrate w.r.t playback time")
     for i in range(4):
-        filename = "sw1c{}/DASH_BUFFER_LOG_{}.csv".format(i+1, alg[j])
+        filename = "{}/sw1c{}/ASTREAM_LOGS/DASH_BUFFER_LOG_{}.csv".format(prefix, i+1, alg[j])
 
         bitrate = []
         timestamp = []
