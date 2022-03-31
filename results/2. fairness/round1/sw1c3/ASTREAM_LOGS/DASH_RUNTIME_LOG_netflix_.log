@@ -1,0 +1,1395 @@
+2022-03-29 18:27:48,315 - dash_client.py:114 - INFO - Downloaded the MPD file BigBuckBunny_2s_mod1.mpd
+2022-03-29 18:27:48,316 - read_mpd.py:122 - INFO - Reading the MPD file
+2022-03-29 18:27:48,324 - read_mpd.py:156 - INFO - Found Video
+2022-03-29 18:27:48,324 - read_mpd.py:158 - INFO - Retrieving Media
+2022-03-29 18:27:48,330 - dash_client.py:568 - INFO - The DASH media has 5 video representations
+2022-03-29 18:27:48,330 - dash_client.py:584 - CRITICAL - Started Netflix-DASH Playback
+2022-03-29 18:27:48,331 - dash_buffer.py:20 - INFO - Initializing the Buffer
+2022-03-29 18:27:48,331 - dash_buffer.py:55 - INFO - VideoLength=298.46,segmentDuration=2,MaxBufferSize=298.46,InitialBuffer(secs)=1,BufferAlph(secs)=5,BufferBeta(secs)=10
+2022-03-29 18:27:48,332 - dash_buffer.py:63 - INFO - Changing state from INITIALIZED to INITIAL_BUFFERING at 0 Playback time 
+2022-03-29 18:27:48,333 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2022-03-29 18:27:48,333 - dash_buffer.py:222 - INFO - Starting the Player
+2022-03-29 18:27:48,335 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2022-03-29 18:27:48,335 - dash_client.py:234 - INFO - The segments are stored in TEMP_GO61tM
+2022-03-29 18:27:48,337 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 1
+2022-03-29 18:27:48,338 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s_init.mp4
+2022-03-29 18:27:48,339 - dash_buffer.py:76 - INFO - Initialized player with video length 298.46
+2022-03-29 18:27:48,354 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s_init.mp4
+2022-03-29 18:27:48,355 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 879, segment_size = 879, segment_number = 1
+2022-03-29 18:27:48,355 - dash_buffer.py:207 - INFO - Writing segment 1 at time 1.00135803223e-05
+2022-03-29 18:27:48,356 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.000665187835693,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=INITIAL_BUFFERING,Action=Writing,Bitrate=89283
+2022-03-29 18:27:48,357 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s_init.mp4. Size = 879 in 0.0162808895111 seconds
+2022-03-29 18:27:48,358 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 2
+2022-03-29 18:27:48,357 - dash_buffer.py:139 - INFO - Initial Waiting Time = 0.013787984848
+2022-03-29 18:27:48,360 - dash_buffer.py:63 - INFO - Changing state from INITIAL_BUFFERING to PLAY at 0 Playback time 
+2022-03-29 18:27:48,361 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.00504899024963,CurrentPlaybackTime=0,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=InitialBuffering-Play,Bitrate=0
+2022-03-29 18:27:48,361 - dash_buffer.py:163 - INFO - Reading the segment number 1 from the buffer at playtime 0
+2022-03-29 18:27:48,359 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:48,364 - dash_client.py:448 - INFO - The avearge segment size for is [(4219897, 8194839.893333334), (89283, 176881.66400000002), (2484135, 4913015.466666667), (791182, 1570297.1733333333), (262537, 520246.61333333334)]
+2022-03-29 18:27:48,362 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0.00698518753052,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=89283
+2022-03-29 18:27:48,365 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:48,366 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s1.m4s
+2022-03-29 18:27:48,366 - dash_buffer.py:176 - INFO - Started playing with representation 89283 at 0
+2022-03-29 18:27:49,553 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s1.m4s
+2022-03-29 18:27:49,553 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 73265, segment_size = 72386, segment_number = 2
+2022-03-29 18:27:49,553 - dash_buffer.py:207 - INFO - Writing segment 2 at time 1.19820404053
+2022-03-29 18:27:49,554 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=1.19833517075,CurrentPlaybackTime=1,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:49,554 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s1.m4s. Size = 72386 in 1.18620610237 seconds
+2022-03-29 18:27:49,554 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 3
+2022-03-29 18:27:49,554 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:49,554 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:49,554 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s2.m4s
+2022-03-29 18:27:50,366 - dash_buffer.py:163 - INFO - Reading the segment number 2 from the buffer at playtime 2
+2022-03-29 18:27:50,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=2.01100611687,CurrentPlaybackTime=2,CurrentBufferSize=0,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:27:50,438 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s2.m4s
+2022-03-29 18:27:50,439 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 130860, segment_size = 57595, segment_number = 3
+2022-03-29 18:27:50,439 - dash_buffer.py:207 - INFO - Writing segment 3 at time 2.08359718323
+2022-03-29 18:27:50,439 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=2.08376002312,CurrentPlaybackTime=2,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:50,439 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s2.m4s. Size = 57595 in 0.884034872055 seconds
+2022-03-29 18:27:50,439 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 4
+2022-03-29 18:27:50,440 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:50,440 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:50,440 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s3.m4s
+2022-03-29 18:27:51,480 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s3.m4s
+2022-03-29 18:27:51,481 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 203364, segment_size = 72504, segment_number = 4
+2022-03-29 18:27:51,481 - dash_buffer.py:207 - INFO - Writing segment 4 at time 3.1255800724
+2022-03-29 18:27:51,481 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=3.12572407722,CurrentPlaybackTime=3,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:51,481 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s3.m4s. Size = 72504 in 1.04060697556 seconds
+2022-03-29 18:27:51,481 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 5
+2022-03-29 18:27:51,482 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:51,482 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:51,482 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s4.m4s
+2022-03-29 18:27:52,366 - dash_buffer.py:163 - INFO - Reading the segment number 3 from the buffer at playtime 4
+2022-03-29 18:27:52,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=4.01102304459,CurrentPlaybackTime=4,CurrentBufferSize=1,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:27:52,609 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s4.m4s
+2022-03-29 18:27:52,609 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 277631, segment_size = 74267, segment_number = 5
+2022-03-29 18:27:52,609 - dash_buffer.py:207 - INFO - Writing segment 5 at time 4.25399804115
+2022-03-29 18:27:52,609 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=4.25413203239,CurrentPlaybackTime=4,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:52,610 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s4.m4s. Size = 74267 in 1.12700986862 seconds
+2022-03-29 18:27:52,610 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 6
+2022-03-29 18:27:52,610 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:52,610 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:52,610 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s5.m4s
+2022-03-29 18:27:53,724 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s5.m4s
+2022-03-29 18:27:53,724 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 351243, segment_size = 73612, segment_number = 6
+2022-03-29 18:27:53,724 - dash_buffer.py:207 - INFO - Writing segment 6 at time 5.36925601959
+2022-03-29 18:27:53,725 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=5.36952018738,CurrentPlaybackTime=5,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:53,725 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s5.m4s. Size = 73612 in 1.1138188839 seconds
+2022-03-29 18:27:53,725 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 7
+2022-03-29 18:27:53,726 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:53,726 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:53,727 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s6.m4s
+2022-03-29 18:27:54,366 - dash_buffer.py:163 - INFO - Reading the segment number 4 from the buffer at playtime 6
+2022-03-29 18:27:54,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=6.01100921631,CurrentPlaybackTime=6,CurrentBufferSize=2,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:27:54,830 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s6.m4s
+2022-03-29 18:27:54,830 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 425568, segment_size = 74325, segment_number = 7
+2022-03-29 18:27:54,830 - dash_buffer.py:207 - INFO - Writing segment 7 at time 6.47518801689
+2022-03-29 18:27:54,831 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=6.47580003738,CurrentPlaybackTime=6,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:54,832 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s6.m4s. Size = 74325 in 1.09917998314 seconds
+2022-03-29 18:27:54,832 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 8
+2022-03-29 18:27:54,833 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:54,839 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:54,839 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s7.m4s
+2022-03-29 18:27:55,822 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s7.m4s
+2022-03-29 18:27:55,822 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 490342, segment_size = 64774, segment_number = 8
+2022-03-29 18:27:55,822 - dash_buffer.py:207 - INFO - Writing segment 8 at time 7.46715807915
+2022-03-29 18:27:55,823 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=7.46728515625,CurrentPlaybackTime=7,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:55,823 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s7.m4s. Size = 64774 in 0.982540845871 seconds
+2022-03-29 18:27:55,823 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 9
+2022-03-29 18:27:55,823 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:55,823 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:55,824 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s8.m4s
+2022-03-29 18:27:56,366 - dash_buffer.py:163 - INFO - Reading the segment number 5 from the buffer at playtime 8
+2022-03-29 18:27:56,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=8.01103615761,CurrentPlaybackTime=8,CurrentBufferSize=3,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:27:56,883 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s8.m4s
+2022-03-29 18:27:56,883 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 562258, segment_size = 71916, segment_number = 9
+2022-03-29 18:27:56,884 - dash_buffer.py:207 - INFO - Writing segment 9 at time 8.52855110168
+2022-03-29 18:27:56,884 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=8.5288631916,CurrentPlaybackTime=8,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:56,885 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s8.m4s. Size = 71916 in 1.05973911285 seconds
+2022-03-29 18:27:56,885 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 10
+2022-03-29 18:27:56,886 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:56,886 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:56,886 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s9.m4s
+2022-03-29 18:27:57,876 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s9.m4s
+2022-03-29 18:27:57,876 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 623556, segment_size = 61298, segment_number = 10
+2022-03-29 18:27:57,876 - dash_buffer.py:207 - INFO - Writing segment 10 at time 9.52126502991
+2022-03-29 18:27:57,877 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=9.52139401436,CurrentPlaybackTime=9,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:57,877 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s9.m4s. Size = 61298 in 0.989696025848 seconds
+2022-03-29 18:27:57,877 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 11
+2022-03-29 18:27:57,877 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:57,877 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:57,877 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s10.m4s
+2022-03-29 18:27:58,366 - dash_buffer.py:163 - INFO - Reading the segment number 6 from the buffer at playtime 10
+2022-03-29 18:27:58,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=10.0110690594,CurrentPlaybackTime=10,CurrentBufferSize=4,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:27:58,666 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s10.m4s
+2022-03-29 18:27:58,666 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 676719, segment_size = 53163, segment_number = 11
+2022-03-29 18:27:58,666 - dash_buffer.py:207 - INFO - Writing segment 11 at time 10.3108241558
+2022-03-29 18:27:58,666 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=10.3109850883,CurrentPlaybackTime=10,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:58,666 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s10.m4s. Size = 53163 in 0.788220882416 seconds
+2022-03-29 18:27:58,667 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 12
+2022-03-29 18:27:58,667 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:58,668 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:58,668 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s11.m4s
+2022-03-29 18:27:59,633 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s11.m4s
+2022-03-29 18:27:59,634 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 736019, segment_size = 59300, segment_number = 12
+2022-03-29 18:27:59,634 - dash_buffer.py:207 - INFO - Writing segment 12 at time 11.2785191536
+2022-03-29 18:27:59,634 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=11.2786471844,CurrentPlaybackTime=11,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:27:59,634 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s11.m4s. Size = 59300 in 0.965379953384 seconds
+2022-03-29 18:27:59,634 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 13
+2022-03-29 18:27:59,634 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:27:59,635 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:27:59,635 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s12.m4s
+2022-03-29 18:28:00,366 - dash_buffer.py:163 - INFO - Reading the segment number 7 from the buffer at playtime 12
+2022-03-29 18:28:00,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=12.0110330582,CurrentPlaybackTime=12,CurrentBufferSize=5,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:00,395 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s12.m4s
+2022-03-29 18:28:00,395 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 789020, segment_size = 53001, segment_number = 13
+2022-03-29 18:28:00,395 - dash_buffer.py:207 - INFO - Writing segment 13 at time 12.039796114
+2022-03-29 18:28:00,395 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=12.039921999,CurrentPlaybackTime=12,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:00,395 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s12.m4s. Size = 53001 in 0.759598970413 seconds
+2022-03-29 18:28:00,395 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 14
+2022-03-29 18:28:00,396 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:00,396 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:28:00,396 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s13.m4s
+2022-03-29 18:28:01,525 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s13.m4s
+2022-03-29 18:28:01,525 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 858544, segment_size = 69524, segment_number = 14
+2022-03-29 18:28:01,525 - dash_buffer.py:207 - INFO - Writing segment 14 at time 13.1702401638
+2022-03-29 18:28:01,526 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=13.1703732014,CurrentPlaybackTime=13,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:01,526 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s13.m4s. Size = 69524 in 1.12914299965 seconds
+2022-03-29 18:28:01,526 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 15
+2022-03-29 18:28:01,526 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:01,526 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:28:01,527 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s14.m4s
+2022-03-29 18:28:02,366 - dash_buffer.py:163 - INFO - Reading the segment number 8 from the buffer at playtime 14
+2022-03-29 18:28:02,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=14.0110311508,CurrentPlaybackTime=14,CurrentBufferSize=6,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:02,572 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s14.m4s
+2022-03-29 18:28:02,572 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 929792, segment_size = 71248, segment_number = 15
+2022-03-29 18:28:02,572 - dash_buffer.py:207 - INFO - Writing segment 15 at time 14.2170231342
+2022-03-29 18:28:02,572 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=14.2171502113,CurrentPlaybackTime=14,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:02,573 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s14.m4s. Size = 71248 in 1.045140028 seconds
+2022-03-29 18:28:02,573 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 16
+2022-03-29 18:28:02,573 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:02,573 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 89283
+2022-03-29 18:28:02,573 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s15.m4s
+2022-03-29 18:28:03,683 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s15.m4s
+2022-03-29 18:28:03,684 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1002417, segment_size = 72625, segment_number = 16
+2022-03-29 18:28:03,684 - dash_buffer.py:207 - INFO - Writing segment 16 at time 15.3286130428
+2022-03-29 18:28:03,684 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=15.328742981,CurrentPlaybackTime=15,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:03,684 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_89283bps/BigBuckBunny_2s15.m4s. Size = 72625 in 1.11027503014 seconds
+2022-03-29 18:28:03,684 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 17
+2022-03-29 18:28:03,685 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:03,685 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:03,685 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:03,685 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s16.m4s
+2022-03-29 18:28:04,366 - dash_buffer.py:163 - INFO - Reading the segment number 9 from the buffer at playtime 16
+2022-03-29 18:28:04,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=16.0114121437,CurrentPlaybackTime=16,CurrentBufferSize=7,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:04,774 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s16.m4s
+2022-03-29 18:28:04,775 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1076261, segment_size = 73844, segment_number = 17
+2022-03-29 18:28:04,776 - dash_buffer.py:207 - INFO - Writing segment 17 at time 16.4204661846
+2022-03-29 18:28:04,776 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=16.4210481644,CurrentPlaybackTime=16,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:04,777 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s16.m4s. Size = 73844 in 1.08986115456 seconds
+2022-03-29 18:28:04,778 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 18
+2022-03-29 18:28:04,783 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:04,784 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:04,784 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:04,785 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s17.m4s
+2022-03-29 18:28:05,799 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s17.m4s
+2022-03-29 18:28:05,800 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1145230, segment_size = 68969, segment_number = 18
+2022-03-29 18:28:05,800 - dash_buffer.py:207 - INFO - Writing segment 18 at time 17.4444801807
+2022-03-29 18:28:05,800 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=17.4446110725,CurrentPlaybackTime=17,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:05,800 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s17.m4s. Size = 68969 in 1.01469779015 seconds
+2022-03-29 18:28:05,800 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 19
+2022-03-29 18:28:05,800 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:05,801 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:05,801 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:05,801 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s18.m4s
+2022-03-29 18:28:06,366 - dash_buffer.py:163 - INFO - Reading the segment number 10 from the buffer at playtime 18
+2022-03-29 18:28:06,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=18.0110731125,CurrentPlaybackTime=18,CurrentBufferSize=8,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:06,841 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s18.m4s
+2022-03-29 18:28:06,841 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1213768, segment_size = 68538, segment_number = 19
+2022-03-29 18:28:06,841 - dash_buffer.py:207 - INFO - Writing segment 19 at time 18.4862401485
+2022-03-29 18:28:06,842 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=18.486385107,CurrentPlaybackTime=18,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:06,842 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s18.m4s. Size = 68538 in 1.04020094872 seconds
+2022-03-29 18:28:06,842 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 20
+2022-03-29 18:28:06,842 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:06,843 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:06,843 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:06,843 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s19.m4s
+2022-03-29 18:28:07,986 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s19.m4s
+2022-03-29 18:28:07,986 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1286362, segment_size = 72594, segment_number = 20
+2022-03-29 18:28:07,986 - dash_buffer.py:207 - INFO - Writing segment 20 at time 19.6309301853
+2022-03-29 18:28:07,986 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=19.6310610771,CurrentPlaybackTime=19,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:07,986 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s19.m4s. Size = 72594 in 1.14263701439 seconds
+2022-03-29 18:28:07,987 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 21
+2022-03-29 18:28:07,987 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:07,987 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:07,988 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:07,988 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s20.m4s
+2022-03-29 18:28:08,366 - dash_buffer.py:163 - INFO - Reading the segment number 11 from the buffer at playtime 20
+2022-03-29 18:28:08,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=20.011026144,CurrentPlaybackTime=20,CurrentBufferSize=9,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:09,076 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s20.m4s
+2022-03-29 18:28:09,076 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1360366, segment_size = 74004, segment_number = 21
+2022-03-29 18:28:09,076 - dash_buffer.py:207 - INFO - Writing segment 21 at time 20.7211930752
+2022-03-29 18:28:09,077 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=20.7215070724,CurrentPlaybackTime=20,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:09,077 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s20.m4s. Size = 74004 in 1.08779215813 seconds
+2022-03-29 18:28:09,078 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 22
+2022-03-29 18:28:09,078 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:09,083 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:09,083 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:09,084 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s21.m4s
+2022-03-29 18:28:10,185 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s21.m4s
+2022-03-29 18:28:10,185 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1434647, segment_size = 74281, segment_number = 22
+2022-03-29 18:28:10,186 - dash_buffer.py:207 - INFO - Writing segment 22 at time 21.8304510117
+2022-03-29 18:28:10,186 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=21.8307671547,CurrentPlaybackTime=21,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:10,186 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s21.m4s. Size = 74281 in 1.10144901276 seconds
+2022-03-29 18:28:10,187 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 23
+2022-03-29 18:28:10,188 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:10,191 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:10,192 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:10,192 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s22.m4s
+2022-03-29 18:28:10,366 - dash_buffer.py:163 - INFO - Reading the segment number 12 from the buffer at playtime 22
+2022-03-29 18:28:10,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=22.0110001564,CurrentPlaybackTime=22,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:11,312 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s22.m4s
+2022-03-29 18:28:11,312 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1506508, segment_size = 71861, segment_number = 23
+2022-03-29 18:28:11,313 - dash_buffer.py:207 - INFO - Writing segment 23 at time 22.9573991299
+2022-03-29 18:28:11,313 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=22.9577121735,CurrentPlaybackTime=22,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:11,313 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s22.m4s. Size = 71861 in 1.11955404282 seconds
+2022-03-29 18:28:11,314 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 24
+2022-03-29 18:28:11,315 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:11,319 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:11,319 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:11,320 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s23.m4s
+2022-03-29 18:28:12,366 - dash_buffer.py:163 - INFO - Reading the segment number 13 from the buffer at playtime 24
+2022-03-29 18:28:12,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=24.011357069,CurrentPlaybackTime=24,CurrentBufferSize=10,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:12,391 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s23.m4s
+2022-03-29 18:28:12,391 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1577861, segment_size = 71353, segment_number = 24
+2022-03-29 18:28:12,391 - dash_buffer.py:207 - INFO - Writing segment 24 at time 24.0363140106
+2022-03-29 18:28:12,392 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=24.0365719795,CurrentPlaybackTime=24,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:12,392 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s23.m4s. Size = 71353 in 1.07120609283 seconds
+2022-03-29 18:28:12,392 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 25
+2022-03-29 18:28:12,393 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:12,394 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:12,394 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:12,394 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s24.m4s
+2022-03-29 18:28:13,463 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s24.m4s
+2022-03-29 18:28:13,463 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1651272, segment_size = 73411, segment_number = 25
+2022-03-29 18:28:13,463 - dash_buffer.py:207 - INFO - Writing segment 25 at time 25.1081120968
+2022-03-29 18:28:13,464 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=25.1084260941,CurrentPlaybackTime=25,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:13,464 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s24.m4s. Size = 73411 in 1.0686609745 seconds
+2022-03-29 18:28:13,464 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 26
+2022-03-29 18:28:13,465 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:13,466 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:13,466 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:13,466 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s25.m4s
+2022-03-29 18:28:14,366 - dash_buffer.py:163 - INFO - Reading the segment number 14 from the buffer at playtime 26
+2022-03-29 18:28:14,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=26.0110230446,CurrentPlaybackTime=26,CurrentBufferSize=11,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:14,563 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s25.m4s
+2022-03-29 18:28:14,563 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1721640, segment_size = 70368, segment_number = 26
+2022-03-29 18:28:14,563 - dash_buffer.py:207 - INFO - Writing segment 26 at time 26.2079641819
+2022-03-29 18:28:14,563 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=26.2080900669,CurrentPlaybackTime=26,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:14,563 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s25.m4s. Size = 70368 in 1.09642195702 seconds
+2022-03-29 18:28:14,564 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 27
+2022-03-29 18:28:14,564 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:14,564 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:14,564 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:14,564 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s26.m4s
+2022-03-29 18:28:15,627 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s26.m4s
+2022-03-29 18:28:15,627 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1793218, segment_size = 71578, segment_number = 27
+2022-03-29 18:28:15,628 - dash_buffer.py:207 - INFO - Writing segment 27 at time 27.2723441124
+2022-03-29 18:28:15,628 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=27.2724912167,CurrentPlaybackTime=27,CurrentBufferSize=13,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:15,628 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s26.m4s. Size = 71578 in 1.06291985512 seconds
+2022-03-29 18:28:15,628 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 28
+2022-03-29 18:28:15,628 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:15,629 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:15,629 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:15,629 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s27.m4s
+2022-03-29 18:28:16,366 - dash_buffer.py:163 - INFO - Reading the segment number 15 from the buffer at playtime 28
+2022-03-29 18:28:16,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=28.0110371113,CurrentPlaybackTime=28,CurrentBufferSize=12,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:16,742 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s27.m4s
+2022-03-29 18:28:16,743 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1865435, segment_size = 72217, segment_number = 28
+2022-03-29 18:28:16,743 - dash_buffer.py:207 - INFO - Writing segment 28 at time 28.3876349926
+2022-03-29 18:28:16,743 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=28.3878221512,CurrentPlaybackTime=28,CurrentBufferSize=13,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:16,743 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s27.m4s. Size = 72217 in 1.11346483231 seconds
+2022-03-29 18:28:16,743 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 29
+2022-03-29 18:28:16,744 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:16,744 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:16,744 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:16,744 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s28.m4s
+2022-03-29 18:28:17,827 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s28.m4s
+2022-03-29 18:28:17,828 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1939832, segment_size = 74397, segment_number = 29
+2022-03-29 18:28:17,828 - dash_buffer.py:207 - INFO - Writing segment 29 at time 29.4728970528
+2022-03-29 18:28:17,829 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=29.4732141495,CurrentPlaybackTime=29,CurrentBufferSize=14,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:17,829 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s28.m4s. Size = 74397 in 1.08350896835 seconds
+2022-03-29 18:28:17,829 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 30
+2022-03-29 18:28:17,830 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:17,831 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:17,835 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:17,835 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s29.m4s
+2022-03-29 18:28:18,366 - dash_buffer.py:163 - INFO - Reading the segment number 16 from the buffer at playtime 30
+2022-03-29 18:28:18,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=30.0110011101,CurrentPlaybackTime=30,CurrentBufferSize=13,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:18,656 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s29.m4s
+2022-03-29 18:28:18,656 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 1992801, segment_size = 52969, segment_number = 30
+2022-03-29 18:28:18,656 - dash_buffer.py:207 - INFO - Writing segment 30 at time 30.3010179996
+2022-03-29 18:28:18,656 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=30.3011441231,CurrentPlaybackTime=30,CurrentBufferSize=14,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:18,656 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s29.m4s. Size = 52969 in 0.820528030396 seconds
+2022-03-29 18:28:18,657 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 31
+2022-03-29 18:28:18,657 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:18,657 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:18,657 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:18,657 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s30.m4s
+2022-03-29 18:28:19,390 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s30.m4s
+2022-03-29 18:28:19,391 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2040841, segment_size = 48040, segment_number = 31
+2022-03-29 18:28:19,391 - dash_buffer.py:207 - INFO - Writing segment 31 at time 31.0358040333
+2022-03-29 18:28:19,391 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=31.0359580517,CurrentPlaybackTime=31,CurrentBufferSize=15,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:19,391 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s30.m4s. Size = 48040 in 0.733184099197 seconds
+2022-03-29 18:28:19,391 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 32
+2022-03-29 18:28:19,392 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:19,392 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:19,392 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:19,392 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s31.m4s
+2022-03-29 18:28:20,279 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s31.m4s
+2022-03-29 18:28:20,279 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2097476, segment_size = 56635, segment_number = 32
+2022-03-29 18:28:20,279 - dash_buffer.py:207 - INFO - Writing segment 32 at time 31.9240820408
+2022-03-29 18:28:20,279 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=31.9242081642,CurrentPlaybackTime=31,CurrentBufferSize=16,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:20,280 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s31.m4s. Size = 56635 in 0.886512041092 seconds
+2022-03-29 18:28:20,280 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 33
+2022-03-29 18:28:20,280 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:20,280 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:20,280 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:20,280 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s32.m4s
+2022-03-29 18:28:20,366 - dash_buffer.py:163 - INFO - Reading the segment number 17 from the buffer at playtime 32
+2022-03-29 18:28:20,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=32.0111210346,CurrentPlaybackTime=32,CurrentBufferSize=15,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:21,267 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s32.m4s
+2022-03-29 18:28:21,268 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2160842, segment_size = 63366, segment_number = 33
+2022-03-29 18:28:21,268 - dash_buffer.py:207 - INFO - Writing segment 33 at time 32.9125051498
+2022-03-29 18:28:21,268 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=32.9126460552,CurrentPlaybackTime=32,CurrentBufferSize=16,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:21,268 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s32.m4s. Size = 63366 in 0.986950159073 seconds
+2022-03-29 18:28:21,268 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 34
+2022-03-29 18:28:21,269 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:21,269 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:21,269 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:21,269 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s33.m4s
+2022-03-29 18:28:22,149 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s33.m4s
+2022-03-29 18:28:22,150 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2218576, segment_size = 57734, segment_number = 34
+2022-03-29 18:28:22,150 - dash_buffer.py:207 - INFO - Writing segment 34 at time 33.794563055
+2022-03-29 18:28:22,150 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=33.7947041988,CurrentPlaybackTime=33,CurrentBufferSize=17,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:22,150 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s33.m4s. Size = 57734 in 0.880281925201 seconds
+2022-03-29 18:28:22,150 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 35
+2022-03-29 18:28:22,151 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:22,151 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:22,151 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:22,152 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s34.m4s
+2022-03-29 18:28:22,366 - dash_buffer.py:163 - INFO - Reading the segment number 18 from the buffer at playtime 34
+2022-03-29 18:28:22,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=34.011054039,CurrentPlaybackTime=34,CurrentBufferSize=16,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:23,192 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s34.m4s
+2022-03-29 18:28:23,192 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2288673, segment_size = 70097, segment_number = 35
+2022-03-29 18:28:23,192 - dash_buffer.py:207 - INFO - Writing segment 35 at time 34.8372840881
+2022-03-29 18:28:23,193 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=34.8374111652,CurrentPlaybackTime=34,CurrentBufferSize=17,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:23,193 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s34.m4s. Size = 70097 in 1.04031300545 seconds
+2022-03-29 18:28:23,193 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 36
+2022-03-29 18:28:23,193 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:23,193 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:23,194 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:23,194 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s35.m4s
+2022-03-29 18:28:24,267 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s35.m4s
+2022-03-29 18:28:24,267 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2360028, segment_size = 71355, segment_number = 36
+2022-03-29 18:28:24,267 - dash_buffer.py:207 - INFO - Writing segment 36 at time 35.9118041992
+2022-03-29 18:28:24,267 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=35.9119360447,CurrentPlaybackTime=35,CurrentBufferSize=18,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:24,267 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s35.m4s. Size = 71355 in 1.07296705246 seconds
+2022-03-29 18:28:24,267 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 37
+2022-03-29 18:28:24,268 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:24,268 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:24,268 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:24,268 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s36.m4s
+2022-03-29 18:28:24,366 - dash_buffer.py:163 - INFO - Reading the segment number 19 from the buffer at playtime 36
+2022-03-29 18:28:24,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=36.0110521317,CurrentPlaybackTime=36,CurrentBufferSize=17,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:25,018 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s36.m4s
+2022-03-29 18:28:25,018 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2411398, segment_size = 51370, segment_number = 37
+2022-03-29 18:28:25,018 - dash_buffer.py:207 - INFO - Writing segment 37 at time 36.6626360416
+2022-03-29 18:28:25,018 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=36.6627631187,CurrentPlaybackTime=36,CurrentBufferSize=18,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:25,018 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s36.m4s. Size = 51370 in 0.749263048172 seconds
+2022-03-29 18:28:25,018 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 38
+2022-03-29 18:28:25,019 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:25,019 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:25,019 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:25,020 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s37.m4s
+2022-03-29 18:28:25,871 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s37.m4s
+2022-03-29 18:28:25,871 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2467007, segment_size = 55609, segment_number = 38
+2022-03-29 18:28:25,871 - dash_buffer.py:207 - INFO - Writing segment 38 at time 37.5163002014
+2022-03-29 18:28:25,872 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=37.5164330006,CurrentPlaybackTime=37,CurrentBufferSize=19,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:25,872 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s37.m4s. Size = 55609 in 0.851454019547 seconds
+2022-03-29 18:28:25,872 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 39
+2022-03-29 18:28:25,872 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:25,873 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:25,873 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:25,873 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s38.m4s
+2022-03-29 18:28:26,366 - dash_buffer.py:163 - INFO - Reading the segment number 20 from the buffer at playtime 38
+2022-03-29 18:28:26,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=38.0110230446,CurrentPlaybackTime=38,CurrentBufferSize=18,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:26,925 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s38.m4s
+2022-03-29 18:28:26,925 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2535278, segment_size = 68271, segment_number = 39
+2022-03-29 18:28:26,925 - dash_buffer.py:207 - INFO - Writing segment 39 at time 38.5703032017
+2022-03-29 18:28:26,926 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=38.570430994,CurrentPlaybackTime=38,CurrentBufferSize=19,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:26,926 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s38.m4s. Size = 68271 in 1.05239200592 seconds
+2022-03-29 18:28:26,926 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 40
+2022-03-29 18:28:26,926 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:26,926 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:26,927 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 262537
+2022-03-29 18:28:26,927 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s39.m4s
+2022-03-29 18:28:27,994 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s39.m4s
+2022-03-29 18:28:27,994 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2605853, segment_size = 70575, segment_number = 40
+2022-03-29 18:28:27,994 - dash_buffer.py:207 - INFO - Writing segment 40 at time 39.6391551495
+2022-03-29 18:28:27,995 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=39.6392891407,CurrentPlaybackTime=39,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:27,995 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_262537bps/BigBuckBunny_2s39.m4s. Size = 70575 in 1.06686711311 seconds
+2022-03-29 18:28:27,995 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 41
+2022-03-29 18:28:27,995 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:27,996 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:27,996 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:27,996 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s40.m4s
+2022-03-29 18:28:28,366 - dash_buffer.py:163 - INFO - Reading the segment number 21 from the buffer at playtime 40
+2022-03-29 18:28:28,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=40.0110571384,CurrentPlaybackTime=40,CurrentBufferSize=19,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:29,268 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s40.m4s
+2022-03-29 18:28:29,268 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2684303, segment_size = 78450, segment_number = 41
+2022-03-29 18:28:29,269 - dash_buffer.py:207 - INFO - Writing segment 41 at time 40.9133770466
+2022-03-29 18:28:29,269 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=40.91350317,CurrentPlaybackTime=40,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:29,269 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s40.m4s. Size = 78450 in 1.27238607407 seconds
+2022-03-29 18:28:29,269 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 42
+2022-03-29 18:28:29,269 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:29,270 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:29,270 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:29,270 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s41.m4s
+2022-03-29 18:28:30,283 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s41.m4s
+2022-03-29 18:28:30,284 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2749659, segment_size = 65356, segment_number = 42
+2022-03-29 18:28:30,284 - dash_buffer.py:207 - INFO - Writing segment 42 at time 41.9288101196
+2022-03-29 18:28:30,285 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=41.9291260242,CurrentPlaybackTime=41,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:30,285 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s41.m4s. Size = 65356 in 1.0136590004 seconds
+2022-03-29 18:28:30,285 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 43
+2022-03-29 18:28:30,286 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:30,287 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:30,291 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:30,291 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s42.m4s
+2022-03-29 18:28:30,366 - dash_buffer.py:163 - INFO - Reading the segment number 22 from the buffer at playtime 42
+2022-03-29 18:28:30,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=42.0113830566,CurrentPlaybackTime=42,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:32,366 - dash_buffer.py:163 - INFO - Reading the segment number 23 from the buffer at playtime 44
+2022-03-29 18:28:32,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=44.011537075,CurrentPlaybackTime=44,CurrentBufferSize=19,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:32,580 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s42.m4s
+2022-03-29 18:28:32,581 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2823342, segment_size = 73683, segment_number = 43
+2022-03-29 18:28:32,581 - dash_buffer.py:207 - INFO - Writing segment 43 at time 44.2258491516
+2022-03-29 18:28:32,582 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=44.2261581421,CurrentPlaybackTime=44,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:32,582 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s42.m4s. Size = 73683 in 2.28912997246 seconds
+2022-03-29 18:28:32,582 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 44
+2022-03-29 18:28:32,584 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:32,587 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:32,588 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:32,588 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s43.m4s
+2022-03-29 18:28:34,366 - dash_buffer.py:163 - INFO - Reading the segment number 24 from the buffer at playtime 46
+2022-03-29 18:28:34,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=46.0115060806,CurrentPlaybackTime=46,CurrentBufferSize=19,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:34,817 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s43.m4s
+2022-03-29 18:28:34,818 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2874401, segment_size = 51059, segment_number = 44
+2022-03-29 18:28:34,818 - dash_buffer.py:207 - INFO - Writing segment 44 at time 46.4629762173
+2022-03-29 18:28:34,819 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=46.4632871151,CurrentPlaybackTime=46,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:34,820 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s43.m4s. Size = 51059 in 2.22902798653 seconds
+2022-03-29 18:28:34,820 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 45
+2022-03-29 18:28:34,822 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:34,827 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:34,827 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:34,828 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s44.m4s
+2022-03-29 18:28:35,900 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s44.m4s
+2022-03-29 18:28:35,901 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2944340, segment_size = 69939, segment_number = 45
+2022-03-29 18:28:35,901 - dash_buffer.py:207 - INFO - Writing segment 45 at time 47.5456709862
+2022-03-29 18:28:35,901 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=47.5459821224,CurrentPlaybackTime=47,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:35,902 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s44.m4s. Size = 69939 in 1.07246494293 seconds
+2022-03-29 18:28:35,902 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 46
+2022-03-29 18:28:35,903 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:35,907 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:35,908 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:35,908 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s45.m4s
+2022-03-29 18:28:36,366 - dash_buffer.py:163 - INFO - Reading the segment number 25 from the buffer at playtime 48
+2022-03-29 18:28:36,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=48.0114040375,CurrentPlaybackTime=48,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:38,211 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s45.m4s
+2022-03-29 18:28:38,211 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 2997110, segment_size = 52770, segment_number = 46
+2022-03-29 18:28:38,212 - dash_buffer.py:207 - INFO - Writing segment 46 at time 49.8564970493
+2022-03-29 18:28:38,212 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=49.8568091393,CurrentPlaybackTime=49,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:38,212 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s45.m4s. Size = 52770 in 2.30219101906 seconds
+2022-03-29 18:28:38,213 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 47
+2022-03-29 18:28:38,214 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:38,214 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:38,215 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:38,219 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s46.m4s
+2022-03-29 18:28:38,366 - dash_buffer.py:163 - INFO - Reading the segment number 26 from the buffer at playtime 50
+2022-03-29 18:28:38,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=50.0113790035,CurrentPlaybackTime=50,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:39,250 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s46.m4s
+2022-03-29 18:28:39,250 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3049474, segment_size = 52364, segment_number = 47
+2022-03-29 18:28:39,251 - dash_buffer.py:207 - INFO - Writing segment 47 at time 50.8958990574
+2022-03-29 18:28:39,252 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=50.8966050148,CurrentPlaybackTime=50,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:39,253 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s46.m4s. Size = 52364 in 1.03111886978 seconds
+2022-03-29 18:28:39,253 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 48
+2022-03-29 18:28:39,255 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:39,259 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:39,260 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:39,260 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s47.m4s
+2022-03-29 18:28:40,366 - dash_buffer.py:163 - INFO - Reading the segment number 27 from the buffer at playtime 52
+2022-03-29 18:28:40,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=52.0112740993,CurrentPlaybackTime=52,CurrentBufferSize=20,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:41,032 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s47.m4s
+2022-03-29 18:28:41,032 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3099393, segment_size = 49919, segment_number = 48
+2022-03-29 18:28:41,032 - dash_buffer.py:207 - INFO - Writing segment 48 at time 52.6766409874
+2022-03-29 18:28:41,032 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=52.6767690182,CurrentPlaybackTime=52,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:41,032 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s47.m4s. Size = 49919 in 1.77065682411 seconds
+2022-03-29 18:28:41,032 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 49
+2022-03-29 18:28:41,033 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:41,033 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:41,033 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:41,033 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s48.m4s
+2022-03-29 18:28:42,095 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s48.m4s
+2022-03-29 18:28:42,095 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3164519, segment_size = 65126, segment_number = 49
+2022-03-29 18:28:42,095 - dash_buffer.py:207 - INFO - Writing segment 49 at time 53.7401189804
+2022-03-29 18:28:42,096 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=53.7402510643,CurrentPlaybackTime=53,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:42,096 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s48.m4s. Size = 65126 in 1.06186795235 seconds
+2022-03-29 18:28:42,096 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 50
+2022-03-29 18:28:42,096 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:42,096 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:42,097 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:42,097 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s49.m4s
+2022-03-29 18:28:42,366 - dash_buffer.py:163 - INFO - Reading the segment number 28 from the buffer at playtime 54
+2022-03-29 18:28:42,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=54.0110020638,CurrentPlaybackTime=54,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:43,585 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s49.m4s
+2022-03-29 18:28:43,585 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3234293, segment_size = 69774, segment_number = 50
+2022-03-29 18:28:43,585 - dash_buffer.py:207 - INFO - Writing segment 50 at time 55.2298371792
+2022-03-29 18:28:43,585 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=55.2299690247,CurrentPlaybackTime=55,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:43,585 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s49.m4s. Size = 69774 in 1.48809885979 seconds
+2022-03-29 18:28:43,585 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 51
+2022-03-29 18:28:43,586 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:43,586 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:43,586 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:43,586 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s50.m4s
+2022-03-29 18:28:44,366 - dash_buffer.py:163 - INFO - Reading the segment number 29 from the buffer at playtime 56
+2022-03-29 18:28:44,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=56.0116171837,CurrentPlaybackTime=56,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:45,224 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s50.m4s
+2022-03-29 18:28:45,224 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3283538, segment_size = 49245, segment_number = 51
+2022-03-29 18:28:45,224 - dash_buffer.py:207 - INFO - Writing segment 51 at time 56.8690781593
+2022-03-29 18:28:45,225 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=56.8693871498,CurrentPlaybackTime=56,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:45,225 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s50.m4s. Size = 49245 in 1.63748598099 seconds
+2022-03-29 18:28:45,225 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 52
+2022-03-29 18:28:45,226 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:45,227 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:45,231 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:45,232 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s51.m4s
+2022-03-29 18:28:46,168 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s51.m4s
+2022-03-29 18:28:46,168 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3339137, segment_size = 55599, segment_number = 52
+2022-03-29 18:28:46,168 - dash_buffer.py:207 - INFO - Writing segment 52 at time 57.8130941391
+2022-03-29 18:28:46,169 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=57.8134050369,CurrentPlaybackTime=57,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:46,169 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s51.m4s. Size = 55599 in 0.935668945312 seconds
+2022-03-29 18:28:46,169 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 53
+2022-03-29 18:28:46,171 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:46,175 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:46,175 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:46,176 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s52.m4s
+2022-03-29 18:28:46,366 - dash_buffer.py:163 - INFO - Reading the segment number 30 from the buffer at playtime 58
+2022-03-29 18:28:46,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=58.0113739967,CurrentPlaybackTime=58,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:48,366 - dash_buffer.py:163 - INFO - Reading the segment number 31 from the buffer at playtime 60
+2022-03-29 18:28:48,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=60.0116140842,CurrentPlaybackTime=60,CurrentBufferSize=21,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:48,836 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s52.m4s
+2022-03-29 18:28:48,837 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3402967, segment_size = 63830, segment_number = 53
+2022-03-29 18:28:48,837 - dash_buffer.py:207 - INFO - Writing segment 53 at time 60.4817759991
+2022-03-29 18:28:48,837 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=60.4820861816,CurrentPlaybackTime=60,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:48,838 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s52.m4s. Size = 63830 in 2.66060709953 seconds
+2022-03-29 18:28:48,838 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 54
+2022-03-29 18:28:48,840 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:48,843 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:48,844 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:48,844 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s53.m4s
+2022-03-29 18:28:49,887 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s53.m4s
+2022-03-29 18:28:49,887 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3471348, segment_size = 68381, segment_number = 54
+2022-03-29 18:28:49,887 - dash_buffer.py:207 - INFO - Writing segment 54 at time 61.5320751667
+2022-03-29 18:28:49,888 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=61.5323832035,CurrentPlaybackTime=61,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:49,888 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s53.m4s. Size = 68381 in 1.04209303856 seconds
+2022-03-29 18:28:49,888 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 55
+2022-03-29 18:28:49,889 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:49,890 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:49,890 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:49,890 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s54.m4s
+2022-03-29 18:28:50,366 - dash_buffer.py:163 - INFO - Reading the segment number 32 from the buffer at playtime 62
+2022-03-29 18:28:50,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=62.0115180016,CurrentPlaybackTime=62,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:50,953 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s54.m4s
+2022-03-29 18:28:50,954 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3537947, segment_size = 66599, segment_number = 55
+2022-03-29 18:28:50,954 - dash_buffer.py:207 - INFO - Writing segment 55 at time 62.5989592075
+2022-03-29 18:28:50,955 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=62.5992660522,CurrentPlaybackTime=62,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:50,956 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s54.m4s. Size = 66599 in 1.05892896652 seconds
+2022-03-29 18:28:50,956 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 56
+2022-03-29 18:28:50,957 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:50,963 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:50,963 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:50,964 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s55.m4s
+2022-03-29 18:28:52,366 - dash_buffer.py:163 - INFO - Reading the segment number 33 from the buffer at playtime 64
+2022-03-29 18:28:52,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=64.0115430355,CurrentPlaybackTime=64,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:53,025 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s55.m4s
+2022-03-29 18:28:53,026 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3600684, segment_size = 62737, segment_number = 56
+2022-03-29 18:28:53,026 - dash_buffer.py:207 - INFO - Writing segment 56 at time 64.6706900597
+2022-03-29 18:28:53,026 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=64.6710011959,CurrentPlaybackTime=64,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:53,027 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s55.m4s. Size = 62737 in 2.06152796745 seconds
+2022-03-29 18:28:53,028 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 57
+2022-03-29 18:28:53,029 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:53,035 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:53,035 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:53,036 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s56.m4s
+2022-03-29 18:28:54,055 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s56.m4s
+2022-03-29 18:28:54,056 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3665249, segment_size = 64565, segment_number = 57
+2022-03-29 18:28:54,056 - dash_buffer.py:207 - INFO - Writing segment 57 at time 65.7005710602
+2022-03-29 18:28:54,056 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=65.7006981373,CurrentPlaybackTime=65,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:54,056 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s56.m4s. Size = 64565 in 1.01960897446 seconds
+2022-03-29 18:28:54,056 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 58
+2022-03-29 18:28:54,057 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:54,057 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:54,057 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:54,057 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s57.m4s
+2022-03-29 18:28:54,366 - dash_buffer.py:163 - INFO - Reading the segment number 34 from the buffer at playtime 66
+2022-03-29 18:28:54,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=66.0110170841,CurrentPlaybackTime=66,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:56,366 - dash_buffer.py:163 - INFO - Reading the segment number 35 from the buffer at playtime 68
+2022-03-29 18:28:56,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=68.0110661983,CurrentPlaybackTime=68,CurrentBufferSize=22,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:56,862 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s57.m4s
+2022-03-29 18:28:56,862 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3736290, segment_size = 71041, segment_number = 58
+2022-03-29 18:28:56,863 - dash_buffer.py:207 - INFO - Writing segment 58 at time 68.5073339939
+2022-03-29 18:28:56,863 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=68.5076479912,CurrentPlaybackTime=68,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:56,863 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s57.m4s. Size = 71041 in 2.80510091782 seconds
+2022-03-29 18:28:56,863 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 59
+2022-03-29 18:28:56,864 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:56,864 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:56,864 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:56,864 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s58.m4s
+2022-03-29 18:28:57,907 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s58.m4s
+2022-03-29 18:28:57,907 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3801750, segment_size = 65460, segment_number = 59
+2022-03-29 18:28:57,907 - dash_buffer.py:207 - INFO - Writing segment 59 at time 69.5520870686
+2022-03-29 18:28:57,908 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=69.5524001122,CurrentPlaybackTime=69,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:57,908 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s58.m4s. Size = 65460 in 1.04244112968 seconds
+2022-03-29 18:28:57,908 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 60
+2022-03-29 18:28:57,909 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:57,910 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:57,915 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:57,915 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s59.m4s
+2022-03-29 18:28:58,366 - dash_buffer.py:163 - INFO - Reading the segment number 36 from the buffer at playtime 70
+2022-03-29 18:28:58,422 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=70.0669050217,CurrentPlaybackTime=70,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:28:59,402 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s59.m4s
+2022-03-29 18:28:59,402 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3874869, segment_size = 73119, segment_number = 60
+2022-03-29 18:28:59,403 - dash_buffer.py:207 - INFO - Writing segment 60 at time 71.0477871895
+2022-03-29 18:28:59,404 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=71.0484101772,CurrentPlaybackTime=71,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:28:59,404 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s59.m4s. Size = 73119 in 1.48693704605 seconds
+2022-03-29 18:28:59,405 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 61
+2022-03-29 18:28:59,406 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:28:59,411 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:28:59,411 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:28:59,412 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s60.m4s
+2022-03-29 18:29:00,366 - dash_buffer.py:163 - INFO - Reading the segment number 37 from the buffer at playtime 72
+2022-03-29 18:29:00,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=72.0115151405,CurrentPlaybackTime=72,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:01,330 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s60.m4s
+2022-03-29 18:29:01,330 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 3942406, segment_size = 67537, segment_number = 61
+2022-03-29 18:29:01,330 - dash_buffer.py:207 - INFO - Writing segment 61 at time 72.9752850533
+2022-03-29 18:29:01,331 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=72.97590518,CurrentPlaybackTime=72,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:01,332 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s60.m4s. Size = 67537 in 1.91812705994 seconds
+2022-03-29 18:29:01,332 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 62
+2022-03-29 18:29:01,334 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:01,339 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:01,339 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:01,340 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s61.m4s
+2022-03-29 18:29:02,366 - dash_buffer.py:163 - INFO - Reading the segment number 38 from the buffer at playtime 74
+2022-03-29 18:29:02,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=74.0110211372,CurrentPlaybackTime=74,CurrentBufferSize=23,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:02,412 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s61.m4s
+2022-03-29 18:29:02,412 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4010311, segment_size = 67905, segment_number = 62
+2022-03-29 18:29:02,413 - dash_buffer.py:207 - INFO - Writing segment 62 at time 74.0574381351
+2022-03-29 18:29:02,413 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=74.0575640202,CurrentPlaybackTime=74,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:02,413 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s61.m4s. Size = 67905 in 1.07251119614 seconds
+2022-03-29 18:29:02,413 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 63
+2022-03-29 18:29:02,414 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:02,414 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:02,414 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:02,414 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s62.m4s
+2022-03-29 18:29:03,619 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s62.m4s
+2022-03-29 18:29:03,620 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4081670, segment_size = 71359, segment_number = 63
+2022-03-29 18:29:03,620 - dash_buffer.py:207 - INFO - Writing segment 63 at time 75.2647240162
+2022-03-29 18:29:03,620 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=75.2650489807,CurrentPlaybackTime=75,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:03,621 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s62.m4s. Size = 71359 in 1.20544695854 seconds
+2022-03-29 18:29:03,621 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 64
+2022-03-29 18:29:03,622 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:03,623 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:03,627 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:03,628 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s63.m4s
+2022-03-29 18:29:04,366 - dash_buffer.py:163 - INFO - Reading the segment number 39 from the buffer at playtime 76
+2022-03-29 18:29:04,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=76.0113852024,CurrentPlaybackTime=76,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:06,340 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s63.m4s
+2022-03-29 18:29:06,340 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4146466, segment_size = 64796, segment_number = 64
+2022-03-29 18:29:06,341 - dash_buffer.py:207 - INFO - Writing segment 64 at time 77.9853410721
+2022-03-29 18:29:06,341 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=77.985473156,CurrentPlaybackTime=77,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:06,341 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s63.m4s. Size = 64796 in 2.71231508255 seconds
+2022-03-29 18:29:06,341 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 65
+2022-03-29 18:29:06,341 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:06,342 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:06,342 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:06,342 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s64.m4s
+2022-03-29 18:29:06,366 - dash_buffer.py:163 - INFO - Reading the segment number 40 from the buffer at playtime 78
+2022-03-29 18:29:06,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=78.011026144,CurrentPlaybackTime=78,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:07,408 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s64.m4s
+2022-03-29 18:29:07,408 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4213443, segment_size = 66977, segment_number = 65
+2022-03-29 18:29:07,408 - dash_buffer.py:207 - INFO - Writing segment 65 at time 79.0530481339
+2022-03-29 18:29:07,409 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=79.0533611774,CurrentPlaybackTime=79,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:07,409 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s64.m4s. Size = 66977 in 1.06585597992 seconds
+2022-03-29 18:29:07,409 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 66
+2022-03-29 18:29:07,410 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:07,415 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:07,415 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:07,416 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s65.m4s
+2022-03-29 18:29:08,366 - dash_buffer.py:163 - INFO - Reading the segment number 41 from the buffer at playtime 80
+2022-03-29 18:29:08,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=80.0110151768,CurrentPlaybackTime=80,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:09,144 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s65.m4s
+2022-03-29 18:29:09,144 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4280747, segment_size = 67304, segment_number = 66
+2022-03-29 18:29:09,144 - dash_buffer.py:207 - INFO - Writing segment 66 at time 80.7892000675
+2022-03-29 18:29:09,145 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=80.7893321514,CurrentPlaybackTime=80,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:09,145 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s65.m4s. Size = 67304 in 1.72817611694 seconds
+2022-03-29 18:29:09,145 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 67
+2022-03-29 18:29:09,145 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:09,146 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:09,146 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:09,146 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s66.m4s
+2022-03-29 18:29:10,366 - dash_buffer.py:163 - INFO - Reading the segment number 42 from the buffer at playtime 82
+2022-03-29 18:29:10,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=82.0113751888,CurrentPlaybackTime=82,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:11,318 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s66.m4s
+2022-03-29 18:29:11,319 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4352481, segment_size = 71734, segment_number = 67
+2022-03-29 18:29:11,320 - dash_buffer.py:207 - INFO - Writing segment 67 at time 82.9646930695
+2022-03-29 18:29:11,321 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=82.9652900696,CurrentPlaybackTime=82,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:11,321 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s66.m4s. Size = 71734 in 2.17322015762 seconds
+2022-03-29 18:29:11,322 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 68
+2022-03-29 18:29:11,328 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:11,329 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:11,329 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:11,330 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s67.m4s
+2022-03-29 18:29:12,366 - dash_buffer.py:163 - INFO - Reading the segment number 43 from the buffer at playtime 84
+2022-03-29 18:29:12,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=84.0110151768,CurrentPlaybackTime=84,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:12,398 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s67.m4s
+2022-03-29 18:29:12,398 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4421144, segment_size = 68663, segment_number = 68
+2022-03-29 18:29:12,398 - dash_buffer.py:207 - INFO - Writing segment 68 at time 84.0432550907
+2022-03-29 18:29:12,399 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=84.0433831215,CurrentPlaybackTime=84,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:12,399 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s67.m4s. Size = 68663 in 1.06796383858 seconds
+2022-03-29 18:29:12,399 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 69
+2022-03-29 18:29:12,400 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:12,400 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:12,400 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:12,400 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s68.m4s
+2022-03-29 18:29:14,366 - dash_buffer.py:163 - INFO - Reading the segment number 44 from the buffer at playtime 86
+2022-03-29 18:29:14,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=86.011079073,CurrentPlaybackTime=86,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:14,698 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s68.m4s
+2022-03-29 18:29:14,698 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4490994, segment_size = 69850, segment_number = 69
+2022-03-29 18:29:14,698 - dash_buffer.py:207 - INFO - Writing segment 69 at time 86.3431231976
+2022-03-29 18:29:14,698 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=86.3432500362,CurrentPlaybackTime=86,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:14,699 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s68.m4s. Size = 69850 in 2.29800200462 seconds
+2022-03-29 18:29:14,699 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 70
+2022-03-29 18:29:14,699 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:14,700 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:14,700 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:14,700 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s69.m4s
+2022-03-29 18:29:15,795 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s69.m4s
+2022-03-29 18:29:15,795 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4561718, segment_size = 70724, segment_number = 70
+2022-03-29 18:29:15,795 - dash_buffer.py:207 - INFO - Writing segment 70 at time 87.4401171207
+2022-03-29 18:29:15,796 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=87.440433979,CurrentPlaybackTime=87,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:15,796 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s69.m4s. Size = 70724 in 1.09493613243 seconds
+2022-03-29 18:29:15,796 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 71
+2022-03-29 18:29:15,798 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:15,798 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:15,798 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:15,798 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s70.m4s
+2022-03-29 18:29:16,366 - dash_buffer.py:163 - INFO - Reading the segment number 45 from the buffer at playtime 88
+2022-03-29 18:29:16,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=88.0110330582,CurrentPlaybackTime=88,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:17,982 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s70.m4s
+2022-03-29 18:29:17,983 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4633753, segment_size = 72035, segment_number = 71
+2022-03-29 18:29:17,983 - dash_buffer.py:207 - INFO - Writing segment 71 at time 89.6280651093
+2022-03-29 18:29:17,984 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=89.6283841133,CurrentPlaybackTime=89,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:17,984 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s70.m4s. Size = 72035 in 2.18417596817 seconds
+2022-03-29 18:29:17,984 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 72
+2022-03-29 18:29:17,986 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:17,986 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:17,986 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:17,991 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s71.m4s
+2022-03-29 18:29:18,366 - dash_buffer.py:163 - INFO - Reading the segment number 46 from the buffer at playtime 90
+2022-03-29 18:29:18,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=90.0110092163,CurrentPlaybackTime=90,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:20,289 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s71.m4s
+2022-03-29 18:29:20,289 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4707610, segment_size = 73857, segment_number = 72
+2022-03-29 18:29:20,289 - dash_buffer.py:207 - INFO - Writing segment 72 at time 91.9342560768
+2022-03-29 18:29:20,290 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=91.9343900681,CurrentPlaybackTime=91,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:20,290 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s71.m4s. Size = 73857 in 2.29796099663 seconds
+2022-03-29 18:29:20,290 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 73
+2022-03-29 18:29:20,290 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:20,291 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:20,291 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:20,291 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s72.m4s
+2022-03-29 18:29:20,366 - dash_buffer.py:163 - INFO - Reading the segment number 47 from the buffer at playtime 92
+2022-03-29 18:29:20,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=92.0110080242,CurrentPlaybackTime=92,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:22,366 - dash_buffer.py:163 - INFO - Reading the segment number 48 from the buffer at playtime 94
+2022-03-29 18:29:22,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=94.0110821724,CurrentPlaybackTime=94,CurrentBufferSize=24,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:22,688 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s72.m4s
+2022-03-29 18:29:22,688 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4780897, segment_size = 73287, segment_number = 73
+2022-03-29 18:29:22,688 - dash_buffer.py:207 - INFO - Writing segment 73 at time 94.3332340717
+2022-03-29 18:29:22,689 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=94.3333630562,CurrentPlaybackTime=94,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:22,689 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s72.m4s. Size = 73287 in 2.39676713943 seconds
+2022-03-29 18:29:22,689 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 74
+2022-03-29 18:29:22,689 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:22,690 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:22,690 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:22,690 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s73.m4s
+2022-03-29 18:29:23,798 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s73.m4s
+2022-03-29 18:29:23,798 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4849439, segment_size = 68542, segment_number = 74
+2022-03-29 18:29:23,799 - dash_buffer.py:207 - INFO - Writing segment 74 at time 95.4434511662
+2022-03-29 18:29:23,799 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=95.4437801838,CurrentPlaybackTime=95,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:23,799 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s73.m4s. Size = 68542 in 1.10850310326 seconds
+2022-03-29 18:29:23,799 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 75
+2022-03-29 18:29:23,800 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:23,800 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:23,800 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:23,800 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s74.m4s
+2022-03-29 18:29:24,366 - dash_buffer.py:163 - INFO - Reading the segment number 49 from the buffer at playtime 96
+2022-03-29 18:29:24,368 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=96.0125792027,CurrentPlaybackTime=96,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:26,088 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s74.m4s
+2022-03-29 18:29:26,088 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4911126, segment_size = 61687, segment_number = 75
+2022-03-29 18:29:26,088 - dash_buffer.py:207 - INFO - Writing segment 75 at time 97.7332661152
+2022-03-29 18:29:26,089 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=97.7333991528,CurrentPlaybackTime=97,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:26,089 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s74.m4s. Size = 61687 in 2.28788709641 seconds
+2022-03-29 18:29:26,089 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 76
+2022-03-29 18:29:26,089 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:26,090 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:26,090 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:26,090 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s75.m4s
+2022-03-29 18:29:26,366 - dash_buffer.py:163 - INFO - Reading the segment number 50 from the buffer at playtime 98
+2022-03-29 18:29:26,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=98.0110280514,CurrentPlaybackTime=98,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:27,505 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s75.m4s
+2022-03-29 18:29:27,505 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 4969682, segment_size = 58556, segment_number = 76
+2022-03-29 18:29:27,505 - dash_buffer.py:207 - INFO - Writing segment 76 at time 99.1500051022
+2022-03-29 18:29:27,505 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=99.1501390934,CurrentPlaybackTime=99,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:27,506 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s75.m4s. Size = 58556 in 1.41503286362 seconds
+2022-03-29 18:29:27,506 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 77
+2022-03-29 18:29:27,506 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:27,506 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:27,506 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:27,507 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s76.m4s
+2022-03-29 18:29:28,366 - dash_buffer.py:163 - INFO - Reading the segment number 51 from the buffer at playtime 100
+2022-03-29 18:29:28,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=100.01101613,CurrentPlaybackTime=100,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:29,255 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s76.m4s
+2022-03-29 18:29:29,255 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5032201, segment_size = 62519, segment_number = 77
+2022-03-29 18:29:29,255 - dash_buffer.py:207 - INFO - Writing segment 77 at time 100.900269032
+2022-03-29 18:29:29,256 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=100.900473118,CurrentPlaybackTime=100,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:29,256 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s76.m4s. Size = 62519 in 1.74815011024 seconds
+2022-03-29 18:29:29,256 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 78
+2022-03-29 18:29:29,257 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:29,257 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:29,257 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:29,257 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s77.m4s
+2022-03-29 18:29:30,365 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s77.m4s
+2022-03-29 18:29:30,366 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5101688, segment_size = 69487, segment_number = 78
+2022-03-29 18:29:30,366 - dash_buffer.py:207 - INFO - Writing segment 78 at time 102.010467052
+2022-03-29 18:29:30,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=102.010593176,CurrentPlaybackTime=101,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:30,366 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s77.m4s. Size = 69487 in 1.10790014267 seconds
+2022-03-29 18:29:30,366 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 79
+2022-03-29 18:29:30,367 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:30,367 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:30,367 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:30,368 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s78.m4s
+2022-03-29 18:29:30,368 - dash_buffer.py:163 - INFO - Reading the segment number 52 from the buffer at playtime 102
+2022-03-29 18:29:30,368 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=102.013179064,CurrentPlaybackTime=102,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:32,366 - dash_buffer.py:163 - INFO - Reading the segment number 53 from the buffer at playtime 104
+2022-03-29 18:29:32,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=104.011101007,CurrentPlaybackTime=104,CurrentBufferSize=25,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:33,041 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s78.m4s
+2022-03-29 18:29:33,042 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5166036, segment_size = 64348, segment_number = 79
+2022-03-29 18:29:33,042 - dash_buffer.py:207 - INFO - Writing segment 79 at time 104.686598063
+2022-03-29 18:29:33,042 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=104.686738014,CurrentPlaybackTime=104,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:33,042 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s78.m4s. Size = 64348 in 2.67378211021 seconds
+2022-03-29 18:29:33,042 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 80
+2022-03-29 18:29:33,043 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:33,043 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:33,044 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:33,044 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s79.m4s
+2022-03-29 18:29:33,988 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s79.m4s
+2022-03-29 18:29:33,989 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5226086, segment_size = 60050, segment_number = 80
+2022-03-29 18:29:33,989 - dash_buffer.py:207 - INFO - Writing segment 80 at time 105.633561134
+2022-03-29 18:29:33,989 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=105.633708,CurrentPlaybackTime=105,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:33,989 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s79.m4s. Size = 60050 in 0.944465875626 seconds
+2022-03-29 18:29:33,989 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 81
+2022-03-29 18:29:33,990 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:33,990 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:33,990 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:33,990 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s80.m4s
+2022-03-29 18:29:34,366 - dash_buffer.py:163 - INFO - Reading the segment number 54 from the buffer at playtime 106
+2022-03-29 18:29:34,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=106.011008024,CurrentPlaybackTime=106,CurrentBufferSize=26,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:35,034 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s80.m4s
+2022-03-29 18:29:35,034 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5291738, segment_size = 65652, segment_number = 81
+2022-03-29 18:29:35,034 - dash_buffer.py:207 - INFO - Writing segment 81 at time 106.679005146
+2022-03-29 18:29:35,034 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=106.679131985,CurrentPlaybackTime=106,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:35,034 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s80.m4s. Size = 65652 in 1.04371094704 seconds
+2022-03-29 18:29:35,035 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 82
+2022-03-29 18:29:35,035 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:35,035 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:35,036 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:35,036 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s81.m4s
+2022-03-29 18:29:36,355 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s81.m4s
+2022-03-29 18:29:36,355 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5357041, segment_size = 65303, segment_number = 82
+2022-03-29 18:29:36,356 - dash_buffer.py:207 - INFO - Writing segment 82 at time 108.000344038
+2022-03-29 18:29:36,356 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=108.000475168,CurrentPlaybackTime=107,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:36,356 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s81.m4s. Size = 65303 in 1.31954693794 seconds
+2022-03-29 18:29:36,356 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 83
+2022-03-29 18:29:36,357 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:36,357 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:36,357 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:36,357 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s82.m4s
+2022-03-29 18:29:36,366 - dash_buffer.py:163 - INFO - Reading the segment number 55 from the buffer at playtime 108
+2022-03-29 18:29:36,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=108.011008024,CurrentPlaybackTime=108,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:37,647 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s82.m4s
+2022-03-29 18:29:37,648 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5421804, segment_size = 64763, segment_number = 83
+2022-03-29 18:29:37,648 - dash_buffer.py:207 - INFO - Writing segment 83 at time 109.292489052
+2022-03-29 18:29:37,648 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=109.292623997,CurrentPlaybackTime=109,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:37,648 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s82.m4s. Size = 64763 in 1.29039406776 seconds
+2022-03-29 18:29:37,648 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 84
+2022-03-29 18:29:37,649 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:37,649 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:37,649 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:37,649 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s83.m4s
+2022-03-29 18:29:38,366 - dash_buffer.py:163 - INFO - Reading the segment number 56 from the buffer at playtime 110
+2022-03-29 18:29:38,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=110.011049032,CurrentPlaybackTime=110,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:39,924 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s83.m4s
+2022-03-29 18:29:39,924 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5491362, segment_size = 69558, segment_number = 84
+2022-03-29 18:29:39,925 - dash_buffer.py:207 - INFO - Writing segment 84 at time 111.569397211
+2022-03-29 18:29:39,925 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=111.56953001,CurrentPlaybackTime=111,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:39,925 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s83.m4s. Size = 69558 in 2.275151968 seconds
+2022-03-29 18:29:39,925 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 85
+2022-03-29 18:29:39,926 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:39,926 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:39,926 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:39,926 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s84.m4s
+2022-03-29 18:29:40,366 - dash_buffer.py:163 - INFO - Reading the segment number 57 from the buffer at playtime 112
+2022-03-29 18:29:40,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=112.011015177,CurrentPlaybackTime=112,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:40,825 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s84.m4s
+2022-03-29 18:29:40,825 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5546042, segment_size = 54680, segment_number = 85
+2022-03-29 18:29:40,825 - dash_buffer.py:207 - INFO - Writing segment 85 at time 112.470019102
+2022-03-29 18:29:40,825 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=112.470144033,CurrentPlaybackTime=112,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:40,825 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s84.m4s. Size = 54680 in 0.898865222931 seconds
+2022-03-29 18:29:40,826 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 86
+2022-03-29 18:29:40,826 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:40,826 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:40,826 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:40,827 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s85.m4s
+2022-03-29 18:29:42,366 - dash_buffer.py:163 - INFO - Reading the segment number 58 from the buffer at playtime 114
+2022-03-29 18:29:42,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=114.011085987,CurrentPlaybackTime=114,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:43,577 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s85.m4s
+2022-03-29 18:29:43,577 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5620192, segment_size = 74150, segment_number = 86
+2022-03-29 18:29:43,577 - dash_buffer.py:207 - INFO - Writing segment 86 at time 115.2221241
+2022-03-29 18:29:43,578 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=115.222542048,CurrentPlaybackTime=115,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:43,578 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s85.m4s. Size = 74150 in 2.7499229908 seconds
+2022-03-29 18:29:43,579 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 87
+2022-03-29 18:29:43,581 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:43,587 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:43,587 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:43,588 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s86.m4s
+2022-03-29 18:29:44,366 - dash_buffer.py:163 - INFO - Reading the segment number 59 from the buffer at playtime 116
+2022-03-29 18:29:44,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=116.011020184,CurrentPlaybackTime=116,CurrentBufferSize=27,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:44,454 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s86.m4s
+2022-03-29 18:29:44,454 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5665920, segment_size = 45728, segment_number = 87
+2022-03-29 18:29:44,454 - dash_buffer.py:207 - INFO - Writing segment 87 at time 116.098965168
+2022-03-29 18:29:44,454 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=116.099091053,CurrentPlaybackTime=116,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:44,454 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s86.m4s. Size = 45728 in 0.866182804108 seconds
+2022-03-29 18:29:44,455 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 88
+2022-03-29 18:29:44,455 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:44,456 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:44,456 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:44,456 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s87.m4s
+2022-03-29 18:29:45,389 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s87.m4s
+2022-03-29 18:29:45,389 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5720005, segment_size = 54085, segment_number = 88
+2022-03-29 18:29:45,389 - dash_buffer.py:207 - INFO - Writing segment 88 at time 117.03395319
+2022-03-29 18:29:45,389 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=117.034078121,CurrentPlaybackTime=117,CurrentBufferSize=29,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:45,389 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s87.m4s. Size = 54085 in 0.93262720108 seconds
+2022-03-29 18:29:45,390 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 89
+2022-03-29 18:29:45,390 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:45,390 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:45,390 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:45,391 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s88.m4s
+2022-03-29 18:29:46,366 - dash_buffer.py:163 - INFO - Reading the segment number 60 from the buffer at playtime 118
+2022-03-29 18:29:46,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=118.011132002,CurrentPlaybackTime=118,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:47,466 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s88.m4s
+2022-03-29 18:29:47,466 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5783611, segment_size = 63606, segment_number = 89
+2022-03-29 18:29:47,466 - dash_buffer.py:207 - INFO - Writing segment 89 at time 119.110851049
+2022-03-29 18:29:47,466 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=119.110980988,CurrentPlaybackTime=119,CurrentBufferSize=29,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:47,466 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s88.m4s. Size = 63606 in 2.0751080513 seconds
+2022-03-29 18:29:47,466 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 90
+2022-03-29 18:29:47,467 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:47,468 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:47,468 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:47,468 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s89.m4s
+2022-03-29 18:29:48,366 - dash_buffer.py:163 - INFO - Reading the segment number 61 from the buffer at playtime 120
+2022-03-29 18:29:48,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=120.011092186,CurrentPlaybackTime=120,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:48,921 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s89.m4s
+2022-03-29 18:29:48,921 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5856992, segment_size = 73381, segment_number = 90
+2022-03-29 18:29:48,921 - dash_buffer.py:207 - INFO - Writing segment 90 at time 120.565809011
+2022-03-29 18:29:48,921 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=120.56597209,CurrentPlaybackTime=120,CurrentBufferSize=29,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:48,921 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s89.m4s. Size = 73381 in 1.45245194435 seconds
+2022-03-29 18:29:48,921 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 91
+2022-03-29 18:29:48,922 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:48,922 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:48,922 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:48,922 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s90.m4s
+2022-03-29 18:29:50,017 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s90.m4s
+2022-03-29 18:29:50,017 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5923391, segment_size = 66399, segment_number = 91
+2022-03-29 18:29:50,017 - dash_buffer.py:207 - INFO - Writing segment 91 at time 121.662268162
+2022-03-29 18:29:50,018 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=121.662415981,CurrentPlaybackTime=121,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:50,018 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s90.m4s. Size = 66399 in 1.09468412399 seconds
+2022-03-29 18:29:50,018 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 92
+2022-03-29 18:29:50,019 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:50,019 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:50,019 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:50,020 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s91.m4s
+2022-03-29 18:29:50,366 - dash_buffer.py:163 - INFO - Reading the segment number 62 from the buffer at playtime 122
+2022-03-29 18:29:50,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=122.011002064,CurrentPlaybackTime=122,CurrentBufferSize=29,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:52,366 - dash_buffer.py:163 - INFO - Reading the segment number 63 from the buffer at playtime 124
+2022-03-29 18:29:52,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=124.011074066,CurrentPlaybackTime=124,CurrentBufferSize=28,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:52,702 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s91.m4s
+2022-03-29 18:29:52,702 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 5993149, segment_size = 69758, segment_number = 92
+2022-03-29 18:29:52,702 - dash_buffer.py:207 - INFO - Writing segment 92 at time 124.346750021
+2022-03-29 18:29:52,702 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=124.346877098,CurrentPlaybackTime=124,CurrentBufferSize=29,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:52,702 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s91.m4s. Size = 69758 in 2.68178009987 seconds
+2022-03-29 18:29:52,702 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 93
+2022-03-29 18:29:52,703 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:52,703 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:52,704 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:52,704 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s92.m4s
+2022-03-29 18:29:53,812 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s92.m4s
+2022-03-29 18:29:53,812 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6065039, segment_size = 71890, segment_number = 93
+2022-03-29 18:29:53,813 - dash_buffer.py:207 - INFO - Writing segment 93 at time 125.457334995
+2022-03-29 18:29:53,813 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=125.457476139,CurrentPlaybackTime=125,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:53,813 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s92.m4s. Size = 71890 in 1.10810709 seconds
+2022-03-29 18:29:53,813 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 94
+2022-03-29 18:29:53,814 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:53,814 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:53,814 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:53,814 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s93.m4s
+2022-03-29 18:29:54,366 - dash_buffer.py:163 - INFO - Reading the segment number 64 from the buffer at playtime 126
+2022-03-29 18:29:54,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=126.011003017,CurrentPlaybackTime=126,CurrentBufferSize=29,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:55,054 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s93.m4s
+2022-03-29 18:29:55,054 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6135622, segment_size = 70583, segment_number = 94
+2022-03-29 18:29:55,054 - dash_buffer.py:207 - INFO - Writing segment 94 at time 126.699007034
+2022-03-29 18:29:55,054 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=126.699132204,CurrentPlaybackTime=126,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:55,054 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s93.m4s. Size = 70583 in 1.239798069 seconds
+2022-03-29 18:29:55,055 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 95
+2022-03-29 18:29:55,055 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:55,055 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:55,056 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:55,056 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s94.m4s
+2022-03-29 18:29:56,366 - dash_buffer.py:163 - INFO - Reading the segment number 65 from the buffer at playtime 128
+2022-03-29 18:29:56,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=128.011049986,CurrentPlaybackTime=128,CurrentBufferSize=29,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:57,216 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s94.m4s
+2022-03-29 18:29:57,217 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6212517, segment_size = 76895, segment_number = 95
+2022-03-29 18:29:57,217 - dash_buffer.py:207 - INFO - Writing segment 95 at time 128.861738205
+2022-03-29 18:29:57,217 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=128.862115145,CurrentPlaybackTime=128,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:57,218 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s94.m4s. Size = 76895 in 2.16072702408 seconds
+2022-03-29 18:29:57,218 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 96
+2022-03-29 18:29:57,220 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:57,223 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:57,224 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:57,224 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s95.m4s
+2022-03-29 18:29:58,222 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s95.m4s
+2022-03-29 18:29:58,223 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6274187, segment_size = 61670, segment_number = 96
+2022-03-29 18:29:58,223 - dash_buffer.py:207 - INFO - Writing segment 96 at time 129.867622137
+2022-03-29 18:29:58,223 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=129.867818117,CurrentPlaybackTime=129,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:58,223 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s95.m4s. Size = 61670 in 0.997709989548 seconds
+2022-03-29 18:29:58,223 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 97
+2022-03-29 18:29:58,224 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:58,224 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:58,224 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:58,224 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s96.m4s
+2022-03-29 18:29:58,366 - dash_buffer.py:163 - INFO - Reading the segment number 66 from the buffer at playtime 130
+2022-03-29 18:29:58,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=130.011042118,CurrentPlaybackTime=130,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:29:59,982 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s96.m4s
+2022-03-29 18:29:59,982 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6312984, segment_size = 38797, segment_number = 97
+2022-03-29 18:29:59,983 - dash_buffer.py:207 - INFO - Writing segment 97 at time 131.627417088
+2022-03-29 18:29:59,983 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=131.627724171,CurrentPlaybackTime=131,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:29:59,983 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s96.m4s. Size = 38797 in 1.75794410706 seconds
+2022-03-29 18:29:59,983 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 98
+2022-03-29 18:29:59,984 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:29:59,984 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:29:59,984 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:29:59,984 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s97.m4s
+2022-03-29 18:30:00,366 - dash_buffer.py:163 - INFO - Reading the segment number 67 from the buffer at playtime 132
+2022-03-29 18:30:00,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=132.011040211,CurrentPlaybackTime=132,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:01,064 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s97.m4s
+2022-03-29 18:30:01,064 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6381439, segment_size = 68455, segment_number = 98
+2022-03-29 18:30:01,064 - dash_buffer.py:207 - INFO - Writing segment 98 at time 132.709133148
+2022-03-29 18:30:01,064 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=132.709259033,CurrentPlaybackTime=132,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:01,065 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s97.m4s. Size = 68455 in 1.07973980904 seconds
+2022-03-29 18:30:01,065 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 99
+2022-03-29 18:30:01,065 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:01,065 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:01,066 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:01,066 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s98.m4s
+2022-03-29 18:30:02,366 - dash_buffer.py:163 - INFO - Reading the segment number 68 from the buffer at playtime 134
+2022-03-29 18:30:02,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=134.0111022,CurrentPlaybackTime=134,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:03,030 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s98.m4s
+2022-03-29 18:30:03,030 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6459159, segment_size = 77720, segment_number = 99
+2022-03-29 18:30:03,030 - dash_buffer.py:207 - INFO - Writing segment 99 at time 134.674817085
+2022-03-29 18:30:03,030 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=134.67494607,CurrentPlaybackTime=134,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:03,030 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s98.m4s. Size = 77720 in 1.96396994591 seconds
+2022-03-29 18:30:03,030 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 100
+2022-03-29 18:30:03,031 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:03,032 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:03,032 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:03,032 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s99.m4s
+2022-03-29 18:30:04,366 - dash_buffer.py:163 - INFO - Reading the segment number 69 from the buffer at playtime 136
+2022-03-29 18:30:04,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=136.011519194,CurrentPlaybackTime=136,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:04,552 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s99.m4s
+2022-03-29 18:30:04,552 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6515366, segment_size = 56207, segment_number = 100
+2022-03-29 18:30:04,553 - dash_buffer.py:207 - INFO - Writing segment 100 at time 136.197324991
+2022-03-29 18:30:04,553 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=136.197632074,CurrentPlaybackTime=136,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:04,553 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s99.m4s. Size = 56207 in 1.51990699768 seconds
+2022-03-29 18:30:04,554 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 101
+2022-03-29 18:30:04,555 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:04,559 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:04,560 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:04,560 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s100.m4s
+2022-03-29 18:30:06,366 - dash_buffer.py:163 - INFO - Reading the segment number 70 from the buffer at playtime 138
+2022-03-29 18:30:06,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=138.011505127,CurrentPlaybackTime=138,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:06,943 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s100.m4s
+2022-03-29 18:30:06,943 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6573745, segment_size = 58379, segment_number = 101
+2022-03-29 18:30:06,943 - dash_buffer.py:207 - INFO - Writing segment 101 at time 138.588175058
+2022-03-29 18:30:06,944 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=138.588303089,CurrentPlaybackTime=138,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:06,944 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s100.m4s. Size = 58379 in 2.38247299194 seconds
+2022-03-29 18:30:06,944 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 102
+2022-03-29 18:30:06,944 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:06,945 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:06,945 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:06,945 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s101.m4s
+2022-03-29 18:30:08,196 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s101.m4s
+2022-03-29 18:30:08,196 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6640130, segment_size = 66385, segment_number = 102
+2022-03-29 18:30:08,196 - dash_buffer.py:207 - INFO - Writing segment 102 at time 139.840795994
+2022-03-29 18:30:08,196 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=139.840949059,CurrentPlaybackTime=139,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:08,196 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s101.m4s. Size = 66385 in 1.2507879734 seconds
+2022-03-29 18:30:08,196 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 103
+2022-03-29 18:30:08,197 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:08,197 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:08,198 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:08,198 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s102.m4s
+2022-03-29 18:30:08,366 - dash_buffer.py:163 - INFO - Reading the segment number 71 from the buffer at playtime 140
+2022-03-29 18:30:08,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=140.010998011,CurrentPlaybackTime=140,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:10,366 - dash_buffer.py:163 - INFO - Reading the segment number 72 from the buffer at playtime 142
+2022-03-29 18:30:10,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=142.011532068,CurrentPlaybackTime=142,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:10,932 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s102.m4s
+2022-03-29 18:30:10,932 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6702978, segment_size = 62848, segment_number = 103
+2022-03-29 18:30:10,933 - dash_buffer.py:207 - INFO - Writing segment 103 at time 142.577391148
+2022-03-29 18:30:10,933 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=142.577519178,CurrentPlaybackTime=142,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:10,933 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s102.m4s. Size = 62848 in 2.73455810547 seconds
+2022-03-29 18:30:10,933 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 104
+2022-03-29 18:30:10,934 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:10,934 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:10,934 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:10,934 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s103.m4s
+2022-03-29 18:30:11,840 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s103.m4s
+2022-03-29 18:30:11,840 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6759859, segment_size = 56881, segment_number = 104
+2022-03-29 18:30:11,840 - dash_buffer.py:207 - INFO - Writing segment 104 at time 143.484659195
+2022-03-29 18:30:11,840 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=143.484793186,CurrentPlaybackTime=143,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:11,840 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s103.m4s. Size = 56881 in 0.90548992157 seconds
+2022-03-29 18:30:11,840 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 105
+2022-03-29 18:30:11,841 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:11,841 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:11,841 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:11,841 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s104.m4s
+2022-03-29 18:30:12,366 - dash_buffer.py:163 - INFO - Reading the segment number 73 from the buffer at playtime 144
+2022-03-29 18:30:12,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=144.011119127,CurrentPlaybackTime=144,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:14,366 - dash_buffer.py:163 - INFO - Reading the segment number 74 from the buffer at playtime 146
+2022-03-29 18:30:14,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=146.01109004,CurrentPlaybackTime=146,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:14,894 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s104.m4s
+2022-03-29 18:30:14,894 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 6960831, segment_size = 200972, segment_number = 105
+2022-03-29 18:30:14,894 - dash_buffer.py:207 - INFO - Writing segment 105 at time 146.538789988
+2022-03-29 18:30:14,894 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=146.538918018,CurrentPlaybackTime=146,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:14,894 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s104.m4s. Size = 200972 in 3.05234193802 seconds
+2022-03-29 18:30:14,894 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 106
+2022-03-29 18:30:14,895 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:14,896 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:14,896 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:14,896 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s105.m4s
+2022-03-29 18:30:15,977 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s105.m4s
+2022-03-29 18:30:15,977 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7029232, segment_size = 68401, segment_number = 106
+2022-03-29 18:30:15,977 - dash_buffer.py:207 - INFO - Writing segment 106 at time 147.622306108
+2022-03-29 18:30:15,978 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=147.62243104,CurrentPlaybackTime=147,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:15,978 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s105.m4s. Size = 68401 in 1.08102011681 seconds
+2022-03-29 18:30:15,978 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 107
+2022-03-29 18:30:15,978 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:15,979 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:15,979 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:15,979 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s106.m4s
+2022-03-29 18:30:16,366 - dash_buffer.py:163 - INFO - Reading the segment number 75 from the buffer at playtime 148
+2022-03-29 18:30:16,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=148.011082172,CurrentPlaybackTime=148,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:18,366 - dash_buffer.py:163 - INFO - Reading the segment number 76 from the buffer at playtime 150
+2022-03-29 18:30:18,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=150.01109004,CurrentPlaybackTime=150,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:19,290 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s106.m4s
+2022-03-29 18:30:19,290 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7257283, segment_size = 228051, segment_number = 107
+2022-03-29 18:30:19,290 - dash_buffer.py:207 - INFO - Writing segment 107 at time 150.9351511
+2022-03-29 18:30:19,291 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=150.935280085,CurrentPlaybackTime=150,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:19,291 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s106.m4s. Size = 228051 in 3.31064319611 seconds
+2022-03-29 18:30:19,291 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 108
+2022-03-29 18:30:19,292 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:19,292 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:19,292 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:19,292 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s107.m4s
+2022-03-29 18:30:20,366 - dash_buffer.py:163 - INFO - Reading the segment number 77 from the buffer at playtime 152
+2022-03-29 18:30:20,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=152.011107206,CurrentPlaybackTime=152,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:20,466 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s107.m4s
+2022-03-29 18:30:20,466 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7333032, segment_size = 75749, segment_number = 108
+2022-03-29 18:30:20,467 - dash_buffer.py:207 - INFO - Writing segment 108 at time 152.1113832
+2022-03-29 18:30:20,467 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=152.111676216,CurrentPlaybackTime=152,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:20,467 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s107.m4s. Size = 75749 in 1.17420816422 seconds
+2022-03-29 18:30:20,467 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 109
+2022-03-29 18:30:20,468 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:20,468 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:20,468 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:20,468 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s108.m4s
+2022-03-29 18:30:21,688 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s108.m4s
+2022-03-29 18:30:21,688 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7403852, segment_size = 70820, segment_number = 109
+2022-03-29 18:30:21,689 - dash_buffer.py:207 - INFO - Writing segment 109 at time 153.333453178
+2022-03-29 18:30:21,689 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=153.333580017,CurrentPlaybackTime=153,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:21,689 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s108.m4s. Size = 70820 in 1.22005796432 seconds
+2022-03-29 18:30:21,689 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 110
+2022-03-29 18:30:21,690 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:21,690 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:21,690 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:21,690 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s109.m4s
+2022-03-29 18:30:22,366 - dash_buffer.py:163 - INFO - Reading the segment number 78 from the buffer at playtime 154
+2022-03-29 18:30:22,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=154.011022091,CurrentPlaybackTime=154,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:24,366 - dash_buffer.py:163 - INFO - Reading the segment number 79 from the buffer at playtime 156
+2022-03-29 18:30:24,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=156.011119127,CurrentPlaybackTime=156,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:24,673 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s109.m4s
+2022-03-29 18:30:24,673 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7608015, segment_size = 204163, segment_number = 110
+2022-03-29 18:30:24,673 - dash_buffer.py:207 - INFO - Writing segment 110 at time 156.318227053
+2022-03-29 18:30:24,674 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=156.318358183,CurrentPlaybackTime=156,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:24,674 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s109.m4s. Size = 204163 in 2.98302102089 seconds
+2022-03-29 18:30:24,674 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 111
+2022-03-29 18:30:24,674 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:24,675 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:24,675 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:24,675 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s110.m4s
+2022-03-29 18:30:25,839 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s110.m4s
+2022-03-29 18:30:25,839 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7680502, segment_size = 72487, segment_number = 111
+2022-03-29 18:30:25,839 - dash_buffer.py:207 - INFO - Writing segment 111 at time 157.483950138
+2022-03-29 18:30:25,839 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=157.484078169,CurrentPlaybackTime=157,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:25,839 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s110.m4s. Size = 72487 in 1.16328597069 seconds
+2022-03-29 18:30:25,840 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 112
+2022-03-29 18:30:25,840 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:25,840 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:25,840 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:25,841 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s111.m4s
+2022-03-29 18:30:26,366 - dash_buffer.py:163 - INFO - Reading the segment number 80 from the buffer at playtime 158
+2022-03-29 18:30:26,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=158.011052132,CurrentPlaybackTime=158,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:28,366 - dash_buffer.py:163 - INFO - Reading the segment number 81 from the buffer at playtime 160
+2022-03-29 18:30:28,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=160.011092186,CurrentPlaybackTime=160,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:28,567 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s111.m4s
+2022-03-29 18:30:28,567 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7867571, segment_size = 187069, segment_number = 112
+2022-03-29 18:30:28,567 - dash_buffer.py:207 - INFO - Writing segment 112 at time 160.212168217
+2022-03-29 18:30:28,568 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=160.212304115,CurrentPlaybackTime=160,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:28,568 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s111.m4s. Size = 187069 in 2.72647690773 seconds
+2022-03-29 18:30:28,568 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 113
+2022-03-29 18:30:28,568 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:28,569 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:28,569 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:28,569 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s112.m4s
+2022-03-29 18:30:29,314 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s112.m4s
+2022-03-29 18:30:29,314 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 7912125, segment_size = 44554, segment_number = 113
+2022-03-29 18:30:29,314 - dash_buffer.py:207 - INFO - Writing segment 113 at time 160.958837986
+2022-03-29 18:30:29,314 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=160.958964109,CurrentPlaybackTime=160,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:29,314 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s112.m4s. Size = 44554 in 0.744740009308 seconds
+2022-03-29 18:30:29,314 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 114
+2022-03-29 18:30:29,315 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:29,316 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:29,316 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:29,316 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s113.m4s
+2022-03-29 18:30:30,366 - dash_buffer.py:163 - INFO - Reading the segment number 82 from the buffer at playtime 162
+2022-03-29 18:30:30,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=162.011023998,CurrentPlaybackTime=162,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:31,465 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s113.m4s
+2022-03-29 18:30:31,465 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 8054774, segment_size = 142649, segment_number = 114
+2022-03-29 18:30:31,465 - dash_buffer.py:207 - INFO - Writing segment 114 at time 163.109666109
+2022-03-29 18:30:31,465 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=163.109865189,CurrentPlaybackTime=163,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:31,465 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s113.m4s. Size = 142649 in 2.14845108986 seconds
+2022-03-29 18:30:31,465 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 115
+2022-03-29 18:30:31,466 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:31,466 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:31,466 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:31,466 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s114.m4s
+2022-03-29 18:30:32,366 - dash_buffer.py:163 - INFO - Reading the segment number 83 from the buffer at playtime 164
+2022-03-29 18:30:32,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=164.011047125,CurrentPlaybackTime=164,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:34,366 - dash_buffer.py:163 - INFO - Reading the segment number 84 from the buffer at playtime 166
+2022-03-29 18:30:34,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=166.011087179,CurrentPlaybackTime=166,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:34,487 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s114.m4s
+2022-03-29 18:30:34,487 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 8257813, segment_size = 203039, segment_number = 115
+2022-03-29 18:30:34,487 - dash_buffer.py:207 - INFO - Writing segment 115 at time 166.131949186
+2022-03-29 18:30:34,487 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=166.132075071,CurrentPlaybackTime=166,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:34,487 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s114.m4s. Size = 203039 in 3.02038598061 seconds
+2022-03-29 18:30:34,488 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 116
+2022-03-29 18:30:34,488 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:34,488 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:34,489 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:34,489 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s115.m4s
+2022-03-29 18:30:35,670 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s115.m4s
+2022-03-29 18:30:35,670 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 8327784, segment_size = 69971, segment_number = 116
+2022-03-29 18:30:35,670 - dash_buffer.py:207 - INFO - Writing segment 116 at time 167.315146208
+2022-03-29 18:30:35,671 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=167.315278053,CurrentPlaybackTime=167,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:35,671 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s115.m4s. Size = 69971 in 1.18133807182 seconds
+2022-03-29 18:30:35,671 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 117
+2022-03-29 18:30:35,672 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:35,672 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:35,672 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:35,672 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s116.m4s
+2022-03-29 18:30:36,366 - dash_buffer.py:163 - INFO - Reading the segment number 85 from the buffer at playtime 168
+2022-03-29 18:30:36,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=168.011030197,CurrentPlaybackTime=168,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:37,912 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s116.m4s
+2022-03-29 18:30:37,913 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 8480153, segment_size = 152369, segment_number = 117
+2022-03-29 18:30:37,913 - dash_buffer.py:207 - INFO - Writing segment 117 at time 169.557569981
+2022-03-29 18:30:37,913 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=169.557721138,CurrentPlaybackTime=169,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:37,913 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s116.m4s. Size = 152369 in 2.24041604996 seconds
+2022-03-29 18:30:37,913 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 118
+2022-03-29 18:30:37,914 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:37,914 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:37,914 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:37,914 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s117.m4s
+2022-03-29 18:30:38,366 - dash_buffer.py:163 - INFO - Reading the segment number 86 from the buffer at playtime 170
+2022-03-29 18:30:38,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=170.011510134,CurrentPlaybackTime=170,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:40,366 - dash_buffer.py:163 - INFO - Reading the segment number 87 from the buffer at playtime 172
+2022-03-29 18:30:40,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=172.01108098,CurrentPlaybackTime=172,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:40,699 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s117.m4s
+2022-03-29 18:30:40,700 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 8670233, segment_size = 190080, segment_number = 118
+2022-03-29 18:30:40,700 - dash_buffer.py:207 - INFO - Writing segment 118 at time 172.344560146
+2022-03-29 18:30:40,700 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=172.344689131,CurrentPlaybackTime=172,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:40,700 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s117.m4s. Size = 190080 in 2.78508210182 seconds
+2022-03-29 18:30:40,700 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 119
+2022-03-29 18:30:40,701 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:40,701 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:40,701 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:40,701 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s118.m4s
+2022-03-29 18:30:41,846 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s118.m4s
+2022-03-29 18:30:41,847 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 8736557, segment_size = 66324, segment_number = 119
+2022-03-29 18:30:41,847 - dash_buffer.py:207 - INFO - Writing segment 119 at time 173.491719007
+2022-03-29 18:30:41,847 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=173.491891146,CurrentPlaybackTime=173,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:41,847 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s118.m4s. Size = 66324 in 1.14518117905 seconds
+2022-03-29 18:30:41,847 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 120
+2022-03-29 18:30:41,848 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:41,848 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:41,848 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:41,849 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s119.m4s
+2022-03-29 18:30:42,366 - dash_buffer.py:163 - INFO - Reading the segment number 88 from the buffer at playtime 174
+2022-03-29 18:30:42,367 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=174.011226177,CurrentPlaybackTime=174,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:44,366 - dash_buffer.py:163 - INFO - Reading the segment number 89 from the buffer at playtime 176
+2022-03-29 18:30:44,366 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=176.011090994,CurrentPlaybackTime=176,CurrentBufferSize=30,CurrentPlaybackState=PLAY,Action=StillPlaying,Bitrate=262537
+2022-03-29 18:30:44,849 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s119.m4s
+2022-03-29 18:30:44,849 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 8942274, segment_size = 205717, segment_number = 120
+2022-03-29 18:30:44,849 - dash_buffer.py:207 - INFO - Writing segment 120 at time 176.494283199
+2022-03-29 18:30:44,850 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=176.494410038,CurrentPlaybackTime=176,CurrentBufferSize=31,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=791182
+2022-03-29 18:30:44,850 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s119.m4s. Size = 205717 in 3.000685215 seconds
+2022-03-29 18:30:44,850 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 121
+2022-03-29 18:30:44,851 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:44,851 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:44,851 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 791182
+2022-03-29 18:30:44,852 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s120.m4s
+2022-03-29 18:30:46,008 - dash_client.py:367 - INFO - NETFLIX: Downloaded segment http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s120.m4s
+2022-03-29 18:30:46,008 - dash_client.py:383 - INFO - NETFLIX : The total downloaded = 9012487, segment_size = 70213, segment_number = 121
+2022-03-29 18:30:46,008 - dash_buffer.py:207 - INFO - Writing segment 121 at time 177.653227091
+2022-03-29 18:30:46,009 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=177.653357983,CurrentPlaybackTime=177,CurrentBufferSize=32,CurrentPlaybackState=PLAY,Action=Writing,Bitrate=262537
+2022-03-29 18:30:46,009 - dash_client.py:397 - INFO - Downloaded http://10.10.10.8/BigBuckBunny/2sec/bunny_791182bps/BigBuckBunny_2s120.m4s. Size = 70213 in 1.15640306473 seconds
+2022-03-29 18:30:46,009 - dash_client.py:273 - INFO -  NETFLIX: Processing the segment 122
+2022-03-29 18:30:46,010 - dash_client.py:313 - INFO - Playback is NETFLIX
+2022-03-29 18:30:46,010 - netflix_dash.py:71 - INFO - Rate Map: OrderedDict([(0.1, 89283), (0.30000000000000004, 262537), (0.5, 791182), (0.7, 2484135), (0.9, 4219897)])
+2022-03-29 18:30:46,010 - dash_client.py:326 - INFO - NETFLIX: Next bitrate = 2484135
+2022-03-29 18:30:46,010 - dash_client.py:352 - INFO - NETFLIX: Segment URL = http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s121.m4s
+2022-03-29 18:30:46,146 - dash_client.py:145 - ERROR - Unable to download DASH Segment http://10.10.10.8/BigBuckBunny/2sec/bunny_2484135bps/BigBuckBunny_2s121.m4s HTTP Error:500 
